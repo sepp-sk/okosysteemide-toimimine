@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -60,6 +94,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -113,9 +149,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#koosluste-koosseisu-mõjutavad-protsessid" id="toc-koosluste-koosseisu-mõjutavad-protsessid" class="nav-link" data-scroll-target="#koosluste-koosseisu-mõjutavad-protsessid"><span class="header-section-number">2</span> Koosluste koosseisu mõjutavad protsessid</a></li>
   <li><a href="#koosluse-koosseisu-kirjeldamine" id="toc-koosluse-koosseisu-kirjeldamine" class="nav-link" data-scroll-target="#koosluse-koosseisu-kirjeldamine"><span class="header-section-number">3</span> Koosluse koosseisu kirjeldamine</a>
   <ul class="collapse">
-  <li><a href="#liigirikkus" id="toc-liigirikkus" class="nav-link" data-scroll-target="#liigirikkus"><span class="header-section-number">3.1</span> Liigirikkus</a></li>
-  <li><a href="#ordination-techniques" id="toc-ordination-techniques" class="nav-link" data-scroll-target="#ordination-techniques"><span class="header-section-number">3.2</span> Ordination Techniques</a></li>
-  <li><a href="#energetic-and-trophic-structure" id="toc-energetic-and-trophic-structure" class="nav-link" data-scroll-target="#energetic-and-trophic-structure"><span class="header-section-number">3.3</span> Energetic and Trophic Structure</a></li>
+  <li><a href="#liigirikkus-mitmekesisus" id="toc-liigirikkus-mitmekesisus" class="nav-link" data-scroll-target="#liigirikkus-mitmekesisus"><span class="header-section-number">3.1</span> Liigirikkus, mitmekesisus</a></li>
+  <li><a href="#koosluse-kirjeldamise-täielikkus" id="toc-koosluse-kirjeldamise-täielikkus" class="nav-link" data-scroll-target="#koosluse-kirjeldamise-täielikkus"><span class="header-section-number">3.2</span> Koosluse kirjeldamise täielikkus</a></li>
+  <li><a href="#shannon-diversity-index" id="toc-shannon-diversity-index" class="nav-link" data-scroll-target="#shannon-diversity-index"><span class="header-section-number">3.3</span> Shannon Diversity Index</a></li>
+  <li><a href="#simpson-diversity-index" id="toc-simpson-diversity-index" class="nav-link" data-scroll-target="#simpson-diversity-index"><span class="header-section-number">3.4</span> Simpson Diversity Index</a></li>
+  <li><a href="#ordination-techniques" id="toc-ordination-techniques" class="nav-link" data-scroll-target="#ordination-techniques"><span class="header-section-number">3.5</span> Ordination Techniques</a></li>
+  <li><a href="#energetic-and-trophic-structure" id="toc-energetic-and-trophic-structure" class="nav-link" data-scroll-target="#energetic-and-trophic-structure"><span class="header-section-number">3.6</span> Energetic and Trophic Structure</a></li>
   </ul></li>
   <li><a href="#top-down-vs-bottom-up-control" id="toc-top-down-vs-bottom-up-control" class="nav-link" data-scroll-target="#top-down-vs-bottom-up-control"><span class="header-section-number">4</span> Top-Down vs Bottom-Up Control</a></li>
   <li><a href="#network-properties-and-stability" id="toc-network-properties-and-stability" class="nav-link" data-scroll-target="#network-properties-and-stability"><span class="header-section-number">5</span> Network Properties and Stability</a></li>
@@ -150,7 +189,12 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="koosluste-koosseisu-mõjutavad-protsessid" class="level1" data-number="2">
 <h1 data-number="2"><span class="header-section-number">2</span> Koosluste koosseisu mõjutavad protsessid</h1>
-<p><img src="docs/media/koosluse_filtrid.png" class="img-fluid"><em>Koosluse kokkupanekut mõjutavad filtrid: levimis- ja keskkonnapiirangud ning biootilised interaktsioonid.</em></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="docs/media/koosluse_filtrid.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Koosluse kokkupanekut mõjutavad filtrid: levimis- ja keskkonnapiirangud ning biootilised interaktsioonid.</figcaption>
+</figure>
+</div>
 <p>Koosluse kooseisu kujundavad mitmed protsessid:</p>
 <ol type="1">
 <li><p><strong>Levimispiirangud</strong>: Liigid ei pruugi kooslusest puududa mitte seetõttu, et tingimused ei ole sobivad, vaid kuna nad ei ole kooslusesse jõudnud.</p></li>
@@ -166,25 +210,99 @@ ul.task-list li input[type="checkbox"] {
 <p>Koosluse koosseise võib kirjeldada ja võrrelda erineva detailsusastmega:</p>
 <ul>
 <li><p>Liigirikkus</p></li>
+<li><p>Liikide suhteliste ohtruste jaotus</p></li>
 <li><p>Mitmekesisus</p></li>
 <li><p>Liikide vaheldumine</p></li>
-<li><p>Liikide suhteline ohtrus (ordinatsioon)</p></li>
+<li><p>Liikide suhteliste ohtruste vaheldumine</p></li>
 </ul>
-<section id="liigirikkus" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="liigirikkus"><span class="header-section-number">3.1</span> Liigirikkus</h2>
-<p>Liigirikkus on kõige lihtsamini mõistetav koosluse kirjeldamise parameeter - koosluses esinevate liikide arv. Aga tal ole ka puudujääke, kas või liigi defineerimine - mis on liik? Samuti ei kirjelda liigirikkus kuidagimoodi seda, kas liigid on koosluses jaotunud ühtlaselt või domineerivad koosluses peamiselt mõned liigid ja teised on haruldased (ja võib-olla seega suhteliselt vähemolulised).</p>
-<p>Praktilises mõttes on liigirikkuse kirjeldamise puudujäägiks ka proovivõtu täielikkus (<em>sampling completeness</em>). Tavaliselt loendatakse ökoloogiliste uurimistööde käigus aja ja raha piiratuse tõttu liike teatud kindla pingutusega (olgu see pingutus kas taimede loendamiseks kulunud aeg, DNA sekveneerimissügavus ehk ühest proovist järjestatud DNA-lõikude arv, filtrist läbi lastud jõevee maht vms). Olenevalt liikide ühtlusest võime teatud ühtlase proovivõtupingutuse tulemusena saada ühest punktist parema kirjelduse kui teisest.</p>
-<p><img src="docs/media/proovivotu_tainelikkus.PNG" class="img-fluid"></p>
+<section id="liigirikkus-mitmekesisus" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="liigirikkus-mitmekesisus"><span class="header-section-number">3.1</span> Liigirikkus, mitmekesisus</h2>
+<p><strong>Liigirikkus (S)</strong> on kõige lihtsamini mõistetav koosluse kirjeldamise parameeter - koosluses esinevate liikide arv. Aga eks tal ole ka puudujääke, kas või liigi defineerimine - mis on liik? Samuti ei kirjelda liigirikkus kuidagimoodi seda, kuidas isendite arvukus koosluses jaotunud on.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="docs/media/liigirikkus.PNG" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Liigirikkus (S) ei arvesta koosluse liikide ohtrussuhteid. Nii vasakulolev kahe liigiga (must ja valge) kooslus kui paremal olev kooslus on sama liigirikkusega, aga funktsionaalselt ilmselt küllaltki erinevad.</figcaption>
+</figure>
+</div>
+<p><strong>Mitmekesisuse</strong> mõõdikud arvestavad lisaks liikide arvule ka liikide (suhtelisi) <strong>ohtrusi</strong> ja mõnel juhul ka liikide tunnuseid või fülogeneetilisi suhteid (funktsionaalne või fülogeneetiline mitmekesisus). Mitmekesisuse indeksid võimaldavad lisaks liikide arvule hinnata, kui ühtlaselt on eri liikide isendid koosluses jaotunud.</p>
+<p>Kõige tavalisemad mitmekesisuse mõõdikud on</p>
+<ul>
+<li><p><strong>Shannoni indeks (H’</strong><em>; Shannon index, Shannon’s diversity index, Shannon-Wiener index</em>) - on tundlik nii liigirikkuse kui liikide ohtruse ühtluse suhtes.</p>
+<p>Formaalselt väljendab <strong>Shannoni indeks</strong> määramatust juhuslikult valitud indiviidi liigilise kuuluvuse ennustamisel ja on defineeritud sedasi:</p>
+<p><span class="math display">\[ H' = -\sum_{i=1}^{S} p_i \ln(p_i) \]</span></p>
+<p>Kus:</p>
+<ul>
+<li><strong><em>H’</em></strong> on Shannoni indeks,</li>
+<li><strong><em>S</em></strong> on liigirikkus,</li>
+<li><strong><em>p<sub>i</sub></em></strong> on liigi <strong><em>i</em></strong> suhteline ohtrus koosluses,</li>
+<li><strong>ln</strong> on naturaallogaritm.</li>
+</ul></li>
+<li><p><strong>Gini-Simpsoni indeks (D</strong>; <em>Gini-Simpson index</em>) - annab suurema kaalu tavalisematele liikidele ning peegeldab eelkõige dominantsete liikide ohtrust.</p>
+<p>Formaalselt väljendab <strong>Gini-Simpsoni indeks</strong> tõenäosust, et kaks juhuslikult kooslusest valitud indiviidi on samast liigist</p></li>
+</ul>
+<p><a href="./docs/pdf/Jost-2006-Entropy_and_diversity.pdf">Vabatahtlikku lisalugemist mitmekesisuse indeksitest</a></p>
+</section>
+<section id="koosluse-kirjeldamise-täielikkus" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="koosluse-kirjeldamise-täielikkus"><span class="header-section-number">3.2</span> Koosluse kirjeldamise täielikkus</h2>
+<p>Praktilises mõttes on liigirikkuse (ja sellest johtuvalt tegelikult ka mitmekesisuse) kirjeldamise puudujäägiks ka proovivõtu täielikkus (<em>sampling completeness</em>). Tavaliselt loendatakse ökoloogiliste uurimistööde käigus aja ja raha piiratuse tõttu liike teatud kindla pingutusega (olgu see pingutus kas taimede loendamiseks kulunud aeg, DNA sekveneerimissügavus ehk ühest proovist järjestatud DNA-lõikude arv, filtrist läbi lastud jõevee maht vms). Olenevalt liikide ühtlusest võime teatud ühtlase proovivõtupingutuse tulemusena saada ühest punktist parema kirjelduse kui teisest.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="docs/media/proovivotu_tainelikkus.PNG" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Kui proovivõtupingutuse N1 puhul jääb mulje, et kooslus 1 on kaks korda liigirikkam kui kooslus 2, siis proovivõtupingutuse N2 korral on liigirikkused küllalt sarnased. Kui liigirikkuse-loendatud indiviidide korrelatsioonikõverat mõtteliselt mööda x-telge edasi joonistada, võiks ennustada hoopis kolmandat olukorda</figcaption>
+</figure>
+</div>
+</section>
+<section id="shannon-diversity-index" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="shannon-diversity-index"><span class="header-section-number">3.3</span> Shannon Diversity Index</h2>
+<p>The effective number of species based on the Shannon index is:</p>
+<p><span class="math display">\[
+^1D = e^{H'}
+\]</span></p>
 <hr>
 </section>
-<section id="ordination-techniques" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="ordination-techniques"><span class="header-section-number">3.2</span> Ordination Techniques</h2>
+<section id="simpson-diversity-index" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="simpson-diversity-index"><span class="header-section-number">3.4</span> Simpson Diversity Index</h2>
+<p>The <strong>Simpson diversity index</strong> reflects the probability that two individuals randomly selected from a sample will belong to the same species. It is calculated as:</p>
+<p><span class="math display">\[
+D = \sum_{i=1}^{S} p_i^2
+\]</span></p>
+<p>Where:</p>
+<ul>
+<li>( D ) is the Simpson index (dominance index),</li>
+<li>( p_i ) is the relative abundance of species ( i ).</li>
+</ul>
+<p>A more intuitive measure is the <strong>inverse Simpson index</strong>, representing the effective number of dominant species:</p>
+<p><span class="math display">\[
+^2D = \frac{1}{\sum_{i=1}^{S} p_i^2}
+\]</span></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Võrdsete ohtrustega kooslus 1</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>ohtrused_1 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">10</span>, <span class="dv">10</span>, <span class="dv">10</span>, <span class="dv">10</span>) <span class="co"># 5 võrdse ohtrusega liiki</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>prop_1 <span class="ot">&lt;-</span> ohtrused_1 <span class="sc">/</span> <span class="fu">sum</span>(ohtrused_1) <span class="co"># liikide suhtelised ohtrused</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Shannoni mitmekesisus</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>H1 <span class="ot">&lt;-</span> <span class="fu">sum</span>(prop_1 <span class="sc">*</span> <span class="fu">log</span>(prop_1))</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Shannon diversity (q = 1)</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># H &lt;- -sum(props * log(props))</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># effective_shannon &lt;- exp(H)</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Simpson diversity (q = 2)</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co"># D &lt;- 1 / sum(props^2)</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># effective_shannon  # Should return 5</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co"># D                  # Should also return 5</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<hr>
+</section>
+<section id="ordination-techniques" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="ordination-techniques"><span class="header-section-number">3.5</span> Ordination Techniques</h2>
 <p><img src="https://www.frontiersin.org/files/Articles/532141/fmicb-10-02827-HTML-r1/image_m/fmicb-10-02827-g002.jpg" class="img-fluid" alt="Ordination example"> <em>Figure 4. NMDS ordination of microbial communities showing clustering by environment.</em></p>
 <p>Ordination methods such as NMDS reduce complex data into low-dimensional space for ecological interpretation.</p>
 <hr>
 </section>
-<section id="energetic-and-trophic-structure" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="energetic-and-trophic-structure"><span class="header-section-number">3.3</span> Energetic and Trophic Structure</h2>
+<section id="energetic-and-trophic-structure" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="energetic-and-trophic-structure"><span class="header-section-number">3.6</span> Energetic and Trophic Structure</h2>
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Ecological_Pyramid.svg/1920px-Ecological_Pyramid.svg.png" class="img-fluid" alt="Trophic pyramid"> <em>Figure 5. Classic trophic pyramid illustrating biomass and energy flow through trophic levels.</em></p>
 <p>Ecosystem function can be understood through patterns of production and biomass across trophic levels.</p>
 <hr>

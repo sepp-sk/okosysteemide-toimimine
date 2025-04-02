@@ -17,7 +17,7 @@ Kooslusi võib defineerida erinevatel ruumi- ja organisatsioonilistel skaaladel,
 
 # Koosluste koosseisu mõjutavad protsessid
 
-![](docs/media/koosluse_filtrid.png)*Koosluse kokkupanekut mõjutavad filtrid: levimis- ja keskkonnapiirangud ning biootilised interaktsioonid.*
+![Koosluse kokkupanekut mõjutavad filtrid: levimis- ja keskkonnapiirangud ning biootilised interaktsioonid.](docs/media/koosluse_filtrid.png)
 
 Koosluse kooseisu kujundavad mitmed protsessid:
 
@@ -39,19 +39,96 @@ Koosluse koosseise võib kirjeldada ja võrrelda erineva detailsusastmega:
 
 -   Liigirikkus
 
+-   Liikide suhteliste ohtruste jaotus
+
 -   Mitmekesisus
 
 -   Liikide vaheldumine
 
--   Liikide suhteline ohtrus (ordinatsioon)
+-   Liikide suhteliste ohtruste vaheldumine
 
-## Liigirikkus
+## Liigirikkus, mitmekesisus
 
-Liigirikkus on kõige lihtsamini mõistetav koosluse kirjeldamise parameeter - koosluses esinevate liikide arv. Aga tal ole ka puudujääke, kas või liigi defineerimine - mis on liik? Samuti ei kirjelda liigirikkus kuidagimoodi seda, kas liigid on koosluses jaotunud ühtlaselt või domineerivad koosluses peamiselt mõned liigid ja teised on haruldased (ja võib-olla seega suhteliselt vähemolulised).
+**Liigirikkus (S)** on kõige lihtsamini mõistetav koosluse kirjeldamise parameeter - koosluses esinevate liikide arv. Aga eks tal ole ka puudujääke, kas või liigi defineerimine - mis on liik? Samuti ei kirjelda liigirikkus kuidagimoodi seda, kuidas isendite arvukus koosluses jaotunud on.
 
-Praktilises mõttes on liigirikkuse kirjeldamise puudujäägiks ka proovivõtu täielikkus (*sampling completeness*). Tavaliselt loendatakse ökoloogiliste uurimistööde käigus aja ja raha piiratuse tõttu liike teatud kindla pingutusega (olgu see pingutus kas taimede loendamiseks kulunud aeg, DNA sekveneerimissügavus ehk ühest proovist järjestatud DNA-lõikude arv, filtrist läbi lastud jõevee maht vms). Olenevalt liikide ühtlusest võime teatud ühtlase proovivõtupingutuse tulemusena saada ühest punktist parema kirjelduse kui teisest.
+![Liigirikkus (S) ei arvesta koosluse liikide ohtrussuhteid. Nii vasakulolev kahe liigiga (must ja valge) kooslus kui paremal olev kooslus on sama liigirikkusega, aga funktsionaalselt ilmselt küllaltki erinevad.](docs/media/liigirikkus.PNG)
 
-![](docs/media/proovivotu_tainelikkus.PNG)
+**Mitmekesisuse** mõõdikud arvestavad lisaks liikide arvule ka liikide (suhtelisi) **ohtrusi** ja mõnel juhul ka liikide tunnuseid või fülogeneetilisi suhteid (funktsionaalne või fülogeneetiline mitmekesisus). Mitmekesisuse indeksid võimaldavad lisaks liikide arvule hinnata, kui ühtlaselt on eri liikide isendid koosluses jaotunud.
+
+Kõige tavalisemad mitmekesisuse mõõdikud on
+
+-   **Shannoni indeks (H'***; Shannon index, Shannon's diversity index, Shannon-Wiener index*) - on tundlik nii liigirikkuse kui liikide ohtruse ühtluse suhtes.
+
+    Formaalselt väljendab **Shannoni indeks** määramatust juhuslikult valitud indiviidi liigilise kuuluvuse ennustamisel ja on defineeritud sedasi:
+
+    $$ H' = -\sum_{i=1}^{S} p_i \ln(p_i) $$
+
+    Kus:
+
+    -   ***H'*** on Shannoni indeks,
+    -   ***S*** on liigirikkus,
+    -   ***p~i~*** on liigi ***i*** suhteline ohtrus koosluses,
+    -   **ln** on naturaallogaritm.
+
+-   **Gini-Simpsoni indeks (D**; *Gini-Simpson index*) - annab suurema kaalu tavalisematele liikidele ning peegeldab eelkõige dominantsete liikide ohtrust.
+
+    Formaalselt väljendab **Gini-Simpsoni indeks** tõenäosust, et kaks juhuslikult kooslusest valitud indiviidi on samast liigist
+
+[Vabatahtlikku lisalugemist mitmekesisuse indeksitest](/docs/pdf/Jost-2006-Entropy_and_diversity.pdf)
+
+## Koosluse kirjeldamise täielikkus
+
+Praktilises mõttes on liigirikkuse (ja sellest johtuvalt tegelikult ka mitmekesisuse) kirjeldamise puudujäägiks ka proovivõtu täielikkus (*sampling completeness*). Tavaliselt loendatakse ökoloogiliste uurimistööde käigus aja ja raha piiratuse tõttu liike teatud kindla pingutusega (olgu see pingutus kas taimede loendamiseks kulunud aeg, DNA sekveneerimissügavus ehk ühest proovist järjestatud DNA-lõikude arv, filtrist läbi lastud jõevee maht vms). Olenevalt liikide ühtlusest võime teatud ühtlase proovivõtupingutuse tulemusena saada ühest punktist parema kirjelduse kui teisest.
+
+![Kui proovivõtupingutuse N1 puhul jääb mulje, et kooslus 1 on kaks korda liigirikkam kui kooslus 2, siis proovivõtupingutuse N2 korral on liigirikkused küllalt sarnased. Kui liigirikkuse-loendatud indiviidide korrelatsioonikõverat mõtteliselt mööda x-telge edasi joonistada, võiks ennustada hoopis kolmandat olukorda](docs/media/proovivotu_tainelikkus.PNG)
+
+## Shannon Diversity Index
+
+The effective number of species based on the Shannon index is:
+
+$$
+^1D = e^{H'}
+$$
+
+------------------------------------------------------------------------
+
+## Simpson Diversity Index
+
+The **Simpson diversity index** reflects the probability that two individuals randomly selected from a sample will belong to the same species. It is calculated as:
+
+$$
+D = \sum_{i=1}^{S} p_i^2
+$$
+
+Where:
+
+-   ( D ) is the Simpson index (dominance index),
+-   ( p_i ) is the relative abundance of species ( i ).
+
+A more intuitive measure is the **inverse Simpson index**, representing the effective number of dominant species:
+
+$$
+^2D = \frac{1}{\sum_{i=1}^{S} p_i^2}
+$$
+
+```{r}
+# Võrdsete ohtrustega kooslus 1
+ohtrused_1 <- c(10, 10, 10, 10) # 5 võrdse ohtrusega liiki
+prop_1 <- ohtrused_1 / sum(ohtrused_1) # liikide suhtelised ohtrused
+
+# Shannoni mitmekesisus
+H1 <- sum(prop_1 * log(prop_1))
+
+# Shannon diversity (q = 1)
+# H <- -sum(props * log(props))
+# effective_shannon <- exp(H)
+
+# Simpson diversity (q = 2)
+# D <- 1 / sum(props^2)
+
+# effective_shannon  # Should return 5
+# D                  # Should also return 5
+```
 
 ------------------------------------------------------------------------
 

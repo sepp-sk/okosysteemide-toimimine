@@ -59,21 +59,56 @@
     "objectID": "Koosluste_struktuur.html#ordination-techniques",
     "href": "Koosluste_struktuur.html#ordination-techniques",
     "title": "Koosluste ja ökosüsteemide struktuur",
-    "section": "3.2 Ordination Techniques",
-    "text": "3.2 Ordination Techniques\n Figure 4. NMDS ordination of microbial communities showing clustering by environment.\nOrdination methods such as NMDS reduce complex data into low-dimensional space for ecological interpretation."
+    "section": "3.5 Ordination Techniques",
+    "text": "3.5 Ordination Techniques\n Figure 4. NMDS ordination of microbial communities showing clustering by environment.\nOrdination methods such as NMDS reduce complex data into low-dimensional space for ecological interpretation."
   },
   {
     "objectID": "Koosluste_struktuur.html#energetic-and-trophic-structure",
     "href": "Koosluste_struktuur.html#energetic-and-trophic-structure",
     "title": "Koosluste ja ökosüsteemide struktuur",
-    "section": "3.3 Energetic and Trophic Structure",
-    "text": "3.3 Energetic and Trophic Structure\n Figure 5. Classic trophic pyramid illustrating biomass and energy flow through trophic levels.\nEcosystem function can be understood through patterns of production and biomass across trophic levels."
+    "section": "3.6 Energetic and Trophic Structure",
+    "text": "3.6 Energetic and Trophic Structure\n Figure 5. Classic trophic pyramid illustrating biomass and energy flow through trophic levels.\nEcosystem function can be understood through patterns of production and biomass across trophic levels."
   },
   {
     "objectID": "Koosluste_struktuur.html#liigirikkus",
     "href": "Koosluste_struktuur.html#liigirikkus",
     "title": "Koosluste ja ökosüsteemide struktuur",
     "section": "3.1 Liigirikkus",
-    "text": "3.1 Liigirikkus\nLiigirikkus on kõige lihtsamini mõistetav koosluse kirjeldamise parameeter - koosluses esinevate liikide arv. Aga tal ole ka puudujääke, kas või liigi defineerimine - mis on liik? Samuti ei kirjelda liigirikkus kuidagimoodi seda, kas liigid on koosluses jaotunud ühtlaselt või domineerivad koosluses peamiselt mõned liigid ja teised on haruldased (ja võib-olla seega suhteliselt vähemolulised).\nPraktilises mõttes on liigirikkuse kirjeldamise puudujäägiks ka proovivõtu täielikkus (sampling completeness). Tavaliselt loendatakse ökoloogiliste uurimistööde käigus aja ja raha piiratuse tõttu liike teatud kindla pingutusega (olgu see pingutus kas taimede loendamiseks kulunud aeg, DNA sekveneerimissügavus ehk ühest proovist järjestatud DNA-lõikude arv, filtrist läbi lastud jõevee maht vms). Olenevalt liikide ühtlusest võime teatud ühtlase proovivõtupingutuse tulemusena saada ühest punktist parema kirjelduse kui teisest."
+    "text": "3.1 Liigirikkus\nLiigirikkus on kõige lihtsamini mõistetav koosluse kirjeldamise parameeter - koosluses esinevate liikide arv. Aga eks tal ole ka puudujääke, kas või liigi defineerimine - mis on liik? Samuti ei kirjelda liigirikkus kuidagimoodi seda, kas liigid on koosluses jaotunud ühtlaselt või domineerivad koosluses peamiselt mõned liigid ja teised on haruldased (ja võib-olla seega suhteliselt vähemolulised).\nPraktilises mõttes on liigirikkuse (ja sellest johtuvalt tegelikult ka mitmekesisuse) kirjeldamise puudujäägiks ka proovivõtu täielikkus (sampling completeness). Tavaliselt loendatakse ökoloogiliste uurimistööde käigus aja ja raha piiratuse tõttu liike teatud kindla pingutusega (olgu see pingutus kas taimede loendamiseks kulunud aeg, DNA sekveneerimissügavus ehk ühest proovist järjestatud DNA-lõikude arv, filtrist läbi lastud jõevee maht vms). Olenevalt liikide ühtlusest võime teatud ühtlase proovivõtupingutuse tulemusena saada ühest punktist parema kirjelduse kui teisest.\n\n\n\nKui proovivõtupingutuse N1 puhul jääb mulje, et kooslus 1 on kaks korda liigirikkam kui kooslus 2, siis proovivõtupingutuse N2 korral on liigirikkused küllalt sarnased. Kui liigirikkuse-loendatud indiviidide korrelatsioonikõverat mõtteliselt mööda x-telge edasi joonistada, võiks ennustada hoopis kolmandat olukorda"
+  },
+  {
+    "objectID": "Koosluste_struktuur.html#mitmekesisus-hilli-numbrid",
+    "href": "Koosluste_struktuur.html#mitmekesisus-hilli-numbrid",
+    "title": "Koosluste ja ökosüsteemide struktuur",
+    "section": "3.2 Mitmekesisus, Hilli numbrid",
+    "text": "3.2 Mitmekesisus, Hilli numbrid\nMitmekesisuse mõõdikud arvestavad lisaks liikide arvule ka liikide ohtrusi ja mõnel juhul ka nende tunnuseid või fülogeneetilisi suhteid (funktsionaalne või fülogeneetiline mitmekesisus). Mitmekesisuse indeksid võimaldavad lisaks liikide arvule hinnata, kui ühtlaselt on eri liikide isendid koosluses jaotunud.\nKõige tavalisemad mitmekesisuse mõõdikud on\n\nShannoni indeks (H’) - on tundlik nii liigirikkuse kui liikide ohtruse ühtluse suhtes.\nFormaalselt väljendab Shannoni mitmekesisuse indeks ebakindlust juhuslikult valitud indiviidi liigimäärangu ennustamises ja on defineeritud sedasi:\n\\[ H' = -\\sum_{i=1}^{S} p_i \\ln(p_i) \\]\nKus:\n\nH’ on Shannoni indeks,\nS on liigirikkus,\npi on liigi i suhteline ohtrus koosluses,\nln on naturaallogaritm.\n\nSimpsoni indeks (D) - annab suurema kaalu tavalisematele liikidele ning peegeldab eelkõige dominantsete liikide ohtrust"
+  },
+  {
+    "objectID": "Koosluste_struktuur.html#shannon-diversity-index",
+    "href": "Koosluste_struktuur.html#shannon-diversity-index",
+    "title": "Koosluste ja ökosüsteemide struktuur",
+    "section": "3.3 Shannon Diversity Index",
+    "text": "3.3 Shannon Diversity Index\nThe effective number of species based on the Shannon index is:\n\\[\n^1D = e^{H'}\n\\]"
+  },
+  {
+    "objectID": "Koosluste_struktuur.html#simpson-diversity-index",
+    "href": "Koosluste_struktuur.html#simpson-diversity-index",
+    "title": "Koosluste ja ökosüsteemide struktuur",
+    "section": "3.4 Simpson Diversity Index",
+    "text": "3.4 Simpson Diversity Index\nThe Simpson diversity index reflects the probability that two individuals randomly selected from a sample will belong to the same species. It is calculated as:\n\\[\nD = \\sum_{i=1}^{S} p_i^2\n\\]\nWhere:\n\n( D ) is the Simpson index (dominance index),\n( p_i ) is the relative abundance of species ( i ).\n\nA more intuitive measure is the inverse Simpson index, representing the effective number of dominant species:\n\\[\n^2D = \\frac{1}{\\sum_{i=1}^{S} p_i^2}\n\\]\n\n# Võrdsete ohtrustega kooslus 1\nohtrused_1 &lt;- c(10, 10, 10, 10) # 5 võrdse ohtrusega liiki\nprop_1 &lt;- ohtrused_1 / sum(ohtrused_1) # liikide suhtelised ohtrused\n\n# Shannoni mitmekesisus\nH1 &lt;- sum(prop_1 * log(prop_1))\n\n# Shannon diversity (q = 1)\n# H &lt;- -sum(props * log(props))\n# effective_shannon &lt;- exp(H)\n\n# Simpson diversity (q = 2)\n# D &lt;- 1 / sum(props^2)\n\n# effective_shannon  # Should return 5\n# D                  # Should also return 5"
+  },
+  {
+    "objectID": "Koosluste_struktuur.html#liigirikkus-mitmekesisus",
+    "href": "Koosluste_struktuur.html#liigirikkus-mitmekesisus",
+    "title": "Koosluste ja ökosüsteemide struktuur",
+    "section": "3.1 Liigirikkus, mitmekesisus",
+    "text": "3.1 Liigirikkus, mitmekesisus\nLiigirikkus (S) on kõige lihtsamini mõistetav koosluse kirjeldamise parameeter - koosluses esinevate liikide arv. Aga eks tal ole ka puudujääke, kas või liigi defineerimine - mis on liik? Samuti ei kirjelda liigirikkus kuidagimoodi seda, kuidas isendite arvukus koosluses jaotunud on.\n\n\n\nLiigirikkus (S) ei arvesta koosluse liikide ohtrussuhteid. Nii vasakulolev kahe liigiga (must ja valge) kooslus kui paremal olev kooslus on sama liigirikkusega, aga funktsionaalselt ilmselt küllaltki erinevad.\n\n\nMitmekesisuse mõõdikud arvestavad lisaks liikide arvule ka liikide (suhtelisi) ohtrusi ja mõnel juhul ka liikide tunnuseid või fülogeneetilisi suhteid (funktsionaalne või fülogeneetiline mitmekesisus). Mitmekesisuse indeksid võimaldavad lisaks liikide arvule hinnata, kui ühtlaselt on eri liikide isendid koosluses jaotunud.\nKõige tavalisemad mitmekesisuse mõõdikud on\n\nShannoni indeks (H’; Shannon index, Shannon’s diversity index, Shannon-Wiener index) - on tundlik nii liigirikkuse kui liikide ohtruse ühtluse suhtes.\nFormaalselt väljendab Shannoni indeks määramatust juhuslikult valitud indiviidi liigilise kuuluvuse ennustamisel ja on defineeritud sedasi:\n\\[ H' = -\\sum_{i=1}^{S} p_i \\ln(p_i) \\]\nKus:\n\nH’ on Shannoni indeks,\nS on liigirikkus,\npi on liigi i suhteline ohtrus koosluses,\nln on naturaallogaritm.\n\nGini-Simpsoni indeks (D; Gini-Simpson index) - annab suurema kaalu tavalisematele liikidele ning peegeldab eelkõige dominantsete liikide ohtrust.\nFormaalselt väljendab Gini-Simpsoni indeks tõenäosust, et kaks juhuslikult kooslusest valitud indiviidi on samast liigist\n\nVabatahtlikku lisalugemist mitmekesisuse indeksitest"
+  },
+  {
+    "objectID": "Koosluste_struktuur.html#koosluse-kirjeldamise-täielikkus",
+    "href": "Koosluste_struktuur.html#koosluse-kirjeldamise-täielikkus",
+    "title": "Koosluste ja ökosüsteemide struktuur",
+    "section": "3.2 Koosluse kirjeldamise täielikkus",
+    "text": "3.2 Koosluse kirjeldamise täielikkus\nPraktilises mõttes on liigirikkuse (ja sellest johtuvalt tegelikult ka mitmekesisuse) kirjeldamise puudujäägiks ka proovivõtu täielikkus (sampling completeness). Tavaliselt loendatakse ökoloogiliste uurimistööde käigus aja ja raha piiratuse tõttu liike teatud kindla pingutusega (olgu see pingutus kas taimede loendamiseks kulunud aeg, DNA sekveneerimissügavus ehk ühest proovist järjestatud DNA-lõikude arv, filtrist läbi lastud jõevee maht vms). Olenevalt liikide ühtlusest võime teatud ühtlase proovivõtupingutuse tulemusena saada ühest punktist parema kirjelduse kui teisest.\n\n\n\nKui proovivõtupingutuse N1 puhul jääb mulje, et kooslus 1 on kaks korda liigirikkam kui kooslus 2, siis proovivõtupingutuse N2 korral on liigirikkused küllalt sarnased. Kui liigirikkuse-loendatud indiviidide korrelatsioonikõverat mõtteliselt mööda x-telge edasi joonistada, võiks ennustada hoopis kolmandat olukorda"
   }
 ]
