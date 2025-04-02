@@ -168,7 +168,7 @@ Hilli arv kirjeldab, mitu võrdse ohtrusega liiki peaks koosluses olema selleks,
 
 ### Proovime järele
 
-Arvutame kahe erineva koosluse Hilli arvud 0 ... 3
+Arvutame nelja erineva koosluse Hilli arvud 0 ... 3
 
 ```{r}
 suppressWarnings(suppressPackageStartupMessages(library(tidyverse)))
@@ -240,3 +240,11 @@ ggplot(hill_df, aes(x = q, y = D_q, colour = kooslus)) +
   theme_minimal() +
   scale_colour_brewer(palette = "Dark2")
 ```
+
+-   Võrdsete ohtrustega kooslus (roosa)
+
+-   Võrdsete ohtrustega kaks korda liigirikkam kooslus (oranž)
+
+-   Dominantliigiga kooslus (lilla)
+
+-   Kahe dominantliigiga kaks korda liigirikkam kooslus (roheline)
