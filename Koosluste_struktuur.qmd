@@ -7,23 +7,17 @@ number-sections: true
 editor: source
 ---
 
-# Learning Objectives
+# Sissejuhatus
 
-By the end of this module, students should be able to: - Define and differentiate between various spatial and functional concepts in community ecology. - Identify and explain the key processes shaping species assemblages. - Evaluate the evidence for deterministic vs stochastic community assembly. - Interpret diversity metrics, null models, and trophic structures. - Assess the implications of ecological structure for stability and resilience.
+Ökoloogia üks põhiküsimusi on mõista, mis reeglite järgi komplekteeruvad või tekivad kooslused ja ökosüsteemid. **Kooslus** on kogum liikide populatsioone, kes ajas ja ruumis kooseksisteerivad ning üksteist mõjutavad, olles samal ajal mõjutatud ka keskkonnaparameetritest. Seega uurib koosluseökoloogia seda, kuidas need liikide kogumid looduses jaotuvad, mis neid ja nende koosseisu mõjutab (keskkond, omavahelised interaktsioonid).
 
-------------------------------------------------------------------------
-
-# Introduction
-
-Understanding how communities and ecosystems are structured is a central question in ecology. A community is defined as a set of populations from different species that coexist in space and time, interacting with each other and being influenced by their environment. Community ecology, therefore, seeks to explain how these species are distributed, what processes structure their assemblages, and how they respond to environmental gradients.
-
-Communities are not fixed entities; they can be defined across various spatial and organisational scales. For instance, one might consider a temperate meadow community, which contains within it legume-dominated patches, microbial consortia associated with those legumes, and ultimately nitrogen-fixing bacterial guilds. These nested hierarchies are key to understanding ecological patterns.
+Kooslusi võib defineerida erinevatel ruumi- ja organisatsioonilistel skaaladel, olenevalt uurimisküsimuse ulatusest. Näiteks võib kooslus olla parasvöötmeline niidukooslus, mille hulka kuulub liblikõieliste taimede ja nendega seotud mikroorganismide kooslus, mille hulka kuulub lämmastikku fikseerivate bakterite kooslus. Pesastunud (*nested*) tasemete uurimine võimaldab meil mõista ökoloogilisi protsesse erinevatel skaaladel.
 
 ------------------------------------------------------------------------
 
 # Processes Shaping Community Composition
 
-![](media/koosluse_filtrid.png) *Figure 1. Conceptual diagram of community assembly: dispersal, environmental filtering, and biotic interactions shape community composition.*
+![](docs/media/koosluse_filtrid.png) *Figure 1. Conceptual diagram of community assembly: dispersal, environmental filtering, and biotic interactions shape community composition.*
 
 Community composition is shaped by several key processes:
 
