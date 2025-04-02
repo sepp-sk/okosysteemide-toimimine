@@ -18,7 +18,7 @@
     "href": "Koosluste_struktuur.html",
     "title": "Koosluste ja ökosüsteemide struktuur",
     "section": "",
-    "text": "Ökoloogia üks põhiküsimusi on mõista, mis reeglite järgi komplekteeruvad või tekivad kooslused ja ökosüsteemid. Kooslus on kogum liikide populatsioone, kes ajas ja ruumis kooseksisteerivad ning üksteist mõjutavad, olles samal ajal mõjutatud ka keskkonnaparameetritest. Seega uurib koosluseökoloogia seda, kuidas need liikide kogumid looduses jaotuvad, mis neid ja nende koosseisu mõjutab (keskkond, omavahelised interaktsioonid).\nKooslusi võib defineerida erinevatel ruumi- ja organisatsioonilistel skaaladel, olenevalt uurimisküsimuse ulatusest. Näiteks võib kooslus olla parasvöötmeline niidukooslus, mille hulka kuulub liblikõieliste taimede ja nendega seotud mikroorganismide kooslus, mille hulka kuulub lämmastikku fikseerivate bakterite kooslus. Pesastunud (nested) tasemete uurimine võimaldab meil mõista ökoloogilisi protsesse erinevatel skaaladel."
+    "text": "Ökoloogia üks põhiküsimusi on mõista, mis reeglite järgi komplekteeruvad või tekivad kooslused ja ökosüsteemid. Kooslus on kogum liikide populatsioone, kes ajas ja ruumis kooseksisteerivad ning üksteist mõjutavad, olles samal ajal mõjutatud ka keskkonnaparameetritest. Seega uurib koosluseökoloogia seda, kuidas need liikide kogumid looduses jaotuvad, mis neid ja nende koosseisu mõjutab (keskkond, omavahelised interaktsioonid).\nKooslusi võib defineerida erinevatel ruumi- ja organisatsioonilistel skaaladel, olenevalt uurimisküsimuse ulatusest. Näiteks võib kooslus olla parasvöötmeline niidukooslus, mille hulka kuulub liblikõieliste taimede ja nendega seotud mikroorganismide kooslus, mille hulka kuulub lämmastikku fikseerivate bakterite kooslus. Nende üksteise sees pesastunud (nested) tasemete uurimine võimaldab meil mõista ökoloogilisi protsesse erinevatel skaaladel."
   },
   {
     "objectID": "Koosluste_struktuur.html#lecture-1-the-spatial-and-functional-structure-of-communities-and-ecosystems",
@@ -59,14 +59,21 @@
     "objectID": "Koosluste_struktuur.html#ordination-techniques",
     "href": "Koosluste_struktuur.html#ordination-techniques",
     "title": "Koosluste ja ökosüsteemide struktuur",
-    "section": "2.3 Ordination Techniques",
-    "text": "2.3 Ordination Techniques\n Figure 4. NMDS ordination of microbial communities showing clustering by environment.\nOrdination methods such as NMDS reduce complex data into low-dimensional space for ecological interpretation."
+    "section": "3.2 Ordination Techniques",
+    "text": "3.2 Ordination Techniques\n Figure 4. NMDS ordination of microbial communities showing clustering by environment.\nOrdination methods such as NMDS reduce complex data into low-dimensional space for ecological interpretation."
   },
   {
     "objectID": "Koosluste_struktuur.html#energetic-and-trophic-structure",
     "href": "Koosluste_struktuur.html#energetic-and-trophic-structure",
     "title": "Koosluste ja ökosüsteemide struktuur",
-    "section": "2.4 Energetic and Trophic Structure",
-    "text": "2.4 Energetic and Trophic Structure\n Figure 5. Classic trophic pyramid illustrating biomass and energy flow through trophic levels.\nEcosystem function can be understood through patterns of production and biomass across trophic levels."
+    "section": "3.3 Energetic and Trophic Structure",
+    "text": "3.3 Energetic and Trophic Structure\n Figure 5. Classic trophic pyramid illustrating biomass and energy flow through trophic levels.\nEcosystem function can be understood through patterns of production and biomass across trophic levels."
+  },
+  {
+    "objectID": "Koosluste_struktuur.html#liigirikkus",
+    "href": "Koosluste_struktuur.html#liigirikkus",
+    "title": "Koosluste ja ökosüsteemide struktuur",
+    "section": "3.1 Liigirikkus",
+    "text": "3.1 Liigirikkus\nLiigirikkus on kõige lihtsamini mõistetav koosluse kirjeldamise parameeter - koosluses esinevate liikide arv. Aga tal ole ka puudujääke, kas või liigi defineerimine - mis on liik? Samuti ei kirjelda liigirikkus kuidagimoodi seda, kas liigid on koosluses jaotunud ühtlaselt või domineerivad koosluses peamiselt mõned liigid ja teised on haruldased (ja võib-olla seega suhteliselt vähemolulised).\nPraktilises mõttes on liigirikkuse kirjeldamise puudujäägiks ka proovivõtu täielikkus (sampling completeness). Tavaliselt loendatakse ökoloogiliste uurimistööde käigus aja ja raha piiratuse tõttu liike teatud kindla pingutusega (olgu see pingutus kas taimede loendamiseks kulunud aeg, DNA sekveneerimissügavus ehk ühest proovist järjestatud DNA-lõikude arv, filtrist läbi lastud jõevee maht vms). Olenevalt liikide ühtlusest võime teatud ühtlase proovivõtupingutuse tulemusena saada ühest punktist parema kirjelduse kui teisest."
   }
 ]

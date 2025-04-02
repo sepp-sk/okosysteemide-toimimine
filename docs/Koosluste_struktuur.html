@@ -110,15 +110,15 @@ ul.task-list li input[type="checkbox"] {
    
   <ul class="collapse">
   <li><a href="#sissejuhatus" id="toc-sissejuhatus" class="nav-link active" data-scroll-target="#sissejuhatus"><span class="header-section-number">1</span> Sissejuhatus</a></li>
-  <li><a href="#processes-shaping-community-composition" id="toc-processes-shaping-community-composition" class="nav-link" data-scroll-target="#processes-shaping-community-composition"><span class="header-section-number">2</span> Processes Shaping Community Composition</a>
+  <li><a href="#koosluste-koosseisu-mõjutavad-protsessid" id="toc-koosluste-koosseisu-mõjutavad-protsessid" class="nav-link" data-scroll-target="#koosluste-koosseisu-mõjutavad-protsessid"><span class="header-section-number">2</span> Koosluste koosseisu mõjutavad protsessid</a></li>
+  <li><a href="#koosluse-koosseisu-kirjeldamine" id="toc-koosluse-koosseisu-kirjeldamine" class="nav-link" data-scroll-target="#koosluse-koosseisu-kirjeldamine"><span class="header-section-number">3</span> Koosluse koosseisu kirjeldamine</a>
   <ul class="collapse">
-  <li><a href="#niche-differentiation" id="toc-niche-differentiation" class="nav-link" data-scroll-target="#niche-differentiation"><span class="header-section-number">2.1</span> Niche Differentiation</a></li>
-  <li><a href="#quantifying-community-composition" id="toc-quantifying-community-composition" class="nav-link" data-scroll-target="#quantifying-community-composition"><span class="header-section-number">2.2</span> Quantifying Community Composition</a></li>
-  <li><a href="#ordination-techniques" id="toc-ordination-techniques" class="nav-link" data-scroll-target="#ordination-techniques"><span class="header-section-number">2.3</span> Ordination Techniques</a></li>
-  <li><a href="#energetic-and-trophic-structure" id="toc-energetic-and-trophic-structure" class="nav-link" data-scroll-target="#energetic-and-trophic-structure"><span class="header-section-number">2.4</span> Energetic and Trophic Structure</a></li>
+  <li><a href="#liigirikkus" id="toc-liigirikkus" class="nav-link" data-scroll-target="#liigirikkus"><span class="header-section-number">3.1</span> Liigirikkus</a></li>
+  <li><a href="#ordination-techniques" id="toc-ordination-techniques" class="nav-link" data-scroll-target="#ordination-techniques"><span class="header-section-number">3.2</span> Ordination Techniques</a></li>
+  <li><a href="#energetic-and-trophic-structure" id="toc-energetic-and-trophic-structure" class="nav-link" data-scroll-target="#energetic-and-trophic-structure"><span class="header-section-number">3.3</span> Energetic and Trophic Structure</a></li>
   </ul></li>
-  <li><a href="#top-down-vs-bottom-up-control" id="toc-top-down-vs-bottom-up-control" class="nav-link" data-scroll-target="#top-down-vs-bottom-up-control"><span class="header-section-number">3</span> Top-Down vs Bottom-Up Control</a></li>
-  <li><a href="#network-properties-and-stability" id="toc-network-properties-and-stability" class="nav-link" data-scroll-target="#network-properties-and-stability"><span class="header-section-number">4</span> Network Properties and Stability</a></li>
+  <li><a href="#top-down-vs-bottom-up-control" id="toc-top-down-vs-bottom-up-control" class="nav-link" data-scroll-target="#top-down-vs-bottom-up-control"><span class="header-section-number">4</span> Top-Down vs Bottom-Up Control</a></li>
+  <li><a href="#network-properties-and-stability" id="toc-network-properties-and-stability" class="nav-link" data-scroll-target="#network-properties-and-stability"><span class="header-section-number">5</span> Network Properties and Stability</a></li>
   </ul>
 </nav>
     </div>
@@ -145,54 +145,59 @@ ul.task-list li input[type="checkbox"] {
 <section id="sissejuhatus" class="level1" data-number="1">
 <h1 data-number="1"><span class="header-section-number">1</span> Sissejuhatus</h1>
 <p>Ökoloogia üks põhiküsimusi on mõista, mis reeglite järgi komplekteeruvad või tekivad kooslused ja ökosüsteemid. <strong>Kooslus</strong> on kogum liikide populatsioone, kes ajas ja ruumis kooseksisteerivad ning üksteist mõjutavad, olles samal ajal mõjutatud ka keskkonnaparameetritest. Seega uurib koosluseökoloogia seda, kuidas need liikide kogumid looduses jaotuvad, mis neid ja nende koosseisu mõjutab (keskkond, omavahelised interaktsioonid).</p>
-<p>Kooslusi võib defineerida erinevatel ruumi- ja organisatsioonilistel skaaladel, olenevalt uurimisküsimuse ulatusest. Näiteks võib kooslus olla parasvöötmeline niidukooslus, mille hulka kuulub liblikõieliste taimede ja nendega seotud mikroorganismide kooslus, mille hulka kuulub lämmastikku fikseerivate bakterite kooslus. Pesastunud (<em>nested</em>) tasemete uurimine võimaldab meil mõista ökoloogilisi protsesse erinevatel skaaladel.</p>
+<p>Kooslusi võib defineerida erinevatel ruumi- ja organisatsioonilistel skaaladel, olenevalt uurimisküsimuse ulatusest. Näiteks võib kooslus olla parasvöötmeline niidukooslus, mille hulka kuulub liblikõieliste taimede ja nendega seotud mikroorganismide kooslus, mille hulka kuulub lämmastikku fikseerivate bakterite kooslus. Nende üksteise sees pesastunud (<em>nested</em>) tasemete uurimine võimaldab meil mõista ökoloogilisi protsesse erinevatel skaaladel.</p>
 <hr>
 </section>
-<section id="processes-shaping-community-composition" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Processes Shaping Community Composition</h1>
-<p><img src="docs/media/koosluse_filtrid.png" class="img-fluid"> <em>Figure 1. Conceptual diagram of community assembly: dispersal, environmental filtering, and biotic interactions shape community composition.</em></p>
-<p>Community composition is shaped by several key processes:</p>
+<section id="koosluste-koosseisu-mõjutavad-protsessid" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Koosluste koosseisu mõjutavad protsessid</h1>
+<p><img src="docs/media/koosluse_filtrid.png" class="img-fluid"><em>Koosluse kokkupanekut mõjutavad filtrid: levimis- ja keskkonnapiirangud ning biootilised interaktsioonid.</em></p>
+<p>Koosluse kooseisu kujundavad mitmed protsessid:</p>
 <ol type="1">
-<li><strong>Dispersal limitations</strong>: Species may be absent from a site not because conditions are unsuitable, but because they have not arrived.</li>
-<li><strong>Environmental filtering</strong>: Abiotic factors (e.g., soil type, moisture, light) constrain which species can persist in a given habitat.</li>
-<li><strong>Biotic interactions</strong>: Competition, mutualism, and predation further shape species assemblages.</li>
-<li><strong>Speciation and extinction</strong>: These processes determine the regional species pool over evolutionary time.</li>
+<li><p><strong>Levimispiirangud</strong>: Liigid ei pruugi kooslusest puududa mitte seetõttu, et tingimused ei ole sobivad, vaid kuna nad ei ole kooslusesse jõudnud.</p></li>
+<li><p><strong>Abioitilised filtrid</strong>: Keskkonnaparameetrid (nt mullatüüp, niiskus, valgusrežiim) piiravad liikide hulka, kes antud kasvukohas füsioloogilises mõttes hakkama saavad (fundamentaalne nišš).</p></li>
+<li><p><strong>Biootilised interaktsioonid</strong>: Konkurents, mutualism, röövlus - piiravad (või soodustavad!) keskkonnaparameetritega sobivate liikide koosluses püsimist.</p></li>
+<li><p><strong>+ Liigiteke ja väljasuremine</strong>: Mõjutavad regionaalse liigifondi kujunemist evolutsioonilises ajaskaalas. Selleks, et liik saaks kuskil liigifondis olla, peab ta põhimõtteliselt olemas olema.</p></li>
 </ol>
-<p>These ecological and evolutionary processes produce observable patterns, such as species richness gradients, successional trajectories, and diversity-productivity relationships.</p>
-<hr>
-<section id="niche-differentiation" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="niche-differentiation"><span class="header-section-number">2.1</span> Niche Differentiation</h2>
-<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0006320711004001-gr1.jpg" class="img-fluid" alt="Niche differentiation"> <em>Figure 2. Schematic of niche differentiation along multiple resource axes (Götzenberger et al.&nbsp;2012).</em></p>
-<p>Species coexistence is often facilitated by differentiation along environmental gradients such as light, nutrients, and water availability.</p>
+<p>Need ökoloogilised ja evolutsioonilised protsessid tingivad mustreid (liigirikkuse gradiendid, suktsessioon, liigirikkuse-produktiivsuse korrelatsioon jne).</p>
 <hr>
 </section>
-<section id="quantifying-community-composition" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="quantifying-community-composition"><span class="header-section-number">2.2</span> Quantifying Community Composition</h2>
-<p><img src="https://www.researchgate.net/profile/Gergely-Kiss/publication/359609857/figure/fig2/AS:1141818093064197@1648717878621/Rank-abundance-curves-of-the-plant-communities-of-the-study-sites.png" class="img-fluid" alt="Rank-abundance curve"> <em>Figure 3. Rank-abundance curves visualising relative species abundances.</em></p>
-<p>Diversity metrics can be visualised using such curves and calculated using Hill numbers, which provide intuitive measures of diversity.</p>
+<section id="koosluse-koosseisu-kirjeldamine" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Koosluse koosseisu kirjeldamine</h1>
+<p>Koosluse koosseise võib kirjeldada ja võrrelda erineva detailsusastmega:</p>
+<ul>
+<li><p>Liigirikkus</p></li>
+<li><p>Mitmekesisus</p></li>
+<li><p>Liikide vaheldumine</p></li>
+<li><p>Liikide suhteline ohtrus (ordinatsioon)</p></li>
+</ul>
+<section id="liigirikkus" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="liigirikkus"><span class="header-section-number">3.1</span> Liigirikkus</h2>
+<p>Liigirikkus on kõige lihtsamini mõistetav koosluse kirjeldamise parameeter - koosluses esinevate liikide arv. Aga tal ole ka puudujääke, kas või liigi defineerimine - mis on liik? Samuti ei kirjelda liigirikkus kuidagimoodi seda, kas liigid on koosluses jaotunud ühtlaselt või domineerivad koosluses peamiselt mõned liigid ja teised on haruldased (ja võib-olla seega suhteliselt vähemolulised).</p>
+<p>Praktilises mõttes on liigirikkuse kirjeldamise puudujäägiks ka proovivõtu täielikkus (<em>sampling completeness</em>). Tavaliselt loendatakse ökoloogiliste uurimistööde käigus aja ja raha piiratuse tõttu liike teatud kindla pingutusega (olgu see pingutus kas taimede loendamiseks kulunud aeg, DNA sekveneerimissügavus ehk ühest proovist järjestatud DNA-lõikude arv, filtrist läbi lastud jõevee maht vms). Olenevalt liikide ühtlusest võime teatud ühtlase proovivõtupingutuse tulemusena saada ühest punktist parema kirjelduse kui teisest.</p>
+<p><img src="docs/media/proovivotu_tainelikkus.PNG" class="img-fluid"></p>
 <hr>
 </section>
-<section id="ordination-techniques" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="ordination-techniques"><span class="header-section-number">2.3</span> Ordination Techniques</h2>
+<section id="ordination-techniques" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="ordination-techniques"><span class="header-section-number">3.2</span> Ordination Techniques</h2>
 <p><img src="https://www.frontiersin.org/files/Articles/532141/fmicb-10-02827-HTML-r1/image_m/fmicb-10-02827-g002.jpg" class="img-fluid" alt="Ordination example"> <em>Figure 4. NMDS ordination of microbial communities showing clustering by environment.</em></p>
 <p>Ordination methods such as NMDS reduce complex data into low-dimensional space for ecological interpretation.</p>
 <hr>
 </section>
-<section id="energetic-and-trophic-structure" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="energetic-and-trophic-structure"><span class="header-section-number">2.4</span> Energetic and Trophic Structure</h2>
+<section id="energetic-and-trophic-structure" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="energetic-and-trophic-structure"><span class="header-section-number">3.3</span> Energetic and Trophic Structure</h2>
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Ecological_Pyramid.svg/1920px-Ecological_Pyramid.svg.png" class="img-fluid" alt="Trophic pyramid"> <em>Figure 5. Classic trophic pyramid illustrating biomass and energy flow through trophic levels.</em></p>
 <p>Ecosystem function can be understood through patterns of production and biomass across trophic levels.</p>
 <hr>
 </section>
 </section>
-<section id="top-down-vs-bottom-up-control" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> Top-Down vs Bottom-Up Control</h1>
+<section id="top-down-vs-bottom-up-control" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Top-Down vs Bottom-Up Control</h1>
 <p><img src="https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10980-020-01021-5/MediaObjects/10980_2020_1021_Fig1_HTML.png" class="img-fluid" alt="Top-down vs bottom-up control"> <em>Figure 6. Conceptual comparison of top-down and bottom-up regulation in a food web.</em></p>
 <p>These controls shape species interactions and abundance, with implications for biomass distribution.</p>
 <hr>
 </section>
-<section id="network-properties-and-stability" class="level1" data-number="4">
-<h1 data-number="4"><span class="header-section-number">4</span> Network Properties and Stability</h1>
+<section id="network-properties-and-stability" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Network Properties and Stability</h1>
 <p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0169534711001209-gr2.jpg" class="img-fluid" alt="Nested and modular networks"> <em>Figure 7. Nested vs modular structure in ecological networks (Bascompte &amp; Jordano, 2007).</em></p>
 <p>Modular and nested interactions contribute to stability, particularly under perturbation.</p>
 <hr>

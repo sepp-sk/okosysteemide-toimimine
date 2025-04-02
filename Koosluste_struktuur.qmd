@@ -11,38 +11,47 @@ editor: source
 
 Ökoloogia üks põhiküsimusi on mõista, mis reeglite järgi komplekteeruvad või tekivad kooslused ja ökosüsteemid. **Kooslus** on kogum liikide populatsioone, kes ajas ja ruumis kooseksisteerivad ning üksteist mõjutavad, olles samal ajal mõjutatud ka keskkonnaparameetritest. Seega uurib koosluseökoloogia seda, kuidas need liikide kogumid looduses jaotuvad, mis neid ja nende koosseisu mõjutab (keskkond, omavahelised interaktsioonid).
 
-Kooslusi võib defineerida erinevatel ruumi- ja organisatsioonilistel skaaladel, olenevalt uurimisküsimuse ulatusest. Näiteks võib kooslus olla parasvöötmeline niidukooslus, mille hulka kuulub liblikõieliste taimede ja nendega seotud mikroorganismide kooslus, mille hulka kuulub lämmastikku fikseerivate bakterite kooslus. Pesastunud (*nested*) tasemete uurimine võimaldab meil mõista ökoloogilisi protsesse erinevatel skaaladel.
+Kooslusi võib defineerida erinevatel ruumi- ja organisatsioonilistel skaaladel, olenevalt uurimisküsimuse ulatusest. Näiteks võib kooslus olla parasvöötmeline niidukooslus, mille hulka kuulub liblikõieliste taimede ja nendega seotud mikroorganismide kooslus, mille hulka kuulub lämmastikku fikseerivate bakterite kooslus. Nende üksteise sees pesastunud (*nested*) tasemete uurimine võimaldab meil mõista ökoloogilisi protsesse erinevatel skaaladel.
 
 ------------------------------------------------------------------------
 
-# Processes Shaping Community Composition
+# Koosluste koosseisu mõjutavad protsessid
 
-![](docs/media/koosluse_filtrid.png) *Figure 1. Conceptual diagram of community assembly: dispersal, environmental filtering, and biotic interactions shape community composition.*
+![](docs/media/koosluse_filtrid.png)*Koosluse kokkupanekut mõjutavad filtrid: levimis- ja keskkonnapiirangud ning biootilised interaktsioonid.*
 
-Community composition is shaped by several key processes:
+Koosluse kooseisu kujundavad mitmed protsessid:
 
-1.  **Dispersal limitations**: Species may be absent from a site not because conditions are unsuitable, but because they have not arrived.
-2.  **Environmental filtering**: Abiotic factors (e.g., soil type, moisture, light) constrain which species can persist in a given habitat.
-3.  **Biotic interactions**: Competition, mutualism, and predation further shape species assemblages.
-4.  **Speciation and extinction**: These processes determine the regional species pool over evolutionary time.
+1.  **Levimispiirangud**: Liigid ei pruugi kooslusest puududa mitte seetõttu, et tingimused ei ole sobivad, vaid kuna nad ei ole kooslusesse jõudnud.
 
-These ecological and evolutionary processes produce observable patterns, such as species richness gradients, successional trajectories, and diversity-productivity relationships.
+2.  **Abioitilised filtrid**: Keskkonnaparameetrid (nt mullatüüp, niiskus, valgusrežiim) piiravad liikide hulka, kes antud kasvukohas füsioloogilises mõttes hakkama saavad (fundamentaalne nišš).
 
-------------------------------------------------------------------------
+3.  **Biootilised interaktsioonid**: Konkurents, mutualism, röövlus - piiravad (või soodustavad!) keskkonnaparameetritega sobivate liikide koosluses püsimist.
 
-## Niche Differentiation
+4.  **+ Liigiteke ja väljasuremine**: Mõjutavad regionaalse liigifondi kujunemist evolutsioonilises ajaskaalas. Selleks, et liik saaks kuskil liigifondis olla, peab ta põhimõtteliselt olemas olema.
 
-![Niche differentiation](https://ars.els-cdn.com/content/image/1-s2.0-S0006320711004001-gr1.jpg) *Figure 2. Schematic of niche differentiation along multiple resource axes (Götzenberger et al. 2012).*
-
-Species coexistence is often facilitated by differentiation along environmental gradients such as light, nutrients, and water availability.
+Need ökoloogilised ja evolutsioonilised protsessid tingivad mustreid (liigirikkuse gradiendid, suktsessioon, liigirikkuse-produktiivsuse korrelatsioon jne).
 
 ------------------------------------------------------------------------
 
-## Quantifying Community Composition
+# Koosluse koosseisu kirjeldamine
 
-![Rank-abundance curve](https://www.researchgate.net/profile/Gergely-Kiss/publication/359609857/figure/fig2/AS:1141818093064197@1648717878621/Rank-abundance-curves-of-the-plant-communities-of-the-study-sites.png) *Figure 3. Rank-abundance curves visualising relative species abundances.*
+Koosluse koosseise võib kirjeldada ja võrrelda erineva detailsusastmega:
 
-Diversity metrics can be visualised using such curves and calculated using Hill numbers, which provide intuitive measures of diversity.
+-   Liigirikkus
+
+-   Mitmekesisus
+
+-   Liikide vaheldumine
+
+-   Liikide suhteline ohtrus (ordinatsioon)
+
+## Liigirikkus
+
+Liigirikkus on kõige lihtsamini mõistetav koosluse kirjeldamise parameeter - koosluses esinevate liikide arv. Aga tal ole ka puudujääke, kas või liigi defineerimine - mis on liik? Samuti ei kirjelda liigirikkus kuidagimoodi seda, kas liigid on koosluses jaotunud ühtlaselt või domineerivad koosluses peamiselt mõned liigid ja teised on haruldased (ja võib-olla seega suhteliselt vähemolulised).
+
+Praktilises mõttes on liigirikkuse kirjeldamise puudujäägiks ka proovivõtu täielikkus (*sampling completeness*). Tavaliselt loendatakse ökoloogiliste uurimistööde käigus aja ja raha piiratuse tõttu liike teatud kindla pingutusega (olgu see pingutus kas taimede loendamiseks kulunud aeg, DNA sekveneerimissügavus ehk ühest proovist järjestatud DNA-lõikude arv, filtrist läbi lastud jõevee maht vms). Olenevalt liikide ühtlusest võime teatud ühtlase proovivõtupingutuse tulemusena saada ühest punktist parema kirjelduse kui teisest.
+
+![](docs/media/proovivotu_tainelikkus.PNG)
 
 ------------------------------------------------------------------------
 
