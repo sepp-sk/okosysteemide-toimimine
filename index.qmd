@@ -1,5 +1,6 @@
 ---
-title: "okosysteemide-toimimine"
+title: "Ökosüsteemide toimimine"
+editor: source
 ---
 
 This is a Quarto website.

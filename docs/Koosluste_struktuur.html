@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>okosysteemide-toimimine - Ökosüsteemide toimimine</title>
+<title>okosysteemide-toimimine - Koosluste struktuur</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -116,11 +82,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Koosluste_struktuur.html" rel="" target="">
+    <a class="nav-link active" href="./Koosluste_struktuur.html" rel="" target="" aria-current="page">
  <span class="menu-text">Koosluste struktuur</span></a>
   </li>  
   <li class="nav-item">
@@ -139,14 +105,31 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#lecture-1-the-spatial-and-functional-structure-of-communities-and-ecosystems" id="toc-lecture-1-the-spatial-and-functional-structure-of-communities-and-ecosystems" class="nav-link active" data-scroll-target="#lecture-1-the-spatial-and-functional-structure-of-communities-and-ecosystems">Lecture 1: The Spatial and Functional Structure of Communities and Ecosystems</a>
+  <ul class="collapse">
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#processes-shaping-community-composition" id="toc-processes-shaping-community-composition" class="nav-link" data-scroll-target="#processes-shaping-community-composition">Processes Shaping Community Composition</a></li>
+  <li><a href="#niche-differentiation" id="toc-niche-differentiation" class="nav-link" data-scroll-target="#niche-differentiation">Niche Differentiation</a></li>
+  <li><a href="#quantifying-community-composition" id="toc-quantifying-community-composition" class="nav-link" data-scroll-target="#quantifying-community-composition">Quantifying Community Composition</a></li>
+  <li><a href="#ordination-techniques" id="toc-ordination-techniques" class="nav-link" data-scroll-target="#ordination-techniques">Ordination Techniques</a></li>
+  <li><a href="#energetic-and-trophic-structure" id="toc-energetic-and-trophic-structure" class="nav-link" data-scroll-target="#energetic-and-trophic-structure">Energetic and Trophic Structure</a></li>
+  <li><a href="#top-down-vs-bottom-up-control" id="toc-top-down-vs-bottom-up-control" class="nav-link" data-scroll-target="#top-down-vs-bottom-up-control">Top-Down vs Bottom-Up Control</a></li>
+  <li><a href="#network-properties-and-stability" id="toc-network-properties-and-stability" class="nav-link" data-scroll-target="#network-properties-and-stability">Network Properties and Stability</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ökosüsteemide toimimine</h1>
+<h1 class="title">Koosluste struktuur</h1>
 </div>
 
 
@@ -161,16 +144,72 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
+<section id="lecture-1-the-spatial-and-functional-structure-of-communities-and-ecosystems" class="level2">
+<h2 class="anchored" data-anchor-id="lecture-1-the-spatial-and-functional-structure-of-communities-and-ecosystems">Lecture 1: The Spatial and Functional Structure of Communities and Ecosystems</h2>
+<section id="learning-objectives" class="level3">
+<h3 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h3>
+<p>By the end of this module, students should be able to: - Define and differentiate between various spatial and functional concepts in community ecology. - Identify and explain the key processes shaping species assemblages. - Evaluate the evidence for deterministic vs stochastic community assembly. - Interpret diversity metrics, null models, and trophic structures. - Assess the implications of ecological structure for stability and resilience.</p>
+<hr>
+</section>
+<section id="introduction" class="level3">
+<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
+<p>Understanding how communities and ecosystems are structured is a central question in ecology. A community is defined as a set of populations from different species that coexist in space and time, interacting with each other and being influenced by their environment. Community ecology, therefore, seeks to explain how these species are distributed, what processes structure their assemblages, and how they respond to environmental gradients.</p>
+<p>Communities are not fixed entities; they can be defined across various spatial and organisational scales. For instance, one might consider a temperate meadow community, which contains within it legume-dominated patches, microbial consortia associated with those legumes, and ultimately nitrogen-fixing bacterial guilds. These nested hierarchies are key to understanding ecological patterns.</p>
+<hr>
+</section>
+<section id="processes-shaping-community-composition" class="level3">
+<h3 class="anchored" data-anchor-id="processes-shaping-community-composition">Processes Shaping Community Composition</h3>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Community_assembly_filters.svg/1024px-Community_assembly_filters.svg.png" class="img-fluid" alt="Processes shaping community composition"> <em>Figure 1. Conceptual diagram of community assembly: dispersal, environmental filtering, and biotic interactions shape community composition.</em></p>
+<p>Community composition is shaped by several key processes:</p>
+<ol type="1">
+<li><strong>Dispersal limitations</strong>: Species may be absent from a site not because conditions are unsuitable, but because they have not arrived.</li>
+<li><strong>Environmental filtering</strong>: Abiotic factors (e.g., soil type, moisture, light) constrain which species can persist in a given habitat.</li>
+<li><strong>Biotic interactions</strong>: Competition, mutualism, and predation further shape species assemblages.</li>
+<li><strong>Speciation and extinction</strong>: These processes determine the regional species pool over evolutionary time.</li>
+</ol>
+<p>These ecological and evolutionary processes produce observable patterns, such as species richness gradients, successional trajectories, and diversity-productivity relationships.</p>
+<hr>
+</section>
+<section id="niche-differentiation" class="level3">
+<h3 class="anchored" data-anchor-id="niche-differentiation">Niche Differentiation</h3>
+<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0006320711004001-gr1.jpg" class="img-fluid" alt="Niche differentiation"> <em>Figure 2. Schematic of niche differentiation along multiple resource axes (Götzenberger et al.&nbsp;2012).</em></p>
+<p>Species coexistence is often facilitated by differentiation along environmental gradients such as light, nutrients, and water availability.</p>
+<hr>
+</section>
+<section id="quantifying-community-composition" class="level3">
+<h3 class="anchored" data-anchor-id="quantifying-community-composition">Quantifying Community Composition</h3>
+<p><img src="https://www.researchgate.net/profile/Gergely-Kiss/publication/359609857/figure/fig2/AS:1141818093064197@1648717878621/Rank-abundance-curves-of-the-plant-communities-of-the-study-sites.png" class="img-fluid" alt="Rank-abundance curve"> <em>Figure 3. Rank-abundance curves visualising relative species abundances.</em></p>
+<p>Diversity metrics can be visualised using such curves and calculated using Hill numbers, which provide intuitive measures of diversity.</p>
+<hr>
+</section>
+<section id="ordination-techniques" class="level3">
+<h3 class="anchored" data-anchor-id="ordination-techniques">Ordination Techniques</h3>
+<p><img src="https://www.frontiersin.org/files/Articles/532141/fmicb-10-02827-HTML-r1/image_m/fmicb-10-02827-g002.jpg" class="img-fluid" alt="Ordination example"> <em>Figure 4. NMDS ordination of microbial communities showing clustering by environment.</em></p>
+<p>Ordination methods such as NMDS reduce complex data into low-dimensional space for ecological interpretation.</p>
+<hr>
+</section>
+<section id="energetic-and-trophic-structure" class="level3">
+<h3 class="anchored" data-anchor-id="energetic-and-trophic-structure">Energetic and Trophic Structure</h3>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Ecological_Pyramid.svg/1920px-Ecological_Pyramid.svg.png" class="img-fluid" alt="Trophic pyramid"> <em>Figure 5. Classic trophic pyramid illustrating biomass and energy flow through trophic levels.</em></p>
+<p>Ecosystem function can be understood through patterns of production and biomass across trophic levels.</p>
+<hr>
+</section>
+<section id="top-down-vs-bottom-up-control" class="level3">
+<h3 class="anchored" data-anchor-id="top-down-vs-bottom-up-control">Top-Down vs Bottom-Up Control</h3>
+<p><img src="https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10980-020-01021-5/MediaObjects/10980_2020_1021_Fig1_HTML.png" class="img-fluid" alt="Top-down vs bottom-up control"> <em>Figure 6. Conceptual comparison of top-down and bottom-up regulation in a food web.</em></p>
+<p>These controls shape species interactions and abundance, with implications for biomass distribution.</p>
+<hr>
+</section>
+<section id="network-properties-and-stability" class="level3">
+<h3 class="anchored" data-anchor-id="network-properties-and-stability">Network Properties and Stability</h3>
+<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0169534711001209-gr2.jpg" class="img-fluid" alt="Nested and modular networks"> <em>Figure 7. Nested vs modular structure in ecological networks (Bascompte &amp; Jordano, 2007).</em></p>
+<p>Modular and nested interactions contribute to stability, particularly under perturbation.</p>
+<hr>
+<p><em>All figures used here are sourced from publicly available academic or educational resources for illustrative purposes.</em></p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

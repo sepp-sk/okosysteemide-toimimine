@@ -1,0 +1,85 @@
+---
+title: "Koosluste struktuur"
+editor: source
+---
+
+## Lecture 1: The Spatial and Functional Structure of Communities and Ecosystems
+
+### Learning Objectives
+
+By the end of this module, students should be able to: - Define and differentiate between various spatial and functional concepts in community ecology. - Identify and explain the key processes shaping species assemblages. - Evaluate the evidence for deterministic vs stochastic community assembly. - Interpret diversity metrics, null models, and trophic structures. - Assess the implications of ecological structure for stability and resilience.
+
+------------------------------------------------------------------------
+
+### Introduction
+
+Understanding how communities and ecosystems are structured is a central question in ecology. A community is defined as a set of populations from different species that coexist in space and time, interacting with each other and being influenced by their environment. Community ecology, therefore, seeks to explain how these species are distributed, what processes structure their assemblages, and how they respond to environmental gradients.
+
+Communities are not fixed entities; they can be defined across various spatial and organisational scales. For instance, one might consider a temperate meadow community, which contains within it legume-dominated patches, microbial consortia associated with those legumes, and ultimately nitrogen-fixing bacterial guilds. These nested hierarchies are key to understanding ecological patterns.
+
+------------------------------------------------------------------------
+
+### Processes Shaping Community Composition
+
+![Processes shaping community composition](https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Community_assembly_filters.svg/1024px-Community_assembly_filters.svg.png) *Figure 1. Conceptual diagram of community assembly: dispersal, environmental filtering, and biotic interactions shape community composition.*
+
+Community composition is shaped by several key processes:
+
+1.  **Dispersal limitations**: Species may be absent from a site not because conditions are unsuitable, but because they have not arrived.
+2.  **Environmental filtering**: Abiotic factors (e.g., soil type, moisture, light) constrain which species can persist in a given habitat.
+3.  **Biotic interactions**: Competition, mutualism, and predation further shape species assemblages.
+4.  **Speciation and extinction**: These processes determine the regional species pool over evolutionary time.
+
+These ecological and evolutionary processes produce observable patterns, such as species richness gradients, successional trajectories, and diversity-productivity relationships.
+
+------------------------------------------------------------------------
+
+### Niche Differentiation
+
+![Niche differentiation](https://ars.els-cdn.com/content/image/1-s2.0-S0006320711004001-gr1.jpg) *Figure 2. Schematic of niche differentiation along multiple resource axes (Götzenberger et al. 2012).*
+
+Species coexistence is often facilitated by differentiation along environmental gradients such as light, nutrients, and water availability.
+
+------------------------------------------------------------------------
+
+### Quantifying Community Composition
+
+![Rank-abundance curve](https://www.researchgate.net/profile/Gergely-Kiss/publication/359609857/figure/fig2/AS:1141818093064197@1648717878621/Rank-abundance-curves-of-the-plant-communities-of-the-study-sites.png) *Figure 3. Rank-abundance curves visualising relative species abundances.*
+
+Diversity metrics can be visualised using such curves and calculated using Hill numbers, which provide intuitive measures of diversity.
+
+------------------------------------------------------------------------
+
+### Ordination Techniques
+
+![Ordination example](https://www.frontiersin.org/files/Articles/532141/fmicb-10-02827-HTML-r1/image_m/fmicb-10-02827-g002.jpg) *Figure 4. NMDS ordination of microbial communities showing clustering by environment.*
+
+Ordination methods such as NMDS reduce complex data into low-dimensional space for ecological interpretation.
+
+------------------------------------------------------------------------
+
+### Energetic and Trophic Structure
+
+![Trophic pyramid](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Ecological_Pyramid.svg/1920px-Ecological_Pyramid.svg.png) *Figure 5. Classic trophic pyramid illustrating biomass and energy flow through trophic levels.*
+
+Ecosystem function can be understood through patterns of production and biomass across trophic levels.
+
+------------------------------------------------------------------------
+
+### Top-Down vs Bottom-Up Control
+
+![Top-down vs bottom-up control](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10980-020-01021-5/MediaObjects/10980_2020_1021_Fig1_HTML.png) *Figure 6. Conceptual comparison of top-down and bottom-up regulation in a food web.*
+
+These controls shape species interactions and abundance, with implications for biomass distribution.
+
+------------------------------------------------------------------------
+
+### Network Properties and Stability
+
+![Nested and modular networks](https://ars.els-cdn.com/content/image/1-s2.0-S0169534711001209-gr2.jpg) *Figure 7. Nested vs modular structure in ecological networks (Bascompte & Jordano, 2007).*
+
+Modular and nested interactions contribute to stability, particularly under perturbation.
+
+------------------------------------------------------------------------
+
+*All figures used here are sourced from publicly available academic or educational resources for illustrative purposes.*

@@ -8,7 +8,10 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: Koosluste_struktuur.qmd
+        text: Koosluste struktuur
+      - href: Okosysteemide_klassifitseerimine.qmd
+        text: Ökosüsteemide klassifitseerimine
 
 format:
   html:
