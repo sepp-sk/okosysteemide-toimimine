@@ -151,13 +151,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#liigirikkus-mitmekesisus" id="toc-liigirikkus-mitmekesisus" class="nav-link" data-scroll-target="#liigirikkus-mitmekesisus"><span class="header-section-number">3.1</span> Liigirikkus, mitmekesisus</a></li>
   <li><a href="#koosluse-kirjeldamise-täielikkus" id="toc-koosluse-kirjeldamise-täielikkus" class="nav-link" data-scroll-target="#koosluse-kirjeldamise-täielikkus"><span class="header-section-number">3.2</span> Koosluse kirjeldamise täielikkus</a></li>
-  <li><a href="#shannon-diversity-index" id="toc-shannon-diversity-index" class="nav-link" data-scroll-target="#shannon-diversity-index"><span class="header-section-number">3.3</span> Shannon Diversity Index</a></li>
-  <li><a href="#simpson-diversity-index" id="toc-simpson-diversity-index" class="nav-link" data-scroll-target="#simpson-diversity-index"><span class="header-section-number">3.4</span> Simpson Diversity Index</a></li>
-  <li><a href="#ordination-techniques" id="toc-ordination-techniques" class="nav-link" data-scroll-target="#ordination-techniques"><span class="header-section-number">3.5</span> Ordination Techniques</a></li>
-  <li><a href="#energetic-and-trophic-structure" id="toc-energetic-and-trophic-structure" class="nav-link" data-scroll-target="#energetic-and-trophic-structure"><span class="header-section-number">3.6</span> Energetic and Trophic Structure</a></li>
+  <li><a href="#mõõdikute-intuitiivsus" id="toc-mõõdikute-intuitiivsus" class="nav-link" data-scroll-target="#mõõdikute-intuitiivsus"><span class="header-section-number">3.3</span> Mõõdikute intuitiivsus</a></li>
+  <li><a href="#hilli-arvud" id="toc-hilli-arvud" class="nav-link" data-scroll-target="#hilli-arvud"><span class="header-section-number">3.4</span> Hilli arvud</a></li>
   </ul></li>
-  <li><a href="#top-down-vs-bottom-up-control" id="toc-top-down-vs-bottom-up-control" class="nav-link" data-scroll-target="#top-down-vs-bottom-up-control"><span class="header-section-number">4</span> Top-Down vs Bottom-Up Control</a></li>
-  <li><a href="#network-properties-and-stability" id="toc-network-properties-and-stability" class="nav-link" data-scroll-target="#network-properties-and-stability"><span class="header-section-number">5</span> Network Properties and Stability</a></li>
   </ul>
 </nav>
     </div>
@@ -184,7 +180,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="sissejuhatus" class="level1" data-number="1">
 <h1 data-number="1"><span class="header-section-number">1</span> Sissejuhatus</h1>
 <p>Ökoloogia üks põhiküsimusi on mõista, mis reeglite järgi komplekteeruvad või tekivad kooslused ja ökosüsteemid. <strong>Kooslus</strong> on kogum liikide populatsioone, kes ajas ja ruumis kooseksisteerivad ning üksteist mõjutavad, olles samal ajal mõjutatud ka keskkonnaparameetritest. Seega uurib koosluseökoloogia seda, kuidas need liikide kogumid looduses jaotuvad, mis neid ja nende koosseisu mõjutab (keskkond, omavahelised interaktsioonid).</p>
-<p>Kooslusi võib defineerida erinevatel ruumi- ja organisatsioonilistel skaaladel, olenevalt uurimisküsimuse ulatusest. Näiteks võib kooslus olla parasvöötmeline niidukooslus, mille hulka kuulub liblikõieliste taimede ja nendega seotud mikroorganismide kooslus, mille hulka kuulub lämmastikku fikseerivate bakterite kooslus. Nende üksteise sees pesastunud (<em>nested</em>) tasemete uurimine võimaldab meil mõista ökoloogilisi protsesse erinevatel skaaladel.</p>
+<p>Kooslusi võib defineerida erinevatel ruumi- ja organisatsioonilistel skaaladel, olenevalt uurimisküsimuse ulatusest. Näiteks võib kooslus olla parasvöötmeline niidukooslus, mille hulka kuulub liblikõieliste taimede ja nendega seotud mikroorganismide kooslus, mille hulka kuulub lämmastikku fikseerivate bakterite kooslus. Nende üksteise sees pesastunud (nested) tasemete uurimine võimaldab meil mõista ökoloogilisi protsesse erinevatel skaaladel.</p>
 <hr>
 </section>
 <section id="koosluste-koosseisu-mõjutavad-protsessid" class="level1" data-number="2">
@@ -227,24 +223,34 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><strong>Mitmekesisuse</strong> mõõdikud arvestavad lisaks liikide arvule ka liikide (suhtelisi) <strong>ohtrusi</strong> ja mõnel juhul ka liikide tunnuseid või fülogeneetilisi suhteid (funktsionaalne või fülogeneetiline mitmekesisus). Mitmekesisuse indeksid võimaldavad lisaks liikide arvule hinnata, kui ühtlaselt on eri liikide isendid koosluses jaotunud.</p>
 <p>Kõige tavalisemad mitmekesisuse mõõdikud on</p>
 <ul>
-<li><p><strong>Shannoni indeks (H’</strong><em>; Shannon index, Shannon’s diversity index, Shannon-Wiener index</em>) - on tundlik nii liigirikkuse kui liikide ohtruse ühtluse suhtes.</p>
-<p>Formaalselt väljendab <strong>Shannoni indeks</strong> määramatust juhuslikult valitud indiviidi liigilise kuuluvuse ennustamisel ja on defineeritud sedasi:</p>
+<li><p><strong>Shannoni indeks</strong> (<strong>H’</strong>; Shannon index, Shannon’s diversity index, Shannon-Wiener index) - on tundlik nii liigirikkuse kui liikide ohtruse ühtluse suhtes.</p>
+<p>Formaalselt väljendab <strong>Shannoni indeks</strong> määramatust juhuslikult valitud isendi liigilise kuuluvuse ennustamisel ja on defineeritud sedasi:</p>
 <p><span class="math display">\[ H' = -\sum_{i=1}^{S} p_i \ln(p_i) \]</span></p>
 <p>Kus:</p>
 <ul>
-<li><strong><em>H’</em></strong> on Shannoni indeks,</li>
-<li><strong><em>S</em></strong> on liigirikkus,</li>
-<li><strong><em>p<sub>i</sub></em></strong> on liigi <strong><em>i</em></strong> suhteline ohtrus koosluses,</li>
+<li><strong>H’</strong> on Shannoni indeks,</li>
+<li><strong>S</strong> on liigirikkus,</li>
+<li><strong>p<sub>i</sub></strong> on liigi <strong>i</strong> suhteline ohtrus koosluses,</li>
 <li><strong>ln</strong> on naturaallogaritm.</li>
 </ul></li>
-<li><p><strong>Gini-Simpsoni indeks (D</strong>; <em>Gini-Simpson index</em>) - annab suurema kaalu tavalisematele liikidele ning peegeldab eelkõige dominantsete liikide ohtrust.</p>
-<p>Formaalselt väljendab <strong>Gini-Simpsoni indeks</strong> tõenäosust, et kaks juhuslikult kooslusest valitud indiviidi on samast liigist</p></li>
+<li><p><strong>Gini-Simpsoni indeks</strong> (<strong>1 - λ</strong>; Gini-Simpson index) - annab suurema kaalu tavalisematele liikidele ning peegeldab eelkõige dominantsete liikide ohtrust.</p>
+<p>Formaalselt väljendab <strong>Gini-Simpsoni indeks</strong> tõenäosust, et kaks juhuslikult kooslusest valitud isendit on eri liigist ja on defineeritud sedasi:</p>
+<p><span class="math display">\[ 1 - λ = 1 - \sum_{i=1}^{S} p_i^2 \]</span></p>
+<p>Kus:</p>
+<ul>
+<li><p><strong>1 - λ</strong> on Gini-Simpsoni indeks),</p></li>
+<li><p><strong>S</strong> on liigirikkus,</p></li>
+<li><p><strong>p<sub>i</sub></strong> on liigi <strong>i</strong> suhteline ohtrus koosluses.</p>
+<p><br>
+<strong>NB! Simpsoni indeks</strong> (<strong>λ</strong>; D, Simpson index) kirjeldab dominantsi, <strong>mitte mitmekesisust</strong>! See tähendab, Simpsoni indeks kirjeldab tõenäosust, et kaks juhuslikult valitud isendit on samast liigist, ehk kui Simpsoni indeks läheneb 1, on koosluses üks dominantne liik ja mida madalam on Simpsoni indeks, seda ühtlasem on koosluse liigiline koosseis.<br>
+<strong>Pange alati tähele, mida te arvutate!</strong></p></li>
+</ul></li>
 </ul>
-<p><a href="./docs/pdf/Jost-2006-Entropy_and_diversity.pdf">Vabatahtlikku lisalugemist mitmekesisuse indeksitest</a></p>
+<p>Olgu siinkohal öeldud, et tegelikult ei kirjelda ei Shannoni indeks ega Gini-Simpsoni indeks tõelist mitmekesisust: <a href="./docs/pdf/Jost-2006-Entropy_and_diversity.pdf" style="color: gray;">vabatahtlikku lisalugemist mitmekesisusest</a> - lugeda mõistlikkuse piirini.</p>
 </section>
 <section id="koosluse-kirjeldamise-täielikkus" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="koosluse-kirjeldamise-täielikkus"><span class="header-section-number">3.2</span> Koosluse kirjeldamise täielikkus</h2>
-<p>Praktilises mõttes on liigirikkuse (ja sellest johtuvalt tegelikult ka mitmekesisuse) kirjeldamise puudujäägiks ka proovivõtu täielikkus (<em>sampling completeness</em>). Tavaliselt loendatakse ökoloogiliste uurimistööde käigus aja ja raha piiratuse tõttu liike teatud kindla pingutusega (olgu see pingutus kas taimede loendamiseks kulunud aeg, DNA sekveneerimissügavus ehk ühest proovist järjestatud DNA-lõikude arv, filtrist läbi lastud jõevee maht vms). Olenevalt liikide ühtlusest võime teatud ühtlase proovivõtupingutuse tulemusena saada ühest punktist parema kirjelduse kui teisest.</p>
+<p>Praktilises mõttes on liigirikkuse (ja sellest johtuvalt tegelikult ka mitmekesisuse) kirjeldamise puudujäägiks ka proovivõtu täielikkus (sampling completeness). Tavaliselt loendatakse ökoloogiliste uurimistööde käigus aja ja raha piiratuse tõttu liike teatud kindla pingutusega (olgu see pingutus kas taimede loendamiseks kulunud aeg, DNA sekveneerimissügavus ehk ühest proovist järjestatud DNA-lõikude arv, filtrist läbi lastud jõevee maht vms). Olenevalt liikide ühtlusest võime teatud ühtlase proovivõtupingutuse tulemusena saada ühest punktist parema kirjelduse kui teisest.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="docs/media/proovivotu_tainelikkus.PNG" class="img-fluid figure-img"></p>
@@ -252,76 +258,135 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </figure>
 </div>
 </section>
-<section id="shannon-diversity-index" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="shannon-diversity-index"><span class="header-section-number">3.3</span> Shannon Diversity Index</h2>
-<p>The effective number of species based on the Shannon index is:</p>
-<p><span class="math display">\[
-^1D = e^{H'}
-\]</span></p>
-<hr>
+<section id="mõõdikute-intuitiivsus" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="mõõdikute-intuitiivsus"><span class="header-section-number">3.3</span> Mõõdikute intuitiivsus</h2>
+<p>Shannoni ja Gini-Simpsoni (ja paljude teiste) indeksitega on veel üks iseloomulik häda. Oletagem, et (Shannoni näitel) meil on kahe võrdse ohtrusega liigiga kooslus A ning meil on kooslusest A kaks korda mitmekesisem kooslus B, mis on tekitatud sedamoodi, et, “korrutada” kooslus A kahega. Seega on meil kooslus A kahe võrdse ohtrusega liigiga ning kooslus B nelja võrdse ohtrusega liigiga. Kui arvutada mõlema koosluse kohta Shannoni indeks H’, ilmneb, et <span class="math inline">\(H'_B = 2H'_A\)</span>.</p>
+<p><img src="docs/media/shannon_vordne.PNG" class="img-fluid"></p>
+<p>Kõik väga ilus.</p>
+<p>Kui aga ohtrused pole võrdsed</p>
+<p><img src="docs/media/shannon_ebavordne.PNG" class="img-fluid"></p>
+<p>ilmneb, et <span class="math inline">\(H'_B \neq 2H'_A\)</span>.</p>
+<p>Miks see meid huvitab? Sest et kui kaks korda mitmekesisem kooslus (koosluses B oli mõlemal juhul kaks korda rohkem samade ohtrussuhetega liike kui koosluses A) ei ole alati kaks korda suurema mitmekesisuse indeksiga, siis <strong>me ei saa erineva liigirikkusega koosluseid lineaarsel skaalal võrrelda!</strong></p>
+<p>Kui võtta arvesse ka eelpool mainitud tõsiasja, et meile tuttavad mitmekesisuse mõõdikud ei kirjelda (vähemalt intuitiivselt) tõelist mitmekesisust, tuleb appi võtta <strong>transformatsioon</strong> ja <strong>ekstrapolatsioon</strong>.</p>
 </section>
-<section id="simpson-diversity-index" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="simpson-diversity-index"><span class="header-section-number">3.4</span> Simpson Diversity Index</h2>
-<p>The <strong>Simpson diversity index</strong> reflects the probability that two individuals randomly selected from a sample will belong to the same species. It is calculated as:</p>
+<section id="hilli-arvud" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="hilli-arvud"><span class="header-section-number">3.4</span> Hilli arvud</h2>
+<p><strong>Hilli arvud</strong> (<sup><strong>q</strong></sup><strong>D</strong>;Hill numbers, effective number of species) on mitmekesisusemõõdikute perekond, mille abil on võimalik mitmekesisust väljendada <strong>intuitiivselt</strong> (ja matemaatiliselt korrektsemalt - nad on additiivsed(?) (<strong>doubling property</strong>)ehk algset kooslust kahekordistades on ka indeksi väärtus kaks korda suurem). Hilli arvude omapäraks on <strong>parameeter q</strong>, mis väljendab dominantsetele liikidele antavat kaalu mitmekesisuse arvutamisel.</p>
 <p><span class="math display">\[
-D = \sum_{i=1}^{S} p_i^2
+^qD = \left( \sum_{i=1}^{S} p_i^q \right)^{\frac{1}{1 - q}}, \quad q \geq 0,\ q \neq 1
 \]</span></p>
-<p>Where:</p>
+<p>Kus:</p>
 <ul>
-<li>( D ) is the Simpson index (dominance index),</li>
-<li>( p_i ) is the relative abundance of species ( i ).</li>
+<li><p><sup><strong>q</strong></sup><strong>D</strong> on Hilli arv järku q (Hill number of order q),</p></li>
+<li><p><strong>S</strong> on liigirikkus,</p></li>
+<li><p><strong>p<sub>i</sub></strong> on liigi <strong>i</strong> suhteline ohtrus koosluses,</p></li>
+<li><p><strong>q</strong> on Hilli arvu järk (order q)</p></li>
 </ul>
-<p>A more intuitive measure is the <strong>inverse Simpson index</strong>, representing the effective number of dominant species:</p>
+<p>Kui <span class="math inline">\(q \to 1\)</span>, siis:</p>
 <p><span class="math display">\[
-^2D = \frac{1}{\sum_{i=1}^{S} p_i^2}
+^1D = \exp\left(-\sum_{i=1}^{S} p_i \ln p_i \right)
 \]</span></p>
+<p>Hilli arv kirjeldab, mitu võrdse ohtrusega liiki peaks koosluses olema selleks, et liikide keskmine suhteline ohtrus võrduks kirjeldatavas koosluses mõõdetuga. Ehk teisisõnu, <strong>Hilli arv näitab, mitu võrdse ohtrusega liiki annaks sama mitmekesisuse väärtuse</strong>.</p>
+<p><strong>Juhtumisi</strong>:</p>
+<ul>
+<li><p>kui <span class="math inline">\(q = 0\)</span>, siis<br>
+<span class="math inline">\(^0D = S\)</span>,<br>
+ehk <strong>liigirikkus S</strong>,</p></li>
+<li><p>kui <span class="math inline">\(q \to 1\)</span>, siis<br>
+<span class="math inline">\(^1D = \exp\left(-\sum_{i=1}^{S} p_i \ln p_i \right) = \exp(H')\)</span>,<br>
+ehk <strong>Shannoni eksponent exp(H’)</strong> (Exponent of Shannon),</p></li>
+<li><p>kui <span class="math inline">\(q = 2\)</span>, siis<br>
+<span class="math inline">\(^2D = \frac{1}{\sum_{i=1}^{S} p_i^2} = \frac{1}{λ}\)</span>,<br>
+ehk <strong>Simpsoni pöördindeks 1/λ</strong> (Inverse Simpson).</p></li>
+</ul>
+<p><strong>Mida kõrgem on parameeter q</strong>, seda vähem tundlik on indeks haruldastele liikidele!</p>
+<p><strong>Hilli arvud</strong>:</p>
+<ul>
+<li><p>koondavad levinud mitmekesisuse mõõdikud ühte süsteemi</p></li>
+<li><p>on intuitiivselt tõlgendatavad</p></li>
+<li><p>on võrreldavad erinevatel skaaladel</p></li>
+<li><p>on paindlikud - parameetrit q võib vastavalt küsimusele muuta</p></li>
+</ul>
+<section id="proovime-järele" class="level3" data-number="3.4.1">
+<h3 data-number="3.4.1" class="anchored" data-anchor-id="proovime-järele"><span class="header-section-number">3.4.1</span> Proovime järele</h3>
+<p>Arvutame kahe erineva koosluse Hilli arvud 0 … 3</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Võrdsete ohtrustega kooslus 1</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>ohtrused_1 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">10</span>, <span class="dv">10</span>, <span class="dv">10</span>, <span class="dv">10</span>) <span class="co"># 5 võrdse ohtrusega liiki</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>prop_1 <span class="ot">&lt;-</span> ohtrused_1 <span class="sc">/</span> <span class="fu">sum</span>(ohtrused_1) <span class="co"># liikide suhtelised ohtrused</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Shannoni mitmekesisus</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>H1 <span class="ot">&lt;-</span> <span class="fu">sum</span>(prop_1 <span class="sc">*</span> <span class="fu">log</span>(prop_1))</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Shannon diversity (q = 1)</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># H &lt;- -sum(props * log(props))</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># effective_shannon &lt;- exp(H)</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Simpson diversity (q = 2)</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co"># D &lt;- 1 / sum(props^2)</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># effective_shannon  # Should return 5</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co"># D                  # Should also return 5</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressWarnings</span>(<span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(tidyverse)))</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Example community</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>abundances <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">50</span>, <span class="dv">30</span>, <span class="dv">15</span>, <span class="dv">5</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>props <span class="ot">&lt;-</span> abundances <span class="sc">/</span> <span class="fu">sum</span>(abundances)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Funktsioon Hilli arvu arvutamiseks</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>f_hill_number <span class="ot">&lt;-</span> <span class="cf">function</span>(p, <span class="co"># p on liikide suhteliste ohtruste vektor,</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>                        q) { <span class="co"># q on Hilli arvu järk</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (q <span class="sc">==</span> <span class="dv">1</span>) { <span class="co"># erijuht kui q -&gt; 1</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="fu">return</span>(<span class="fu">exp</span>(<span class="sc">-</span><span class="fu">sum</span>(p <span class="sc">*</span> <span class="fu">log</span>(p)))) <span class="co"># arvutame Shannoni eksponendi</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="fu">return</span>((<span class="fu">sum</span>(p<span class="sc">^</span>q))<span class="sc">^</span>(<span class="dv">1</span> <span class="sc">/</span> (<span class="dv">1</span> <span class="sc">-</span> q))) <span class="co"># arvutame Hilli arvu standardvalemiga</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Funktsioon koosluse põhjal erinevate Hilli arvude arvutamiseks</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>f_hill_df <span class="ot">&lt;-</span> <span class="cf">function</span>(<span class="at">from =</span> <span class="dv">0</span>, <span class="co"># q parameetri vahemiku algus</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>                      <span class="at">to =</span> <span class="dv">3</span>, <span class="co"># q parameetri vahemiku lõpp</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>                      <span class="at">by =</span> <span class="fl">0.05</span>, <span class="co"># mis sammuga me q väärtuste jada loome</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>                      a) { <span class="co"># liikide ohtruste vektor</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>  qs <span class="ot">&lt;-</span> <span class="fu">seq</span>(from, to, by) <span class="co"># loome q väärtuste jada</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>  p <span class="ot">&lt;-</span> a <span class="sc">/</span> <span class="fu">sum</span>(a) <span class="co"># liikide ohtrused suhtelisteks ohtrusteks</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>  t_df <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">q =</span> qs,</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">D_q =</span> <span class="fu">map_dbl</span>(qs, <span class="sc">~</span> <span class="fu">f_hill_number</span>(p, .x))</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(t_df)</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="co"># Arvutame Hilli arvud nelja erineva koosluse kohta</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>hill_df_1 <span class="ot">&lt;-</span> <span class="fu">f_hill_df</span>(<span class="at">a =</span> <span class="fu">c</span>(<span class="dv">10</span>, <span class="dv">10</span>, <span class="dv">10</span>, <span class="dv">10</span>, <span class="dv">10</span>)) <span class="co"># võrdsed ohtrused</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>hill_df_2 <span class="ot">&lt;-</span> <span class="fu">f_hill_df</span>(<span class="at">a =</span> <span class="fu">c</span>(<span class="dv">10</span>, <span class="dv">10</span>, <span class="dv">10</span>, <span class="dv">10</span>, <span class="dv">10</span>,</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>                             <span class="dv">10</span>, <span class="dv">10</span>, <span class="dv">10</span>, <span class="dv">10</span>, <span class="dv">10</span>)) <span class="co"># võrdsed ohtrused, 2x rohkem liike</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>hill_df_3 <span class="ot">&lt;-</span> <span class="fu">f_hill_df</span>(<span class="at">a =</span> <span class="fu">c</span>(<span class="dv">40</span>, <span class="dv">5</span>, <span class="dv">5</span>, <span class="dv">1</span>, <span class="dv">1</span>)) <span class="co"># selgelt domineeriv liik</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>hill_df_4 <span class="ot">&lt;-</span> <span class="fu">f_hill_df</span>(<span class="at">a =</span> <span class="fu">c</span>(<span class="dv">40</span>, <span class="dv">5</span>, <span class="dv">5</span>, <span class="dv">1</span>, <span class="dv">1</span>,</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>                             <span class="dv">40</span>, <span class="dv">5</span>, <span class="dv">5</span>, <span class="dv">1</span>, <span class="dv">1</span>)) <span class="co"># 2 selgelt domineerivat liiki, 2x rohkem liike</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="co"># Paneme tabelid kokku:</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>hill_df <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>  hill_df_1,</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>  hill_df_2,</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>  hill_df_3,</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>  hill_df_4,</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>  <span class="at">.id =</span> <span class="st">"kooslus"</span></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>) <span class="sc">%&gt;%</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">kooslus =</span> <span class="fu">recode</span>(kooslus,</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>                          <span class="st">"1"</span> <span class="ot">=</span> <span class="st">"vordne"</span>,</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>                          <span class="st">"2"</span> <span class="ot">=</span> <span class="st">"2x_vordne"</span>,</span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>                          <span class="st">"3"</span> <span class="ot">=</span> <span class="st">"dominant"</span>,</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>                          <span class="st">"4"</span> <span class="ot">=</span> <span class="st">"2x_dominant"</span>))</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="co"># Joonistame</span></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(hill_df, <span class="fu">aes</span>(<span class="at">x =</span> q, <span class="at">y =</span> D_q, <span class="at">colour =</span> kooslus)) <span class="sc">+</span></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">linewidth =</span> <span class="fl">1.2</span>) <span class="sc">+</span></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Hilli arvu järk q"</span>,</span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Hilli arv (efektiivne liikide arv)"</span>,</span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>    <span class="at">colour =</span> <span class="st">"Kooslus"</span></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_colour_brewer</span>(<span class="at">palette =</span> <span class="st">"Dark2"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="Koosluste_struktuur_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
 </div>
-<hr>
-</section>
-<section id="ordination-techniques" class="level2" data-number="3.5">
-<h2 data-number="3.5" class="anchored" data-anchor-id="ordination-techniques"><span class="header-section-number">3.5</span> Ordination Techniques</h2>
-<p><img src="https://www.frontiersin.org/files/Articles/532141/fmicb-10-02827-HTML-r1/image_m/fmicb-10-02827-g002.jpg" class="img-fluid" alt="Ordination example"> <em>Figure 4. NMDS ordination of microbial communities showing clustering by environment.</em></p>
-<p>Ordination methods such as NMDS reduce complex data into low-dimensional space for ecological interpretation.</p>
-<hr>
-</section>
-<section id="energetic-and-trophic-structure" class="level2" data-number="3.6">
-<h2 data-number="3.6" class="anchored" data-anchor-id="energetic-and-trophic-structure"><span class="header-section-number">3.6</span> Energetic and Trophic Structure</h2>
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Ecological_Pyramid.svg/1920px-Ecological_Pyramid.svg.png" class="img-fluid" alt="Trophic pyramid"> <em>Figure 5. Classic trophic pyramid illustrating biomass and energy flow through trophic levels.</em></p>
-<p>Ecosystem function can be understood through patterns of production and biomass across trophic levels.</p>
-<hr>
-</section>
-</section>
-<section id="top-down-vs-bottom-up-control" class="level1" data-number="4">
-<h1 data-number="4"><span class="header-section-number">4</span> Top-Down vs Bottom-Up Control</h1>
-<p><img src="https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10980-020-01021-5/MediaObjects/10980_2020_1021_Fig1_HTML.png" class="img-fluid" alt="Top-down vs bottom-up control"> <em>Figure 6. Conceptual comparison of top-down and bottom-up regulation in a food web.</em></p>
-<p>These controls shape species interactions and abundance, with implications for biomass distribution.</p>
-<hr>
-</section>
-<section id="network-properties-and-stability" class="level1" data-number="5">
-<h1 data-number="5"><span class="header-section-number">5</span> Network Properties and Stability</h1>
-<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0169534711001209-gr2.jpg" class="img-fluid" alt="Nested and modular networks"> <em>Figure 7. Nested vs modular structure in ecological networks (Bascompte &amp; Jordano, 2007).</em></p>
-<p>Modular and nested interactions contribute to stability, particularly under perturbation.</p>
-<hr>
-<p><em>All figures used here are sourced from publicly available academic or educational resources for illustrative purposes.</em></p>
+</div>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
