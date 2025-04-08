@@ -1,4 +1,11 @@
-# Ökosüsteemide toimimine ja kaitse (LTOM.01.006)
+---
+title: "Ökosüsteemide toimimine ja kaitse (LTOM.01.006)"
+format: html
+toc: false
+editor: source
+editor_options: 
+  chunk_output_type: console
+---
 
 Sellelt lehelt leiate õppematerjalid toimumata jäänud loengute kohta.
 
