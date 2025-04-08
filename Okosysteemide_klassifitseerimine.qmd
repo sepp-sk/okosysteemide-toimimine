@@ -5,157 +5,138 @@ toc: true
 toc-depth: 2
 number-sections: true
 editor: source
+  markdown: 
+    wrap: sentence
 ---
 
 ## Lecture 2: Ecosystem Classification and Biomes
 
 ### Introduction
+
 The classification of ecosystems is a foundational task in ecology. It provides a common language to describe patterns in biodiversity, study ecological and evolutionary processes, and guide conservation planning. While classification always involves some level of simplification, it remains a powerful tool for synthesising complex ecological variation.
 
----
+------------------------------------------------------------------------
 
 ### Rationale for Classification
-Ecosystem classification allows for:
-1. Communication of large-scale ecological patterns.
-2. Investigation of the processes underlying these patterns.
-3. Development of maps for scientific and policy use.
-4. Monitoring of ecosystem changes.
-5. Design of conservation strategies.
 
----
+Ecosystem classification allows for: 1. Communication of large-scale ecological patterns. 2. Investigation of the processes underlying these patterns. 3. Development of maps for scientific and policy use. 4. Monitoring of ecosystem changes. 5. Design of conservation strategies.
+
+------------------------------------------------------------------------
 
 ### Historical Perspectives on Classification
-![Historical perspectives](https://www.researchgate.net/publication/266143539/figure/fig1/AS:295675287629835@1447520999294/Summary-of-historical-and-modern-biome-classifications.png)
-*Figure 1. Timeline of key developments in ecosystem classification, adapted from historical and modern approaches.*
 
-Several approaches have emerged over time:
-- **Association** (Humboldt, 1805): Species co-occurrence forms structured vegetation units.
-- **Formation** (Grisebach, 1838): Large-scale vegetation types with characteristic physiognomy.
-- **Biocoenosis** (Möbius, 1877): A group of co-occurring species in similar environments.
-- **Life zones** (Merriam, 1892): Zones defined by species distributions shaped by climate.
-- **Biome** (Schimper, 1898; Clements, 1916): Large, climatically defined ecological units.
+![Historical perspectives](https://www.researchgate.net/publication/266143539/figure/fig1/AS:295675287629835@1447520999294/Summary-of-historical-and-modern-biome-classifications.png) *Figure 1. Timeline of key developments in ecosystem classification, adapted from historical and modern approaches.*
 
----
+Several approaches have emerged over time: - **Association** (Humboldt, 1805): Species co-occurrence forms structured vegetation units. - **Formation** (Grisebach, 1838): Large-scale vegetation types with characteristic physiognomy. - **Biocoenosis** (Möbius, 1877): A group of co-occurring species in similar environments. - **Life zones** (Merriam, 1892): Zones defined by species distributions shaped by climate. - **Biome** (Schimper, 1898; Clements, 1916): Large, climatically defined ecological units.
+
+------------------------------------------------------------------------
 
 ### Braun-Blanquet and Phytosociology
-![Braun-Blanquet classification](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Synsystematik_Braun-Blanquet.png/800px-Synsystematik_Braun-Blanquet.png)
-*Figure 2. Braun-Blanquet’s hierarchical system of vegetation classification.*
 
-Braun-Blanquet's approach (1964) focused on species composition:
-- Character species define community identity.
-- Differential species distinguish between subtypes.
-- Dominant species influence structure but may occur broadly.
+![Braun-Blanquet classification](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Synsystematik_Braun-Blanquet.png/800px-Synsystematik_Braun-Blanquet.png) *Figure 2. Braun-Blanquet’s hierarchical system of vegetation classification.*
 
----
+Braun-Blanquet's approach (1964) focused on species composition: - Character species define community identity. - Differential species distinguish between subtypes. - Dominant species influence structure but may occur broadly.
+
+------------------------------------------------------------------------
 
 ### Biomes as Climatic Entities
-![Biome distribution](https://upload.wikimedia.org/wikipedia/commons/0/08/Biomes_map.svg)
-*Figure 3. World map showing distribution of major terrestrial biomes.*
+
+![Biome distribution](https://upload.wikimedia.org/wikipedia/commons/0/08/Biomes_map.svg) *Figure 3. World map showing distribution of major terrestrial biomes.*
 
 Biomes represent large-scale ecosystems governed by climate and characterised by similar vegetation structure, function, and associated fauna. Clements (1916) envisioned biomes as the stable endpoints of successional processes.
 
----
+------------------------------------------------------------------------
 
 ### Climate-Based Classification Systems
-![Whittaker diagram](https://upload.wikimedia.org/wikipedia/commons/5/5c/Whittaker_biome_classification.png)
-*Figure 4. Whittaker’s biome classification based on temperature and precipitation.*
+
+![Whittaker diagram](https://upload.wikimedia.org/wikipedia/commons/5/5c/Whittaker_biome_classification.png) *Figure 4. Whittaker’s biome classification based on temperature and precipitation.*
 
 #### **Köppen (1884)**:
-- Climatic zones linked to vegetation.
-- Major categories: tropical (A), dry (B), temperate (C), continental (D), polar (E).
+
+-   Climatic zones linked to vegetation.
+-   Major categories: tropical (A), dry (B), temperate (C), continental (D), polar (E).
 
 #### **Holdridge (1947)**:
-- Life zones based on mean annual temperature, rainfall, and potential evapotranspiration.
+
+-   Life zones based on mean annual temperature, rainfall, and potential evapotranspiration.
 
 #### **Whittaker (1970)**:
-- Plotted biomes on a temperature vs precipitation graph.
-- Identified six physiognomic types: forest, grassland, woodland, shrubland, semidesert, desert.
 
----
+-   Plotted biomes on a temperature vs precipitation graph.
+-   Identified six physiognomic types: forest, grassland, woodland, shrubland, semidesert, desert.
+
+------------------------------------------------------------------------
 
 ### Physiognomic Classification
-![Vegetation physiognomy](https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Vegetation_structure.svg/1920px-Vegetation_structure.svg.png)
-*Figure 5. Physiognomic structure and vertical layering of vegetation.*
+
+![Vegetation physiognomy](https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Vegetation_structure.svg/1920px-Vegetation_structure.svg.png) *Figure 5. Physiognomic structure and vertical layering of vegetation.*
 
 At broad spatial scales, species identities become less informative. Instead, physiognomy (general growth forms, vertical structure, phenology) becomes more relevant.
 
----
+------------------------------------------------------------------------
 
 ### Ellenberg's Functional Ecosystem Classification
-Ellenberg (1973) proposed a system based on:
-1. Dominant substrate (air, water, soil, urban).
-2. Biomass and primary production.
-3. Limiting factors for primary producers and consumers.
-4. Nutrient cycling processes.
-5. Role of consumers (herbivores, predators).
-6. Human influence.
 
-He distinguished four major terrestrial megaecosystems:
-- Marine (M), Freshwater (L), Wet terrestrial (S), Dry terrestrial (T).
+Ellenberg (1973) proposed a system based on: 1. Dominant substrate (air, water, soil, urban). 2. Biomass and primary production. 3. Limiting factors for primary producers and consumers. 4. Nutrient cycling processes. 5. Role of consumers (herbivores, predators). 6. Human influence.
 
----
+He distinguished four major terrestrial megaecosystems: - Marine (M), Freshwater (L), Wet terrestrial (S), Dry terrestrial (T).
+
+------------------------------------------------------------------------
 
 ### Walter's Zonal Biomes
-![Walter climate diagram](https://upload.wikimedia.org/wikipedia/commons/e/ea/Walter_Climate_Chart.svg)
-*Figure 6. Example of Walter’s climate diagram defining a zonobiome.*
 
-Heinrich Walter (1976) developed a zonobiome concept:
-- Defined by climate diagrams.
-- Associated with zonal soil types and vegetation.
-- Recognised ecotones (zonoecotones) and mountain-specific systems (orobiomes).
+![Walter climate diagram](https://upload.wikimedia.org/wikipedia/commons/e/ea/Walter_Climate_Chart.svg) *Figure 6. Example of Walter’s climate diagram defining a zonobiome.*
 
----
+Heinrich Walter (1976) developed a zonobiome concept: - Defined by climate diagrams. - Associated with zonal soil types and vegetation. - Recognised ecotones (zonoecotones) and mountain-specific systems (orobiomes).
+
+------------------------------------------------------------------------
 
 ### Pedobiomes and Alternative Stable States
-![Savanna–forest shift](https://media.springernature.com/lw785/springer-static/image/art%3A10.1038%2Fnature13979/MediaObjects/41586_2014_Article_BFnature13979_Fig1_HTML.jpg)
-*Figure 7. Example of savanna–forest mosaic demonstrating alternative stable states.*
 
-- **Pedobiomes**: Ecosystems determined more by soil than climate.
-- **Alternative stable states**: Ecosystems may not return to pre-disturbance states. Feedbacks with climate, fire, or herbivory can create persistent changes (e.g. savanna vs forest).
+![Savanna–forest shift](https://media.springernature.com/lw785/springer-static/image/art%3A10.1038%2Fnature13979/MediaObjects/41586_2014_Article_BFnature13979_Fig1_HTML.jpg) *Figure 7. Example of savanna–forest mosaic demonstrating alternative stable states.*
 
----
+-   **Pedobiomes**: Ecosystems determined more by soil than climate.
+-   **Alternative stable states**: Ecosystems may not return to pre-disturbance states. Feedbacks with climate, fire, or herbivory can create persistent changes (e.g. savanna vs forest).
+
+------------------------------------------------------------------------
 
 ### Modern Classifications
-#### **WWF Biomes** (Olson et al., 2001):
-![WWF ecoregions](https://upload.wikimedia.org/wikipedia/commons/5/56/WWF_Terrestrial_Ecoregions_Map.png)
-*Figure 8. WWF map of terrestrial ecoregions and biome types.*
 
-- Based on expert-defined species distributions.
-- 867 ecoregions grouped into 14 biomes.
+#### **WWF Biomes** (Olson et al., 2001):
+
+![WWF ecoregions](https://upload.wikimedia.org/wikipedia/commons/5/56/WWF_Terrestrial_Ecoregions_Map.png) *Figure 8. WWF map of terrestrial ecoregions and biome types.*
+
+-   Based on expert-defined species distributions.
+-   867 ecoregions grouped into 14 biomes.
 
 #### **Remote Sensing** (MODIS, Friedl et al., 2010):
-- Uses satellite imagery to classify vegetation.
-- 17 classes including natural, human-dominated, and barren types.
+
+-   Uses satellite imagery to classify vegetation.
+-   17 classes including natural, human-dominated, and barren types.
 
 #### **Soil Microbiome Biomes** (Vasar et al., 2022):
-![Soil microbial clusters](https://ars.els-cdn.com/content/image/1-s2.0-S0048969721015465-gr1.jpg)
-*Figure 9. Global soil microbial clusters shaped by pH and temperature.*
 
-- Global microbial clusters from machine learning.
-- These do not align with macroorganism-based biomes, revealing a decoupling of above- and belowground biodiversity.
+![Soil microbial clusters](https://ars.els-cdn.com/content/image/1-s2.0-S0048969721015465-gr1.jpg) *Figure 9. Global soil microbial clusters shaped by pH and temperature.*
 
----
+-   Global microbial clusters from machine learning.
+-   These do not align with macroorganism-based biomes, revealing a decoupling of above- and belowground biodiversity.
+
+------------------------------------------------------------------------
 
 ### Anthropogenic Biomes (Anthromes)
-![Anthromes map](https://anthroecology.org/wp-content/uploads/2022/03/Global-anthromes-map-v3.01.png)
-*Figure 10. Anthropogenic biome classification by Ellis & Ramankutty (2008).*
 
-Ellis & Ramankutty (2008) proposed 18 "anthromes" to reflect human-dominated systems.
-- Recognises that most land is now shaped by human activity.
-- Shifts the perspective from disturbed natural systems to socio-ecological systems.
+![Anthromes map](https://anthroecology.org/wp-content/uploads/2022/03/Global-anthromes-map-v3.01.png) *Figure 10. Anthropogenic biome classification by Ellis & Ramankutty (2008).*
 
----
+Ellis & Ramankutty (2008) proposed 18 "anthromes" to reflect human-dominated systems. - Recognises that most land is now shaped by human activity. - Shifts the perspective from disturbed natural systems to socio-ecological systems.
+
+------------------------------------------------------------------------
 
 ### European Classification Systems: EUNIS
-![EUNIS classification structure](https://www.eea.europa.eu/data-and-maps/data/eunis-habitat-classification/document/image)
-*Figure 11. Overview of EUNIS habitat classification structure.*
 
-EUNIS (European Nature Information System):
-- Combines species composition, structure, environment, and geography.
-- Forms the basis for Natura 2000 directives.
-- The EUNIS Expert System (Chytrý et al., 2020) formalises habitat definitions using species and geographic data.
+![EUNIS classification structure](https://www.eea.europa.eu/data-and-maps/data/eunis-habitat-classification/document/image) *Figure 11. Overview of EUNIS habitat classification structure.*
 
----
+EUNIS (European Nature Information System): - Combines species composition, structure, environment, and geography. - Forms the basis for Natura 2000 directives. - The EUNIS Expert System (Chytrý et al., 2020) formalises habitat definitions using species and geographic data.
+
+------------------------------------------------------------------------
 
 *All figures used here are sourced from publicly available academic or educational resources for illustrative purposes.*
-

@@ -1,23 +1,24 @@
 project:
-  type: website
-  output-dir: docs
+  type: book
 
-website:
-  title: "okosysteemide-toimimine"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: Koosluste_struktuur.qmd
-        text: Koosluste struktuur
-      - href: Okosysteemide_klassifitseerimine.qmd
-        text: Ökosüsteemide klassifitseerimine
+
+book:
+  title: "Ökosüsteemide toiminine"
+  author: "Siim-Kaarel Sepp"
+  date: today
+  date-format: "MM YYYY"
+  output-file: okosysteemide_toiminine
+  chapters:
+    - index.qmd
+    - Koosluste_struktuur.qmd
+    - koosluse_kirjeldamine.qmd
+    # - Okosysteemide_klassifitseerimine.qmd
+    # - references.qmd
+
+# bibliography: references.bib
 
 format:
   html:
     theme: cosmo
-    css: styles.css
-    toc: true
-
-editor: visual
-
+  pdf:
+    documentclass: scrbook

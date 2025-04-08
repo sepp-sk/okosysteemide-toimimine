@@ -1,12 +1,5 @@
----
-title: "Ökosüsteemide toimimine"
-editor: source
----
+# Ökosüsteemide toimimine ja kaitse (LTOM.01.006)
 
-This is a Quarto website.
+Sellelt lehelt leiate õppematerjalid toimumata jäänud loengute kohta.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Materjalid [**PDF formaadina**](okosysteemide_toiminine.pdf)
