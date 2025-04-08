@@ -34,3 +34,41 @@ Need energiavood liiguvad ökosüsteemis troofiliste tasemete kaudu. Mida suurem
 > *„The weight of all predators must always be much lower than that of all food animals, and the total weight of the latter much lower than the plant production“*
 >
 > Lindeman 1942
+
+Siiski leidub ka erandeid.
+
+### Tagurpidine troofiline püramiid
+
+[![Haide biomass koralliökosüsteemis on sama suur kui saakloomade oma.](media/tagurpidine_pyramiid_1.jpg){fig-align="left" width="695"}](https://doi.org/10.1016/j.cub.2016.05.058)
+
+> Extreme Inverted Trophic Pyramid of Reef Sharks Supported by Spawning Groupers
+>
+> Mourier, Johann et al.
+>
+> Current Biology, Volume 26, Issue 15, 2011 - 2016
+
+Koralliökosüsteemis on haide biomass tavaolukorras sama suur kui saakloomade oma. Samuti on kehasuuruse ja biomassi suhe positiivne, mis viitaks justkui tagurpidisele troofilisele püramiidile. 1/10 reeglit järgides peaks ju suuremate (mereökosüsteemis eelduslikult kõrgemal troofilisel tasemel olevate) elukate biomass olema väiksem! Kuidas see energia ei kao?
+
+![Haide toiduvajadus (oranž joon) varieerub aasta jooksul, kuid on kohaliku saakloomakoosluse populatsiooni produktsioonist (sinine joon) madalam. Juunis ja juulis rändavad piirkonda aga kudema tulnud kalad, kelle biomass (roheline) joon ületab kõvasti haide toiduvajadust.](media/tagurpidine_pyramiid_3.jpg){width="664"}
+
+![Kudema tulnud kalad (rohelised) vähendavad kiskja-saaklooma suhet rohkem kui poole võrra, lähenedes normaalsele toidupüramiidile.](media/tagurpidine_pyramiid_2.jpg){width="656"}
+
+Energia kaob muidugi, kuid haid söövad kord aastas kudemiseks kohale rännanud kalasid. Saagi biomass selleks perioodiks mitmekordistub ja toimub **eksogeenne** energia sissevool süsteemi.
+
+$\frac{1}{10}$ reeglist hälbimise võimalikke põhjuseid:
+
+-   parem energia ülekandeefektiivsus - näiteks parema söödavuse või efektiivsema jahipidamise kaudu
+
+-   kiire tarbitava troofilise taseme uuenemiskiirus (*turnover*)
+
+-   mosaiikne kasvukoht - soodustab erinevate ressursside kasutamist-jagamist
+
+-   omnivooria - kiskja saab herbivooride taseme osaliselt vahele jätta
+
+-   toiduahela produtsentide ja herbivooride "ajalooline kohalolek" - näiteks surnud orgaanilise ainena
+
+-   kõrgema troofilise taseme organismide kehasuuruse tõus
+
+-   mingisugune alloktoonne \[eksogeenne; mujalt pärinev\] energi juurdevoog
+
+-   herbivooride kõrge mobiilsus - liiguvad "kooslusest" välja toitu otsima
