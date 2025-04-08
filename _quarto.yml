@@ -13,6 +13,7 @@ book:
     - index.qmd
     - Koosluste_struktuur.qmd
     - koosluse_kirjeldamine.qmd
+    - koosluse_energeetiline_struktuur.qmd
     # - Okosysteemide_klassifitseerimine.qmd
     # - references.qmd
 

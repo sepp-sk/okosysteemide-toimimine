@@ -1,0 +1,36 @@
+---
+title: "Koosluste energeetiline struktuur"
+format: html
+toc: true
+toc-depth: 3
+number-sections: false
+editor: source
+editor_options: 
+  chunk_output_type: console
+---
+
+Kooslus saab olla struktureeritud ka energiavoogude mõistes. Primaarprodutsendid assimileerivad päikeseenergia abil süsiniku, mille energia kulgeb herbivooride kaudu näiteks kiskjateni ja lagundajateni.
+
+Elusorganismid moodustavad **biomassi**, mida mõõdetakse kas energia, kuivmassi või süsinikuhulgana pindalaühiku kohta. Enamiku sellest biomassist moodustavad maismaal taimed ja veeökosüsteemides enamasti vetikad, kuna nemad tegelevad primaarproduktsiooniga.
+
+-   Koosluse/ökosüsteemi **kogu** **primaarproduktsioon** (*GPP;* *gross primary production*)- toodetud biomassi hulk pindalaühiku kohta ajaühikus (nt $kg \times ha^{-1} \times aasta^{-1}$)
+
+-   **Netoprimaarproduktsioon** (*NPP; net primary production*) - kogu primaarproduktsioon miinus autotroofne (taimede/sinivetikate/.. poolt toime pandav) respiratsioon (ehk elutegevuseks kulunud energia)
+
+-   **Sekundaarproduktsioon** (*secondary production*) - heterotroofse biomassi kasv pindalaühiku kohta ajaühikus
+
+-   Ökosüsteemi **netoproduktsioon** (*NEP; net ecosystem production*) - kogu primaarproduktsioon miinus kogu respiratsioon
+
+Need energiavood liiguvad ökosüsteemis troofiliste tasemete kaudu. Mida suurem on primaarproduktsioon, seda suurem on sekundaarproduktsioon, üldreeglina on iga järgmise troofilise taseme produktsioon $\frac{1}{10}$ eelmisest tasemest.
+
+![Reeglina on iga troofilise taseme produktsioon 1/10 eelmise taseme produktsioonist](media/1_10_reegel.PNG){fig-align="center" width="527"}
+
+## Troofiline püramiid
+
+1:10 reeglit järgides peaks seega koosluse energeetiline struktuur välja nägema selline:
+
+![Ideaalne troofiline püramiid](media/troofiline_pyramiid.PNG){fig-align="left" width="525"}
+
+> *„The weight of all predators must always be much lower than that of all food animals, and the total weight of the latter much lower than the plant production“*
+>
+> Lindeman 1942

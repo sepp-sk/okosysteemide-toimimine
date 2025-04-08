@@ -54,5 +54,12 @@
     "title": "3  Koosluse kirjeldamine",
     "section": "Ühtlus",
     "text": "Ühtlus\nÜhtlus (evenness) kirjeldab seda, kui ühtlaselt on liigid (biomassid, isendid, DNA-järjestused) koosuses jaotunud. Teisisõnu võimaldab ühtlus kui ühikuta parameeter võrrelda omavahel erineva liigirikkusega koosluste struktuuri.\nÜhtluse mõõdikuid on mitmeid erinevaid, ühe näiteks saab ühtlust tuletada Hilli arvudest\n\\[\nE = \\frac{^qD}{^{q-1}D}\n\\]\nMeenutage, kuidas käituvad erinevat järku Hilli arvud võrdsete ohtrustega koosluse puhul ja ebavõrdsete ohtrustega koosluste puhul. Mis puhul on Hilli arvu järkude kaudu tuletatav ühtlus suurim, mis puhul väikseim? Mis piirides E varieerub?"
+  },
+  {
+    "objectID": "koosluse_energeetiline_struktuur.html#troofiline-püramiid",
+    "href": "koosluse_energeetiline_struktuur.html#troofiline-püramiid",
+    "title": "4  Koosluste energeetiline struktuur",
+    "section": "Troofiline püramiid",
+    "text": "Troofiline püramiid\n1:10 reeglit järgides peaks seega koosluse energeetiline struktuur välja nägema selline:\n\n\n\nIdeaalne troofiline püramiid\n\n\n\n„The weight of all predators must always be much lower than that of all food animals, and the total weight of the latter much lower than the plant production“\nLindeman 1942"
   }
 ]
