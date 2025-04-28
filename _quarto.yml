@@ -25,4 +25,10 @@ format:
     theme: cosmo
     number-sections: false
   pdf:
-    documentclass: scrbook
+    number-sections: false
+    documentclass: book
+    geometry:
+      - top=20mm
+      - left=20mm
+      - right=20mm
+      - bottom=20mm
