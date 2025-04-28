@@ -47,7 +47,7 @@ Koosluse stabiilsus sõltub lisaks häiringute tüübile (*press* vs *pulse*) ka
 #| code-fold: true
 #| code-summary: "Näita koodi"
 
-library(bipartite)
+suppressWarnings(suppressPackageStartupMessages(library(bipartite)))
 
 # Liikide arvud
 n <- 3

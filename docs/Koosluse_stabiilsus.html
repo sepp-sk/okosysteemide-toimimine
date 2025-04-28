@@ -229,116 +229,41 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell">
 <details>
 <summary>Näita koodi</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(bipartite)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: package 'bipartite' was built under R version 4.3.3</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Loading required package: sna</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: package 'sna' was built under R version 4.3.3</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Loading required package: statnet.common</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: package 'statnet.common' was built under R version 4.3.3</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>
-Attaching package: 'statnet.common'</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>The following objects are masked from 'package:base':
-
-    attr, order</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Loading required package: network</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: package 'network' was built under R version 4.3.3</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>
-'network' 1.19.0 (2024-12-08), part of the Statnet Project
-* 'news(package="network")' for changes since last version
-* 'citation("network")' for citation information
-* 'https://statnet.org' for help, support, and other information</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>sna: Tools for Social Network Analysis
-Version 2.8 created on 2024-09-07.
-copyright (c) 2005, Carter T. Butts, University of California-Irvine
- For citation information, type citation("sna").
- Type help(package="sna") to get started.</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Loading required package: vegan</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: package 'vegan' was built under R version 4.3.3</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Loading required package: permute</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: package 'permute' was built under R version 4.3.3</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Loading required package: lattice</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code> This is bipartite 2.21.
- For latest changes see versionlog in ?"bipartite-package". For citation see: citation("bipartite").
- Have a nice time plotting and analysing two-mode networks.</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>
-Attaching package: 'bipartite'</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>The following object is masked from 'package:vegan':
-
-    nullmodel</code></pre>
-</div>
-<details>
-<summary>Näita koodi</summary>
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Liikide arvud</span></span>
-<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="dv">3</span></span>
-<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>madal <span class="ot">&lt;-</span> <span class="dv">22</span> <span class="sc">*</span> n</span>
-<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>korge <span class="ot">&lt;-</span> <span class="dv">44</span> <span class="sc">*</span> n</span>
-<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Tühi maatriks</span></span>
-<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>mat <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="cn">NA</span>, <span class="at">nrow =</span> madal, <span class="at">ncol =</span> korge)</span>
-<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Loome moodulid</span></span>
-<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
-<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a>moodulid <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
-<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">moodul1 =</span> <span class="fu">list</span>(<span class="at">rows =</span> <span class="dv">1</span><span class="sc">:</span>(madal<span class="sc">/</span><span class="dv">3</span>), <span class="at">cols =</span> <span class="dv">1</span><span class="sc">:</span>(korge<span class="sc">/</span><span class="dv">3</span>)),</span>
-<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a>  <span class="at">moodul2 =</span> <span class="fu">list</span>(<span class="at">rows =</span> (madal<span class="sc">/</span><span class="dv">3</span><span class="sc">+</span><span class="dv">1</span>)<span class="sc">:</span>(madal<span class="sc">/</span><span class="dv">3</span><span class="sc">*</span><span class="dv">2</span>), <span class="at">cols =</span> (korge<span class="sc">/</span><span class="dv">3</span><span class="sc">+</span><span class="dv">1</span>)<span class="sc">:</span>(korge<span class="sc">/</span><span class="dv">3</span><span class="sc">*</span><span class="dv">2</span>)),</span>
-<span id="cb21-14"><a href="#cb21-14" aria-hidden="true" tabindex="-1"></a>  <span class="at">moodul3 =</span> <span class="fu">list</span>(<span class="at">rows =</span> (madal<span class="sc">/</span><span class="dv">3</span><span class="sc">*</span><span class="dv">2</span><span class="sc">+</span><span class="dv">1</span>)<span class="sc">:</span>madal, <span class="at">cols =</span> (korge<span class="sc">/</span><span class="dv">3</span><span class="sc">*</span><span class="dv">2</span><span class="sc">+</span><span class="dv">1</span>)<span class="sc">:</span>korge)</span>
-<span id="cb21-15"><a href="#cb21-15" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb21-16"><a href="#cb21-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb21-17"><a href="#cb21-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Moodulisisene kõrge interaktsioonisagedus</span></span>
-<span id="cb21-18"><a href="#cb21-18" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (mod <span class="cf">in</span> moodulid) {</span>
-<span id="cb21-19"><a href="#cb21-19" aria-hidden="true" tabindex="-1"></a>  mat[mod<span class="sc">$</span>rows, mod<span class="sc">$</span>cols] <span class="ot">&lt;-</span> <span class="fu">abs</span>(<span class="fu">rnorm</span>(<span class="fu">length</span>(mod<span class="sc">$</span>rows)<span class="sc">*</span><span class="fu">length</span>(mod<span class="sc">$</span>cols),</span>
-<span id="cb21-20"><a href="#cb21-20" aria-hidden="true" tabindex="-1"></a>                                       <span class="at">mean =</span> <span class="fl">0.7</span>, <span class="at">sd =</span> <span class="fl">0.2</span>))</span>
-<span id="cb21-21"><a href="#cb21-21" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb21-22"><a href="#cb21-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb21-23"><a href="#cb21-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Moodulitevaheline harv interaktsioon</span></span>
-<span id="cb21-24"><a href="#cb21-24" aria-hidden="true" tabindex="-1"></a>mat[<span class="fu">is.na</span>(mat)] <span class="ot">&lt;-</span> <span class="fu">sample</span>(<span class="fu">c</span>(<span class="dv">0</span>, <span class="fu">abs</span>(<span class="fu">rnorm</span>(<span class="dv">1</span>, <span class="at">mean =</span> <span class="fl">0.2</span>, <span class="at">sd =</span> <span class="fl">0.1</span>))),</span>
-<span id="cb21-25"><a href="#cb21-25" aria-hidden="true" tabindex="-1"></a>                          <span class="at">size =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(mat)),</span>
-<span id="cb21-26"><a href="#cb21-26" aria-hidden="true" tabindex="-1"></a>                          <span class="at">replace =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb21-27"><a href="#cb21-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb21-28"><a href="#cb21-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb21-29"><a href="#cb21-29" aria-hidden="true" tabindex="-1"></a><span class="co"># Arvutame modulaarsuse</span></span>
-<span id="cb21-30"><a href="#cb21-30" aria-hidden="true" tabindex="-1"></a>modularity <span class="ot">&lt;-</span> <span class="fu">computeModules</span>(mat)</span>
-<span id="cb21-31"><a href="#cb21-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb21-32"><a href="#cb21-32" aria-hidden="true" tabindex="-1"></a><span class="co"># Joonistame</span></span>
-<span id="cb21-33"><a href="#cb21-33" aria-hidden="true" tabindex="-1"></a><span class="fu">plotModuleWeb</span>(modularity)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressWarnings</span>(<span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(bipartite)))</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Liikide arvud</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="dv">3</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>madal <span class="ot">&lt;-</span> <span class="dv">22</span> <span class="sc">*</span> n</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>korge <span class="ot">&lt;-</span> <span class="dv">44</span> <span class="sc">*</span> n</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Tühi maatriks</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>mat <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="cn">NA</span>, <span class="at">nrow =</span> madal, <span class="at">ncol =</span> korge)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Loome moodulid</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>moodulid <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  <span class="at">moodul1 =</span> <span class="fu">list</span>(<span class="at">rows =</span> <span class="dv">1</span><span class="sc">:</span>(madal<span class="sc">/</span><span class="dv">3</span>), <span class="at">cols =</span> <span class="dv">1</span><span class="sc">:</span>(korge<span class="sc">/</span><span class="dv">3</span>)),</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="at">moodul2 =</span> <span class="fu">list</span>(<span class="at">rows =</span> (madal<span class="sc">/</span><span class="dv">3</span><span class="sc">+</span><span class="dv">1</span>)<span class="sc">:</span>(madal<span class="sc">/</span><span class="dv">3</span><span class="sc">*</span><span class="dv">2</span>), <span class="at">cols =</span> (korge<span class="sc">/</span><span class="dv">3</span><span class="sc">+</span><span class="dv">1</span>)<span class="sc">:</span>(korge<span class="sc">/</span><span class="dv">3</span><span class="sc">*</span><span class="dv">2</span>)),</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  <span class="at">moodul3 =</span> <span class="fu">list</span>(<span class="at">rows =</span> (madal<span class="sc">/</span><span class="dv">3</span><span class="sc">*</span><span class="dv">2</span><span class="sc">+</span><span class="dv">1</span>)<span class="sc">:</span>madal, <span class="at">cols =</span> (korge<span class="sc">/</span><span class="dv">3</span><span class="sc">*</span><span class="dv">2</span><span class="sc">+</span><span class="dv">1</span>)<span class="sc">:</span>korge)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Moodulisisene kõrge interaktsioonisagedus</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (mod <span class="cf">in</span> moodulid) {</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>  mat[mod<span class="sc">$</span>rows, mod<span class="sc">$</span>cols] <span class="ot">&lt;-</span> <span class="fu">abs</span>(<span class="fu">rnorm</span>(<span class="fu">length</span>(mod<span class="sc">$</span>rows)<span class="sc">*</span><span class="fu">length</span>(mod<span class="sc">$</span>cols),</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>                                       <span class="at">mean =</span> <span class="fl">0.7</span>, <span class="at">sd =</span> <span class="fl">0.2</span>))</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Moodulitevaheline harv interaktsioon</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>mat[<span class="fu">is.na</span>(mat)] <span class="ot">&lt;-</span> <span class="fu">sample</span>(<span class="fu">c</span>(<span class="dv">0</span>, <span class="fu">abs</span>(<span class="fu">rnorm</span>(<span class="dv">1</span>, <span class="at">mean =</span> <span class="fl">0.2</span>, <span class="at">sd =</span> <span class="fl">0.1</span>))),</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>                          <span class="at">size =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(mat)),</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>                          <span class="at">replace =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="co"># Arvutame modulaarsuse</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>modularity <span class="ot">&lt;-</span> <span class="fu">computeModules</span>(mat)</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="co"># Joonistame</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="fu">plotModuleWeb</span>(modularity)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
 <p><img src="Koosluse_stabiilsus_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
