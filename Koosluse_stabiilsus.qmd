@@ -74,7 +74,8 @@ for (mod in moodulid) {
 # Moodulitevaheline harv interaktsioon
 mat[is.na(mat)] <- sample(c(0, abs(rnorm(1, mean = 0.2, sd = 0.1))),
                           size = sum(is.na(mat)),
-                          replace = TRUE)
+                          replace = TRUE,
+                          prob = c(0.8, 0.2))
 
 
 # Arvutame modulaarsuse
