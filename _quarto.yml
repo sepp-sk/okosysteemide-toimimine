@@ -14,7 +14,8 @@ book:
     - Koosluste_struktuur.qmd
     - koosluse_kirjeldamine.qmd
     - koosluse_energeetiline_struktuur.qmd
-    # - Okosysteemide_klassifitseerimine.qmd
+    - Koosluse_stabiilsus.qmd
+    # - Okosysteemide_klassifitseerimine.qmd # TODO: See tuleb 2026. aastaks läbi mõelda!
     # - references.qmd
 
 # bibliography: references.bib

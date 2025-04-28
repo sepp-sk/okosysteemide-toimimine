@@ -79,11 +79,15 @@ $\frac{1}{10}$ reeglist hälbimise võimalikke põhjuseid:
 
 Toiduahela "kontrollivaks" lüliks võiksime pidada seda troofilist taset, kellest sõltub toiduahela teiste tasemete ohtrus ja/või produktiivsus. Ökoloogias kirjeldatakse kahte paradigmat: **alt-üles (*bottom-up*) ja ülalt-alla (*top-down*)** **kontroll**.
 
+### Alt-üles
+
 **Alt-üles** kontrollitud süsteemis sõltub kõrgemate troofiliste tasemete arvukus peamiselt toiduahela esimest lüli piiravatest ressurssidest - näiteks valgus, toitained, vesi. Säärastes süsteemides põhjustab ressursside lisandumine suurema primaarproduktsiooni ja sellest johtuvalt suurema herbivooride → karnivooride → tippkiskjate arvukuse.
 
 Alt-üles kontroll toimib süsteemides või (alam-)toiduahelates, kus tarbijad ei mõjuta (eriti) oma tarbitavaid organisme, näiteks detritivooria (surnud orgaanilisest ainest toitumine) või nektari- ja granivooria (seemnete söömine).
 
-[![Meta-analüüsis näidati, et väetamine mõjuhtab küll primaarprodutsente (effect on plants) - ehk ühe taseme piires toimub bottom-up kontroll. See mõju ei kipu aga ei herbivooridele ega kiskjatele edasi kanduma. Borer et al. 2006 Ecology](media/alt-ules-kontroll.png)](https://doi.org/10.1890/0012-9658(2006)87[2813:AICREO]2.0.CO;2)
+[![Meta-analüüsis näidati, et väetamine mõjuhtab küll primaarprodutsente (effect on plants) - ehk ühe taseme piires toimub bottom-up kontroll. See mõju ei kipu aga ei herbivooridele ega kiskjatele edasi kanduma. Borer et al. 2006 Ecology](media/alt-ules-kontroll.png)](https://doi.org/10.1890/0012-9658(2006)87%5B2813:AICREO%5D2.0.CO;2)
+
+### Ülalt-alla
 
 Vastupidiselt ülalmainitule kontrollivad **ülalt-alla** süsteemis tarbijad (peamiselt kiskjad) alamate tasemete ohtrust. Ülalt-alla kontrolli kutsutakse ka troofiliseks kaskaadiks (*trophic cascade*) - meenutagem näiteks päiskiviliike. Mõju suund primaarprodutsentidele võib sõltuda ka troofiliste tasemete arvust:
 
@@ -106,3 +110,61 @@ X-teljel on aastad 1965 - 2000.
 ![Fütoplanktoni ohtruse (roheline joon) tõus; nitraadikontsentratsiooni (punane joon) langus.](media/trof-kaskaad-4.png)
 
 Suurte kiskjate (tursk jt) väljapüüdmise tõttu vähenes oluliselt mereökosüsteemide oluline limiteeriv toitaine - lämmastik. **Muutus terve ökosüsteem**.
+
+**Troofiline kaskaad** võib aset leida kas *koosluse* või *liigi* tasemel
+
+-   *liigi tase* - suhteliselt spetsialiseerunud tarbija mõjutab oma saakliiki, kes võib-olla mõjutab ka mõnda taimeliiki. Liigi tasemel kaskaadid on tavalisemad maismaaökosüsteemides, sest (toiduobjektile) spetsialiseerumisi on rohkem.
+
+-   *koosluse tase* - kiskjate *kooslus* kontrollib herbivooride *kooslust*, kes kontrollivad tervet taime*kooslust* (või muid primaarprodutsente). Koosluse tasemel kaskaadid on tavalisemad veeökosüsteemides:
+
+    -   suhteliselt homogeenne keskkond – mosaiikses kasvukohas ja keerukate toiduahelatega süsteemis kaskaadid sumbuvad
+
+    -   tarbitavate organismide suhteliselt kiire populatsioonidünaamika võrreldes tarbijatega – nt puude populatsiooni muutus tippkiskja kadumisel ei avaldu (vähemalt mitte kiiresti), samas planktoni elutsükkel on küllalt lühike
+
+    -   tarbitavad organismid on suhteliselt kõigile „söödavad“ – kalad pistavad *(ja see on taimeökoloogi üldistus)* kõike, mis suust alla läheb
+
+## "*Why is the world green?*"
+
+Klassikaline näide troofilisest kaskaadist on herbvivooride ohtruse vähenemine karnivooride tõttu ning sellest johtuv taimse biomassi kasv. Selle nähtused võtsid 1960. aastal kokku Hairston, Smith ja Slobodkin oma hüpoteesiga (***HSS** hypothesis*), kus nad ennustasid ülalt-alla troofiliste kaskaadide tavalisust ning mis võiks lihtsustatult kõlada nii: "Maailm on roheline sellepärast, et kiskjad hoiavad herviboore vaos ja roheline biomass saab akumuleeruda."
+
+Ja tõepoolest, tihtipeale HSS toimib - kiskjad kontrollivad *top-down* primaarprodutsentide ohtrust.
+
+### *Hypothesis of exploitation ecosystems*
+
+Igal pool aga niimoodi ei ole. Tundraaladel töötava ökoloogina ei jätnud Lauri Oksanen tähele panemata kõrgematel laiuskraadidel aset leidvat meeletut herbivoorset survet näiteks lemmingute, põhjapõtrade poolt. 1981. aastal pakkus ta välja HSS edasiarenduse - ***hypothesis of exploitation ecosystems*** (**EEH**), mis sedastab, et troofiliste tasemete arv ja ülalt-alla kontrolli tugevus sõltub ökosüsteemi produktiivsusest.
+
+Primaarproduktsiooni vähenedes herbivoore kontrolliv troofiline kaskaad laguneb, sest et püsisoojaste kiskjate koosluse ülalpidamiseks ei jagu energiat (meenutagem jälle $\frac{1}{10}$ reeglit). Süsteemsemalt:
+
+$\rm I$ Väga väheproduktiivsetes süsteemides saavad elada ainult taimed (vmt primaarprodutsendid)
+
+$\rm II$ Vähe- kuni keskmiselt produktiivsetes süsteemides jagub energiat herbivooride ülalpidamiseks, kes omakorda avaldavad taimekooslusele tugevat survet
+
+$\rm III$ Produktiivsetes süsteemides suruvad kiskjad herbivooride ohtruse alla ning vähendavad survet taimekooslusele.
+
+![I - ühetasemeline toiduahel​ (herbivoorid praktiliselt ei kontrolli taimekooslust​, sest et herbivooride pidamiseks süsteemis ei jagu energiat); II - kahetasemeline toiduahel (herbivoorid on, aga kiskjaid ei ole võimalik pidada); III - kolmetasemeline toiduahel](media/ehh.png)
+
+## Y-kujuline toiduahel
+
+Seni käsitlesime toiduahelat lineaarsena - energia liigub primaarprodutsentidelt herbivoorideni ja sealt omakorda karnivoorideni. Selle klassikalise toiduahela kõrval toimib paralleelselt ka taine ahel - **laguahel**, kus energia liigub surnud orgaanilise aine, lagundajate ja detritivooride kaudu. Need kaks paralleelset ahelat moodustavad **Y-kujulise toiduvõrgustiku**:
+
+-   Üks haru esindab "klassikalist toiduahelat" (taimed →herbivoorid → kiskjad)
+
+-   Teine haru on **laguahel** (surnud orgaaniline aine → lagundajad/detritivoorid → kõrgema troofilise taseme tarbijad)
+
+Nende kahe haru energiavood ja liikidevahelised interaktsioonid on tihtipeale seotud. Näiteks võivad kiskjad tarbida nii herbivoore kui detritivoore.
+
+![Osa energiat ei liigu primaarprodutsentidelt tippkiskjateni mitte läbi herbivooride, vaid suur osa primaarproduktsiooni sureb enne tarbitud saamist (Begon & Townsend, 2021)](media/Y-ahel.png)
+
+### Näiline troofiline kaskaad
+
+*ATCH - apparent trophic cascade hypothesis (*Polis & Strong 1996):
+
+-   Produktiivsuse kasvades kasvab taimede biomass, väheneb herbivooride biomass ja kasvab kiskjate biomass ∼ *top-down kontroll*
+
+-   Tänu taimede biomassi kasvule kasvab varise biomass, kasvab variselagundajate biomass ja kasvab kiskjate biomass ∼ *bottom-up kontroll*
+
+-   **Kombinatsioonis aga**: rohkem energiat liigub läbi laguahela, toites kiskjat, kes kontrollib omakorda herbivooride arvukust → detritivooride ja herbivooride vaheline **näiline konkurents** (läbi ühise kiskja)
+
+-   Leiab aset **positiivne tagasiside**: detritivooride suhtelise ohtruse kasv mõjub positiivselt kiskjatele, kes kontrollivad herbivoore → rohkem taimset biomassi → veel rohkem varist → veel rohkem kiskjaid
+
+![ATCH – apparent trophic cascade hypothesis; Polis & Strong 1996. Skeem modifikatsioonidega Begon & Townsend (2021) järgi](media/ATCH.PNG)
