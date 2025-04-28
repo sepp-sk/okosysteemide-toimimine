@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Ökosüsteemide toiminine",
+    "title": "Ökosüsteemide toimimine ja kaitse (LTOM.01.006)",
     "section": "",
     "text": "Materjalid PDF formaadina"
   },
@@ -12,13 +12,6 @@
     "title": "Koosluste ja ökosüsteemide struktuur",
     "section": "Koosluste koosseisu mõjutavad protsessid",
     "text": "Koosluste koosseisu mõjutavad protsessid\n\n\n\nKoosluse kokkupanekut mõjutavad filtrid: levimis- ja keskkonnapiirangud ning biootilised interaktsioonid.\n\n\nKoosluse kooseisu kujundavad mitmed protsessid:\n\nLevimispiirangud: Liigid ei pruugi kooslusest puududa mitte seetõttu, et tingimused ei ole sobivad, vaid kuna nad ei ole kooslusesse jõudnud.\nAbioitilised filtrid: Keskkonnaparameetrid (nt mullatüüp, niiskus, valgusrežiim) piiravad liikide hulka, kes antud kasvukohas füsioloogilises mõttes hakkama saavad (fundamentaalne nišš).\nBiootilised interaktsioonid: Konkurents, mutualism, röövlus - piiravad (või soodustavad!) keskkonnaparameetritega sobivate liikide koosluses püsimist.\n+ Liigiteke ja väljasuremine: Mõjutavad regionaalse liigifondi kujunemist evolutsioonilises ajaskaalas. Selleks, et liik saaks kuskil liigifondis olla, peab ta põhimõtteliselt olemas olema.\n\nNeed ökoloogilised ja evolutsioonilised protsessid tingivad mustreid (liigirikkuse gradiendid, suktsessioon, liigirikkuse-produktiivsuse korrelatsioon jne)."
-  },
-  {
-    "objectID": "koosluse_kirjeldamine.html",
-    "href": "koosluse_kirjeldamine.html",
-    "title": "Koosluse kirjeldamine",
-    "section": "",
-    "text": "Ordinatsioon\nLooduslikud kooslused on komplekssed ja mitmemõõtmelised (S-mõõtmelised; S - liigirikkus) üksused, iseäranis liigirikkad kooslused. Mitmemõõtmeliste nähtuste kirjeldamiseks ja võrdlemiseks tuleb abiks võtta ordinatsioon ja multivariaatanalüüs.\nOrdinatsioonimeetodid aitavad mitmemõõtmelist ruumi “tasandada”, üritades leida väike arv telgi (vektoreid), mis korreleeruksid võimalikult hästi võimalikult paljude mitmemõõtmelise ruumi telgede variatsiooniga.\nKellel vaja kasutada, siis väga kena alguse erinevate meetoditega tutvumiseks saab siit."
   },
   {
     "objectID": "koosluse_kirjeldamine.html#liigirikkus-mitmekesisus",
@@ -54,6 +47,13 @@
     "title": "Koosluse kirjeldamine",
     "section": "Ühtlus",
     "text": "Ühtlus\nÜhtlus (evenness) kirjeldab seda, kui ühtlaselt on liigid (biomassid, isendid, DNA-järjestused) koosuses jaotunud. Teisisõnu võimaldab ühtlus kui ühikuta parameeter võrrelda omavahel erineva liigirikkusega koosluste struktuuri.\nÜhtluse mõõdikuid on mitmeid erinevaid, ühe näiteks saab ühtlust tuletada Hilli arvudest\n\\[\nE = \\frac{^qD}{^{q-1}D}\n\\]\nMeenutage, kuidas käituvad erinevat järku Hilli arvud võrdsete ohtrustega koosluse puhul ja ebavõrdsete ohtrustega koosluste puhul. Mis puhul on Hilli arvu järkude kaudu tuletatav ühtlus suurim, mis puhul väikseim? Mis piirides E varieerub?"
+  },
+  {
+    "objectID": "koosluse_kirjeldamine.html#ordinatsioon",
+    "href": "koosluse_kirjeldamine.html#ordinatsioon",
+    "title": "Koosluse kirjeldamine",
+    "section": "Ordinatsioon",
+    "text": "Ordinatsioon\nLooduslikud kooslused on komplekssed ja mitmemõõtmelised (S-mõõtmelised; S - liigirikkus) üksused, iseäranis liigirikkad kooslused. Mitmemõõtmeliste nähtuste kirjeldamiseks ja võrdlemiseks tuleb abiks võtta ordinatsioon ja multivariaatanalüüs.\nOrdinatsioonimeetodid aitavad mitmemõõtmelist ruumi “tasandada”, üritades leida väike arv telgi (vektoreid), mis korreleeruksid võimalikult hästi võimalikult paljude mitmemõõtmelise ruumi telgede variatsiooniga.\nKellel vaja kasutada, siis väga kena alguse erinevate meetoditega tutvumiseks saab siit."
   },
   {
     "objectID": "koosluse_energeetiline_struktuur.html#troofiline-püramiid",

@@ -213,7 +213,6 @@ ggplot(hill_df, aes(x = q, y = D_q, colour = kooslus)) +
   scale_colour_brewer(palette = "Dark2")
 ```
 
-
 Olenemata Hilli arvu järgust q, on "kahekordistatud" koosluse puhul sama järku Hilli arv 2x suurem.
 
 ### Kuidas käituvad Shannoni indeks ja Gini-Simpsoni indeks võrreldes Hilli arvudega
@@ -319,7 +318,7 @@ $$
 
 Meenutage, kuidas käituvad erinevat järku Hilli arvud võrdsete ohtrustega koosluse puhul ja ebavõrdsete ohtrustega koosluste puhul. Mis puhul on Hilli arvu järkude kaudu tuletatav ühtlus suurim, mis puhul väikseim? Mis piirides E varieerub?
 
-# Ordinatsioon
+## Ordinatsioon
 
 Looduslikud kooslused on komplekssed ja mitmemõõtmelised (S-mõõtmelised; S - liigirikkus) üksused, iseäranis liigirikkad kooslused. Mitmemõõtmeliste nähtuste kirjeldamiseks ja võrdlemiseks tuleb abiks võtta ordinatsioon ja multivariaatanalüüs.
 

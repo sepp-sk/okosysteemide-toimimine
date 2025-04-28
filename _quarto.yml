@@ -4,7 +4,7 @@ project:
 
 
 book:
-  title: "Ökosüsteemide toiminine"
+  title: "Ökosüsteemide toimimine ja kaitse (LTOM.01.006)"
   author: "Siim-Kaarel Sepp"
   date: today
   date-format: "MM YYYY"
@@ -26,7 +26,7 @@ format:
     number-sections: false
   pdf:
     number-sections: false
-    documentclass: book
+    documentclass: scrbook
     geometry:
       - top=20mm
       - left=20mm
