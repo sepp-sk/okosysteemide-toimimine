@@ -76,3 +76,33 @@ $\frac{1}{10}$ reeglist hälbimise võimalikke põhjuseid:
 ## Toiduahela kontroll
 
 *Kumb ots toiduahelat kontrollib?*
+
+Toiduahela "kontrollivaks" lüliks võiksime pidada seda troofilist taset, kellest sõltub toiduahela teiste tasemete ohtrus ja/või produktiivsus. Ökoloogias kirjeldatakse kahte paradigmat: **alt-üles (*bottom-up*) ja ülalt-alla (*top-down*)** **kontroll**.
+
+**Alt-üles** kontrollitud süsteemis sõltub kõrgemate troofiliste tasemete arvukus peamiselt toiduahela esimest lüli piiravatest ressurssidest - näiteks valgus, toitained, vesi. Säärastes süsteemides põhjustab ressursside lisandumine suurema primaarproduktsiooni ja sellest johtuvalt suurema herbivooride → karnivooride → tippkiskjate arvukuse.
+
+Alt-üles kontroll toimib süsteemides või (alam-)toiduahelates, kus tarbijad ei mõjuta (eriti) oma tarbitavaid organisme, näiteks detritivooria (surnud orgaanilisest ainest toitumine) või nektari- ja granivooria (seemnete söömine).
+
+[![Meta-analüüsis näidati, et väetamine mõjuhtab küll primaarprodutsente (effect on plants) - ehk ühe taseme piires toimub bottom-up kontroll. See mõju ei kipu aga ei herbivooridele ega kiskjatele edasi kanduma. Borer et al. 2006 Ecology](media/alt-ules-kontroll.png)](https://doi.org/10.1890/0012-9658(2006)87[2813:AICREO]2.0.CO;2)
+
+Vastupidiselt ülalmainitule kontrollivad **ülalt-alla** süsteemis tarbijad (peamiselt kiskjad) alamate tasemete ohtrust. Ülalt-alla kontrolli kutsutakse ka troofiliseks kaskaadiks (*trophic cascade*) - meenutagem näiteks päiskiviliike. Mõju suund primaarprodutsentidele võib sõltuda ka troofiliste tasemete arvust:
+
+-   3-tasemeline toiduahel: kiskja kontrollib saaklooma (nt herbivoor) arvukust, kelle ohtruse vähenemine suurendab omakorda viimase ressursi (nt taimed) ohtrust
+
+-   4-tasemeline toiduahel: tippkiskja vähendab primaarse kiskja ohtrust, herbivooride arvukus tõuseb, taimede biomass/ohtrus väheneb
+
+**Troofiline kaskaad mereelukate näitel**
+
+*Frank, K. T., Petrie, B., Choi, J. S., & Leggett, W. C. (2005). Trophic Cascades in a Formerly Cod-Dominated Ecosystem. Science, 308(5728), 1621–1623. https://doi.org/10.1126/science.1113075*
+
+X-teljel on aastad 1965 - 2000.
+
+![Tursa ja teiste sarnaste majanduslikult oluliste kalade väljapüüdmine (must joon - sadamasse jõudnud kalade biomass)](media/trof-kaskaad-1.png)
+
+![Väiksemate kalade ja selgrootute arvukuse tõus](media/trof-kaskaad-2.png)
+
+![Zooplanktoni arvukuse langus](media/trof-kaskaad-3.png)
+
+![Fütoplanktoni ohtruse (roheline joon) tõus; nitraadikontsentratsiooni (punane joon) langus.](media/trof-kaskaad-4.png)
+
+Suurte kiskjate (tursk jt) väljapüüdmise tõttu vähenes oluliselt mereökosüsteemide oluline limiteeriv toitaine - lämmastik. **Muutus terve ökosüsteem**.
