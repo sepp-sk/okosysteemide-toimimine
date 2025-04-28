@@ -49,7 +49,7 @@ Siiski leidub ka erandeid.
 
 Koralliökosüsteemis on haide biomass tavaolukorras sama suur kui saakloomade oma. Samuti on kehasuuruse ja biomassi suhe positiivne, mis viitaks justkui tagurpidisele troofilisele püramiidile. 1/10 reeglit järgides peaks ju suuremate (mereökosüsteemis eelduslikult kõrgemal troofilisel tasemel olevate) elukate biomass olema väiksem! Kuidas see energia ei kao?
 
-![Haide toiduvajadus (oranž joon) varieerub aasta jooksul, kuid on kohaliku saakloomakoosluse populatsiooni produktsioonist (sinine joon) madalam. Juunis ja juulis rändavad piirkonda aga kudema tulnud kalad, kelle biomass (roheline) joon ületab kõvasti haide toiduvajadust.](media/tagurpidine_pyramiid_3.jpg){width="664"}
+![Haide toiduvajadus (oranž joon) varieerub aasta jooksul, kuid on kohaliku saakloomakoosluse populatsiooni produktsioonist (sinine joon) madalam. Juunis ja juulis rändavad piirkonda aga kudema tulnud kalad, kelle biomass (roheline) joon ületab kõvasti haide toiduvajadust.](media/tagurpidine_pyramiid_3.jpg){width="500"}
 
 ![Kudema tulnud kalad (rohelised) vähendavad kiskja-saaklooma suhet rohkem kui poole võrra, lähenedes normaalsele toidupüramiidile.](media/tagurpidine_pyramiid_2.jpg){width="656"}
 
@@ -135,11 +135,11 @@ Igal pool aga niimoodi ei ole. Tundraaladel töötava ökoloogina ei jätnud Lau
 
 Primaarproduktsiooni vähenedes herbivoore kontrolliv troofiline kaskaad laguneb, sest et püsisoojaste kiskjate koosluse ülalpidamiseks ei jagu energiat (meenutagem jälle $\frac{1}{10}$ reeglit). Süsteemsemalt:
 
-$\rm I$ Väga väheproduktiivsetes süsteemides saavad elada ainult taimed (vmt primaarprodutsendid)
+$\mathrm I$ Väga väheproduktiivsetes süsteemides saavad elada ainult taimed (vmt primaarprodutsendid)
 
-$\rm II$ Vähe- kuni keskmiselt produktiivsetes süsteemides jagub energiat herbivooride ülalpidamiseks, kes omakorda avaldavad taimekooslusele tugevat survet
+$\mathrm II$ Vähe- kuni keskmiselt produktiivsetes süsteemides jagub energiat herbivooride ülalpidamiseks, kes omakorda avaldavad taimekooslusele tugevat survet
 
-$\rm III$ Produktiivsetes süsteemides suruvad kiskjad herbivooride ohtruse alla ning vähendavad survet taimekooslusele.
+$\mathrm III$ Produktiivsetes süsteemides suruvad kiskjad herbivooride ohtruse alla ning vähendavad survet taimekooslusele.
 
 ![I - ühetasemeline toiduahel​ (herbivoorid praktiliselt ei kontrolli taimekooslust​, sest et herbivooride pidamiseks süsteemis ei jagu energiat); II - kahetasemeline toiduahel (herbivoorid on, aga kiskjaid ei ole võimalik pidada); III - kolmetasemeline toiduahel](media/ehh.png)
 

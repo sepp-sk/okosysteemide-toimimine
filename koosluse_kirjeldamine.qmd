@@ -213,6 +213,7 @@ ggplot(hill_df, aes(x = q, y = D_q, colour = kooslus)) +
   scale_colour_brewer(palette = "Dark2")
 ```
 
+
 Olenemata Hilli arvu järgust q, on "kahekordistatud" koosluse puhul sama järku Hilli arv 2x suurem.
 
 ### Kuidas käituvad Shannoni indeks ja Gini-Simpsoni indeks võrreldes Hilli arvudega

@@ -7,6 +7,4 @@ editor_options:
   chunk_output_type: console
 ---
 
-Sellelt lehelt leiate õppematerjalid toimumata jäänud loengute kohta.
-
 Materjalid [**PDF formaadina**](okosysteemide_toiminine.pdf)
