@@ -82,7 +82,5 @@ modularity <- computeModules(mat)
 
 # Joonistame
 plotModuleWeb(modularity)
-
 ```
-
 Kujutagem ette, et read on koosluse taimeliigid ja tulbad on koosluse putuktolmeldajad. Värvi tugevus näitab interaktsioonide tugevust (näiteks ühe taimeliigi õite külastamise sagedus seda liiki tolmeldajate poolt). Kui peaksid kaduma taimeliigid 2-18, on tõenäoline, et kooslusest surevad lokaalselt välja ka putukaliigid 1-43, aga mõju on tõenäolisemalt lokaliseeritud esimeses moodulis - informatsioon (võrgustikuteooria mõttes) ei levi teistesse moodulitesse.
