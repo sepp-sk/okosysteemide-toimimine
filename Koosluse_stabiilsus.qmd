@@ -21,7 +21,7 @@ Häiringuid võib jagada kaheks:
 
 Koosmõju ilmestab hästi kliimamuutus (c): pikaajalised kliimatrendid tähendavad *press* fooni tõusu. Kui sellele foonile lisada veel *pulse*-häiringud, võivad keskkonnatasemed ületada populatsioonide ellujäämisläve (d) ning põhjustada lokaalseid väljasuremisi (e).
 
-![Harris et al. 2018 Nature Climate Change](media/press-pulse.png)
+[![Harris et al. 2018 Nature Climate Change](media/press-pulse.png)](https://doi.org/10.1038/s41558-018-0187-9)
 
 ## Stabiilsuse mõõdikud
 
@@ -37,7 +37,7 @@ Koosluse stabiilsus sõltub lisaks häiringute tüübile (*press* vs *pulse*) ka
 
 **Pesastunud** võrgustiku puhul interakteeruvad spetsialistid liikidega, kellega interakteeruvad ka sama taseme generalistid. Säärane ülekate tekitab interaktsioonide puhvri - kui spetsialist või tema interaktsioonipartner peaks süsteemist kaduma, säilitavad generalistide poolt peetavad interaktsioonid süsteemi funktsiooni. Pesastumine tagab seega nii süsteemi *robustsuse* (st vastupanuvõime lokaalsetele väljasuremistele) kui ka liigirikkuse, võimaldades spetsialiseerunud liikidel generalistide poolt ülalpeetavatel interaktsioonidel "liugu lasta".
 
-![Nestedness – spetsialistid interakteeruvad liikidega, kellega interakteeruvad ka generalistid. Bascompte & Jordano 2007 Annu. Rev. Ecol. Evol. Syst.](media/nested-ntwrk.png)
+[![Nestedness – spetsialistid interakteeruvad liikidega, kellega interakteeruvad ka generalistid. Bascompte & Jordano 2007 Annu. Rev. Ecol. Evol. Syst.](media/nested-ntwrk.png)](https://doi.org/10.1146/annurev.ecolsys.38.091206.095818)
 
 **Modulaarsus** tähendab, et võrgustik on jaotatav alaühikuteks - mooduliteks -, millesiseselt liigid üksteisega suhteliselt tugevamalt interakteeruvad, samas kui teiste moodulitega interaktsioonid puuduvad või on nõrgad. Modulaarsus esineb tihemini maismaaökosüsteemides (meenutagem liigi vs koosluse tasemel troofiliste kaskaadide esinemist). Modulaarsus takistab häiringu mõju levimist üle terve süsteemi.
 
@@ -84,4 +84,5 @@ modularity <- computeModules(mat)
 # Joonistame
 plotModuleWeb(modularity)
 ```
+
 Kujutagem ette, et read on koosluse taimeliigid ja tulbad on koosluse putuktolmeldajad. Värvi tugevus näitab interaktsioonide tugevust (näiteks ühe taimeliigi õite külastamise sagedus seda liiki tolmeldajate poolt). Kui peaksid kaduma taimeliigid 2-18, on tõenäoline, et kooslusest surevad lokaalselt välja ka putukaliigid 1-43, aga mõju on tõenäolisemalt lokaliseeritud esimeses moodulis - informatsioon (võrgustikuteooria mõttes) ei levi teistesse moodulitesse.

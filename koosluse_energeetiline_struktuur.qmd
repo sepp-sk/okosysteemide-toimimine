@@ -49,9 +49,9 @@ Siiski leidub ka erandeid.
 
 Koralliökosüsteemis on haide biomass tavaolukorras sama suur kui saakloomade oma. Samuti on kehasuuruse ja biomassi suhe positiivne, mis viitaks justkui tagurpidisele troofilisele püramiidile. 1/10 reeglit järgides peaks ju suuremate (mereökosüsteemis eelduslikult kõrgemal troofilisel tasemel olevate) elukate biomass olema väiksem! Kuidas see energia ei kao?
 
-![Haide toiduvajadus (oranž joon) varieerub aasta jooksul, kuid on kohaliku saakloomakoosluse populatsiooni produktsioonist (sinine joon) madalam. Juunis ja juulis rändavad piirkonda aga kudema tulnud kalad, kelle biomass (roheline) joon ületab kõvasti haide toiduvajadust.](media/tagurpidine_pyramiid_3.jpg){width="500"}
+[![Haide toiduvajadus (oranž joon) varieerub aasta jooksul, kuid on kohaliku saakloomakoosluse populatsiooni produktsioonist (sinine joon) madalam. Juunis ja juulis rändavad piirkonda aga kudema tulnud kalad, kelle biomass (roheline) joon ületab kõvasti haide toiduvajadust.](media/tagurpidine_pyramiid_3.jpg){width="500"}](https://doi.org/10.1016/j.cub.2016.05.058)
 
-![Kudema tulnud kalad (rohelised) vähendavad kiskja-saaklooma suhet rohkem kui poole võrra, lähenedes normaalsele toidupüramiidile.](media/tagurpidine_pyramiid_2.jpg){width="656"}
+[![Kudema tulnud kalad (rohelised) vähendavad kiskja-saaklooma suhet rohkem kui poole võrra, lähenedes normaalsele toidupüramiidile.](media/tagurpidine_pyramiid_2.jpg){width="656"}](https://doi.org/10.1016/j.cub.2016.05.058)
 
 Energia kaob muidugi, kuid haid söövad kord aastas kudemiseks kohale rännanud kalasid. Saagi biomass selleks perioodiks mitmekordistub ja toimub **eksogeenne** energia sissevool süsteemi.
 
@@ -101,13 +101,13 @@ Vastupidiselt ülalmainitule kontrollivad **ülalt-alla** süsteemis tarbijad (p
 
 X-teljel on aastad 1965 - 2000.
 
-![Tursa ja teiste sarnaste majanduslikult oluliste kalade väljapüüdmine (must joon - sadamasse jõudnud kalade biomass)](media/trof-kaskaad-1.png)
+[![Tursa ja teiste sarnaste majanduslikult oluliste kalade väljapüüdmine (must joon - sadamasse jõudnud kalade biomass)](media/trof-kaskaad-1.png)](https://doi.org/10.1126/science.1113075)
 
-![Väiksemate kalade ja selgrootute arvukuse tõus](media/trof-kaskaad-2.png)
+[![Väiksemate kalade ja selgrootute arvukuse tõus](media/trof-kaskaad-2.png)](https://doi.org/10.1126/science.1113075)
 
-![Zooplanktoni arvukuse langus](media/trof-kaskaad-3.png)
+[![Zooplanktoni arvukuse langus](media/trof-kaskaad-3.png)](https://doi.org/10.1126/science.1113075)
 
-![Fütoplanktoni ohtruse (roheline joon) tõus; nitraadikontsentratsiooni (punane joon) langus.](media/trof-kaskaad-4.png)
+[![Fütoplanktoni ohtruse (roheline joon) tõus; nitraadikontsentratsiooni (punane joon) langus.](media/trof-kaskaad-4.png)](https://doi.org/10.1126/science.1113075)
 
 Suurte kiskjate (tursk jt) väljapüüdmise tõttu vähenes oluliselt mereökosüsteemide oluline limiteeriv toitaine - lämmastik. **Muutus terve ökosüsteem**.
 
@@ -141,7 +141,7 @@ $\mathrm II$ Vähe- kuni keskmiselt produktiivsetes süsteemides jagub energiat 
 
 $\mathrm III$ Produktiivsetes süsteemides suruvad kiskjad herbivooride ohtruse alla ning vähendavad survet taimekooslusele.
 
-![I - ühetasemeline toiduahel​ (herbivoorid praktiliselt ei kontrolli taimekooslust​, sest et herbivooride pidamiseks süsteemis ei jagu energiat); II - kahetasemeline toiduahel (herbivoorid on, aga kiskjaid ei ole võimalik pidada); III - kolmetasemeline toiduahel](media/ehh.png)
+[![I - ühetasemeline toiduahel​ (herbivoorid praktiliselt ei kontrolli taimekooslust​, sest et herbivooride pidamiseks süsteemis ei jagu energiat); II - kahetasemeline toiduahel (herbivoorid on, aga kiskjaid ei ole võimalik pidada); III - kolmetasemeline toiduahel. Oksanen & Oksanen 2000 The American Naturalist](media/ehh.png)](https://doi.org/10.1086/303354)
 
 ## Y-kujuline toiduahel
 

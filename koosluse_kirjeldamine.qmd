@@ -302,7 +302,7 @@ Pange tähele, et dominantse liigiga koosluste Hilli arvud kasvavad väga vähe 
 
 Hilli arvude matemaatilisest stabiilsusest tulenevalt on neil veel üks imeline omadus. Neid on võimalik teatavaid jaotusi kasutades **ekstrapoleerida**.
 
-![Hilli arve kasutades on võimalik matemaatiliselt ennustada, mis oleks mitmekesisus "täieliku" proovivõtupingutuse puhul - ehk siis kui me koosluse kõik liigid üles leiaksime](media/iNEXT.PNG)
+[![Hilli arve kasutades on võimalik matemaatiliselt ennustada, mis oleks mitmekesisus "täieliku" proovivõtupingutuse puhul - ehk siis kui me koosluse kõik liigid üles leiaksime](media/iNEXT.PNG)](https://doi.org/10.1890/13-0133.1)
 
 Võttes arvesse koosluses olevaid *singleton*'e ja *doubleton*'e ehk siis liike, keda on koosluses kas üks või kaks, on võimalik ennustada (teatavates usaldusintervallides), kui mitu liiki koosluses tõenäoliselt tegelikult on, st proovida eemaldada proovivõtu ebatäielikkusest tekkinud müra.
 
