@@ -13,7 +13,7 @@ Koosluse koosseise võib kirjeldada ja võrrelda erineva detailsusastmega:
 
 -   Liigirikkus
 
--   Liikide suhteliste ohtruste jaotus
+-   Liikide suhteliste ohtruste (*abundance*) jaotus
 
 -   Mitmekesisus
 
