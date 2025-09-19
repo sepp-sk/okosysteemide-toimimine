@@ -62,7 +62,7 @@ Kõige tavalisemad mitmekesisuse mõõdikud on
         **NB! Simpsoni indeks** (**λ**; D, Simpson index) kirjeldab dominantsi, **mitte mitmekesisust**! See tähendab, Simpsoni indeks kirjeldab tõenäosust, et kaks juhuslikult valitud isendit on samast liigist, ehk kui Simpsoni indeks läheneb 1, on koosluses üks dominantne liik ja mida madalam on Simpsoni indeks, seda ühtlasem on koosluse liigiline koosseis.\
         **Pange alati tähele, mida te arvutate!**
 
-Olgu siinkohal öeldud, et tegelikult ei kirjelda ei Shannoni indeks ega Gini-Simpsoni indeks tõelist mitmekesisust: [vabatahtlikku lisalugemist mitmekesisusest](/docs/pdf/Jost-2006-Entropy_and_diversity.pdf){style="color: gray;"} - lugeda mõistlikkuse piirini.
+Olgu siinkohal öeldud, et tegelikult ei kirjelda ei Shannoni indeks ega Gini-Simpsoni indeks tõelist mitmekesisust: [vabatahtlikku lisalugemist mitmekesisusest](lisamaterjalid/Jost-2006-Entropy_and_diversity.pdf){style="color: gray;"} - lugeda mõistlikkuse piirini.
 
 ## Koosluse kirjeldamise täielikkus
 
