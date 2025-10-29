@@ -62,11 +62,13 @@ Kõige tavalisemad mitmekesisuse mõõdikud on
         **NB! Simpsoni indeks** (**λ**; D, Simpson index) kirjeldab dominantsi, **mitte mitmekesisust**! See tähendab, Simpsoni indeks kirjeldab tõenäosust, et kaks juhuslikult valitud isendit on samast liigist, ehk kui Simpsoni indeks läheneb 1, on koosluses üks dominantne liik ja mida madalam on Simpsoni indeks, seda ühtlasem on koosluse liigiline koosseis.\
         **Pange alati tähele, mida te arvutate!**
 
-Olgu siinkohal öeldud, et tegelikult ei kirjelda ei Shannoni indeks ega Gini-Simpsoni indeks tõelist mitmekesisust:[vabatahtlikku lisalugemist mitmekesisusest](lisamaterjalid/Jost-2006-Entropy_and_diversity.pdf){style="color: gray;" target="_blank" rel="noopener noreferrer"} - lugeda mõistlikkuse piirini.
+Olgu siinkohal öeldud, et tegelikult ei kirjelda ei Shannoni indeks ega Gini-Simpsoni indeks tõelist mitmekesisust: [vabatahtlikku lisalugemist mitmekesisusest](lisamaterjalid/Jost-2006-Entropy_and_diversity.pdf){style="color: gray;" target="_blank" rel="noopener noreferrer"} - lugeda mõistlikkuse piirini.
 
 ## Koosluse kirjeldamise täielikkus
 
-Praktilises mõttes on liigirikkuse (ja sellest johtuvalt tegelikult ka mitmekesisuse) kirjeldamise puudujäägiks ka proovivõtu täielikkus (sampling completeness). Tavaliselt loendatakse ökoloogiliste uurimistööde käigus aja ja raha piiratuse tõttu liike teatud kindla pingutusega (olgu see pingutus kas taimede loendamiseks kulunud aeg, DNA sekveneerimissügavus ehk ühest proovist järjestatud DNA-lõikude arv, filtrist läbi lastud jõevee maht vms). Olenevalt liikide ühtlusest võime teatud ühtlase proovivõtupingutuse tulemusena saada ühest punktist parema kirjelduse kui teisest.
+Praktilises mõttes on liigirikkuse (ja sellest johtuvalt tegelikult ka mitmekesisuse) kirjeldamise puudujäägiks ka proovivõtu täielikkus (sampling completeness). Tavaliselt loendatakse ökoloogiliste uurimistööde käigus aja ja raha piiratuse tõttu liike teatud kindla pingutusega (olgu see pingutus kas taimede loendamiseks kulunud aeg, DNA sekveneerimissügavus ehk ühest proovist järjestatud DNA-lõikude arv, filtrist läbi lastud jõevee maht vms). Olenevalt sellest, kui võrdselt on koosluse indiviidid liikide vahel jaotunud, võime sama proovivõtupingutuse tulemusena saada ühest punktist parema kirjelduse kui teisest.
+
+*(Proovivõtupingutus - sampling effort - tähistab seda, kui palju (ressurssi) me koosluse kirjeldamiseks kulutame. Näiteks: loendame tolmeldajate külastusi igal õiel 10 minutit; võtame igast punktist 5 grammi mulda.)*
 
 ![Kui proovivõtupingutuse N1 puhul jääb mulje, et kooslus 1 on kaks korda liigirikkam kui kooslus 2, siis proovivõtupingutuse N2 korral on liigirikkused küllalt sarnased. Kui liigirikkuse-loendatud indiviidide korrelatsioonikõverat mõtteliselt mööda x-telge edasi joonistada, võiks ennustada hoopis kolmandat olukorda](media/proovivotu_taielikkus.PNG)
 
