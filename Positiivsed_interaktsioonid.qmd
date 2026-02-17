@@ -1,0 +1,52 @@
+---
+title: "Positiivsed interaktsioonid"
+format: html
+toc: true
+toc-depth: 3
+number-sections: false
+editor: source
+editor_options: 
+  chunk_output_type: console
+---
+
+Positiivsed interaktsioonid jagunevad vastavalt nende kujunemise ajaloole kaheks:
+
+1.  **Fasilitatsioon ehk soodustamine** - ühe liigi (**elupuhune**) positiivne mõju teisele liigile.
+
+2.  **Mutualism** - evolutsioonilise taustaga liikidevaheline suhe, kus netokasu saab kumbki osapool
+
+## Fasilitatsioon ehk soodustamine
+
+[***NB!***Ingliskeelses tähendusväljas mõistetakse sõna *facilitation* tihtipeale positiivse interaktsioonina *sensu lato*.]{.smallcaps}
+
+Praeguse kursuse kontekstis käsitleme **fasilitatsiooni** protsessina, kus üks liik muudab keskkonnatingimusi viisil, mis on teisele liigile soodne, võimaldades tal kasvada seal, kus see muidu oleks võimatu või raskendatud.
+
+Erinevalt obligaatsest mutualismist on fasilitatsioon sageli **ühesuunaline** ($+/0$) või asümmeetriline suhe, kus fasiliteeriv liik ise ei pruugi kasusaajast otsest kasu saada (nt suur puu pakub varju, aga ei "vaja" varjus kasvavat rohttaime).
+
+![Fasilitatsioon Püreneedes: põõsakujuline ja väga kurjade okastega liblikõieline *Echinospartum horridum* (*erizón*) pakub varju (ja lämmastikku) näiteks männiseemikutele](media/fasilitatsioon.png)
+
+### Toimemehhanismid
+
+Fasilitatsioon toimib peamiselt kahel viisil:
+
+1.  **Stressi leevendamine (Stress amelioration):** Fasiliitor pehmendab abiootilisi äärmusi (temperatuur, niiskus, tuul, soolsus).
+2.  **Ressursside kättesaadavuse parandamine:** Fasiliitor koondab või muudab kättesaadavaks ressursse (nt toitained, vesi mullas).
+3.  **Kaitse:** Fasiliitor pakub füüsilist või keemilist kaitset herbivooride eest (assotsiatiivne kaitse).
+
+### Hoidjataimed (*Nurse plants*)
+
+Klassikaline näide fasilitatsioonist on **hoidjataimed**. Need on tavaliselt vastupidavad liigid, mis on võimelised koloniseerima karmi keskkonda ja looma oma võra all või vahetus läheduses soodsama mikrokliima.
+
+-   **Toime:** Hoidjataim vähendab oma võra all maapinna temperatuuri, vähendab vee aurustumist ja suurendab mulla orgaanilise aine sisaldust.
+-   **Näide:** Kõrbetes kasvavad kaktused (nt *Carnegiea gigantea*) vajavad idanemiseks ja esimesteks eluaastateks sageli põõsaste (nt *Ambrosia* või *Parkinsonia* liigid) varju, mis kaitseb neid surmava päikesekiirguse eest.
+
+### Stressi Gradiendi Hüpotees (SGH)
+
+Fasilitatsiooni esinemissagedus ja olulisus ökosüsteemis sõltub keskkonna karmusest. Bertness ja Callaway (1994) sõnastasid **Stressi Gradiendi Hüpoteesi**:
+
+-   **Karmides tingimustes** (kõrbed, soolakud, alpiinsed alad) domineerib liikidevahelistes suhetes **fasilitatsioon**, sest abiootiline stress on peamine piirav faktor. Liigid vajavad üksteise abi ellujäämiseks.
+-   **Soodsates tingimustes** (parasvöötme viljakad niidud, vihmametsad) domineerib **konkurents**, sest ressursse on piisavalt ja peamiseks piiravaks faktoriks on ruum ja valgus, mille pärast tuleb võidelda.
+
+### Mõju nišiteooriale
+
+Fasilitatsioon laiendab liigi **realiseerunud nišši**. \* Klassikaline konkurentsiteooria ütleb, et realiseerunud nišš on alati *väiksem* kui fundamentaalne nišš (konkurendid tõrjuvad liigi välja). \* Fasilitatsiooni korral võib realiseerunud nišš olla **suurem** kui fundamentaalne nišš (kui vaadelda fundamentaalset nišši isolatsioonis). See tähendab, et tänu naabritele suudab liik elada tingimustes, kus ta üksi hukkuks.
