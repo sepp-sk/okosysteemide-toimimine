@@ -7,46 +7,101 @@ number-sections: false
 editor: source
 editor_options: 
   chunk_output_type: console
+bibliography: references.bib
 ---
 
-Positiivsed interaktsioonid jagunevad vastavalt nende kujunemise ajaloole kaheks:
+Nimetagem positiivseteks liikidevahelisteks interaktsioonideks selliseid, kus üks liik saab teise liigi olemasolust kasu ning teisel liigil on, kui mitte ka hea, siis vähemalt ükskõik. Nagu ökoloogias tavaks, kätkevad needsamad positiivsed interaktsioonid palju erinevaid (ülemineku)vorme.
 
-1.  **Fasilitatsioon ehk soodustamine** - ühe liigi (**elupuhune**) positiivne mõju teisele liigile.
+Sellegipoolest võime proovida positiivseid interaktsioone lahterdada kas:
 
-2.  **Mutualism** - evolutsioonilise taustaga liikidevaheline suhe, kus netokasu saab kumbki osapool
+-   **Kohasuse netokasu** poolest ehk kuidas mõjutab interaktsioon liigi A ja B fitnessi:
+
+    1.  **Mutualism** (+ / +) - mõlemad liigivad saavad netokasu ning nende mõlema kohasus kasvab.
+
+    2.  **Kommensalism** (+ / 0) - kasu saab üks liik, kuid teisele liigile (nii positiivne kui negatiivne) mõju puudub
+
+-   või hoopis (evolutsioonilise) **mehhanismi poolest:**
+
+    1.  **Fasilitatsioon ehk soodustamine** *sensu* @callaway2010 - ühe liigi (elupuhune) positiivne mõju teisele liigile. Fasilitatsiooni puhul peetakse positiivse mõju all silmas peamiselt elukeskkonna muutmist (meenutagem ka ökosüsteemi insenere). *Aga mitte ainult..*
+
+    2.  **Mutualism** - kahesuunalise tugeva evolutsioonilise (retsiprookne koevolutsioon) taustaga liikidevaheline suhe, kus netokasu saab kumbki osapool ning mõlemale rakendub valikusurve interaktsiooni hoida.
 
 ## Fasilitatsioon ehk soodustamine
 
-[***NB!***Ingliskeelses tähendusväljas mõistetakse sõna *facilitation* tihtipeale positiivse interaktsioonina *sensu lato*.]{.smallcaps}
+[***NB!*** Ingliskeelses tähendusväljas (eriti taimkatteteaduseväliselt) mõistetakse terminit *facilitation* tihtipeale liikidevahelise positiivse interaktsioonina *sensu lato*.]{.smallcaps}
 
-Praeguse kursuse kontekstis käsitleme **fasilitatsiooni** protsessina, kus üks liik muudab keskkonnatingimusi viisil, mis on teisele liigile soodne, võimaldades tal kasvada seal, kus see muidu oleks võimatu või raskendatud.
+Praeguse kursuse kontekstis käsitleme **fasilitatsiooni** *sensu* @callaway2010. **Fasilitatsioon** on mittetroofiline (elupuhune) positiivne interaktsioon, kus üks liik soodustab läheduses elava liigi elumust, kasvu või paljunemist ise kahju kannatamata.
 
-Erinevalt obligaatsest mutualismist on fasilitatsioon sageli **ühesuunaline** ($+/0$) või asümmeetriline suhe, kus fasiliteeriv liik ise ei pruugi kasusaajast otsest kasu saada (nt suur puu pakub varju, aga ei "vaja" varjus kasvavat rohttaime).
+> *Wherever lack of precipitation prevents a continuous cover of vegetation in Southern California, the dependence of certain annuals upon the presence of specific shrubs becomes evident.*
+>
+> *(Went, 1942)*
 
-![Fasilitatsioon Püreneedes: põõsakujuline ja väga kurjade okastega liblikõieline *Echinospartum horridum* (*erizón*) pakub varju (ja lämmastikku) näiteks männiseemikutele](media/fasilitatsioon.png)
+Teisisõnu - erinevalt mutualismist on fasilitatsioon sageli **ühesuunaline** ($+/0$) või asümmeetriline suhe, kus soodustav (fasiliteeriv) liik ise ei pruugi kasusaajast otsest kasu saada (nt suur puu pakub varju, aga ei "vaja" varjus kasvavat rohttaime). Sealjuures ei tähenda fasilitatsiooni elupuhusus seda, et ei toimiks evolutsioonilised protsessid (st valik) - kasusaajal on kindlasti mõistlik evolutsioneeruda kasu paremini saama!
 
 ### Toimemehhanismid
 
 Fasilitatsioon toimib peamiselt kahel viisil:
 
-1.  **Stressi leevendamine (Stress amelioration):** Fasiliitor pehmendab abiootilisi äärmusi (temperatuur, niiskus, tuul, soolsus).
-2.  **Ressursside kättesaadavuse parandamine:** Fasiliitor koondab või muudab kättesaadavaks ressursse (nt toitained, vesi mullas).
-3.  **Kaitse:** Fasiliitor pakub füüsilist või keemilist kaitset herbivooride eest (assotsiatiivne kaitse).
+1.  **Otsene fasilitatsioon** toimub siis, kui fasiliteeriv (ehk soodustav) liik moduleerib omaenda füüsikalis-keemilist keskkonda nii, et sellest saavad kasu teised liigid. Üks liik leevendab teiste liikide **abiootilist stressi**.
+2.  **Kaudne fasilitatsioon** leiab aset, kui ühe liigi olemasolu koosluses vähendab teistele liikidele avalduvat **biootilist** survet, olgu see surve siis näiteks röövlus või konkurents (*näiteks kas või sihitu konkurentsiahel ehk kivi-paber-käärid-süsteem*).
 
-### Hoidjataimed (*Nurse plants*)
+### Põetajataimed (*nurse plants*)
 
-Klassikaline näide fasilitatsioonist on **hoidjataimed**. Need on tavaliselt vastupidavad liigid, mis on võimelised koloniseerima karmi keskkonda ja looma oma võra all või vahetus läheduses soodsama mikrokliima.
+Klassikaline näide fasilitatsioonist on **põetajataimed**. Põetajataim on koosluses "kanda kinnitanud" taim (tavaliselt puitunud taim), kes loob enda võras ja selle all soodsa mikrokliima, võimaldades kasvukoha abiootiliste (või biootiliste!) tingimustega muidu hätta jäävatel teistel (taime-)liikidel püsima jääda.
 
--   **Toime:** Hoidjataim vähendab oma võra all maapinna temperatuuri, vähendab vee aurustumist ja suurendab mulla orgaanilise aine sisaldust.
--   **Näide:** Kõrbetes kasvavad kaktused (nt *Carnegiea gigantea*) vajavad idanemiseks ja esimesteks eluaastateks sageli põõsaste (nt *Ambrosia* või *Parkinsonia* liigid) varju, mis kaitseb neid surmava päikesekiirguse eest.
+![**Fasilitatsioon Püreneedes**: põõsakujuline ja väga kurjade okastega liblikõieline *Echinospartum horridum* (hisp *Erizón,* torkav leetpõõsas) pakub varju (ja lämmastikku) näiteks männiseemikule.](media/fasilitatsioon.png)
 
-### Stressi Gradiendi Hüpotees (SGH)
+Põetajataimede võivad pakkuda tervet hulka erinevaid hüvesid @filazzola2014 järgi:
 
-Fasilitatsiooni esinemissagedus ja olulisus ökosüsteemis sõltub keskkonna karmusest. Bertness ja Callaway (1994) sõnastasid **Stressi Gradiendi Hüpoteesi**:
+-   Püüab tuule või veega levivaid seemneid
 
--   **Karmides tingimustes** (kõrbed, soolakud, alpiinsed alad) domineerib liikidevahelistes suhetes **fasilitatsioon**, sest abiootiline stress on peamine piirav faktor. Liigid vajavad üksteise abi ellujäämiseks.
--   **Soodsates tingimustes** (parasvöötme viljakad niidud, vihmametsad) domineerib **konkurents**, sest ressursse on piisavalt ja peamiseks piiravaks faktoriks on ruum ja valgus, mille pärast tuleb võidelda.
+-   Varjupaik ja/või toiduallikas seemneid levitavatele loomadele
 
-### Mõju nišiteooriale
+-   Tugistruktuur
 
-Fasilitatsioon laiendab liigi **realiseerunud nišši**. \* Klassikaline konkurentsiteooria ütleb, et realiseerunud nišš on alati *väiksem* kui fundamentaalne nišš (konkurendid tõrjuvad liigi välja). \* Fasilitatsiooni korral võib realiseerunud nišš olla **suurem** kui fundamentaalne nišš (kui vaadelda fundamentaalset nišši isolatsioonis). See tähendab, et tänu naabritele suudab liik elada tingimustes, kus ta üksi hukkuks.
+-   Aitab kaasa huumusetekkele
+
+-   Soodustab mulla mikroorganisme
+
+-   Suurendab mullaniiskust, toitainete- ja hapnikusisaldust
+
+-   Reguleerib mullareaktsiooni
+
+-   Reguleerib UV kiirgust ja temperatuuri
+
+-   Vari tuule, vihma ja lume eest
+
+-   Kaitse herbivooride vastu
+
+-   Soodustab tolmeldamist
+
+-   Muudab assotsieerunud taimede ruumilist jaotust
+
+-   Soodustab fülogeneetiliselt kaugete liikide kooseksisteerimist
+
+-   ...
+
+Fasilitatsiooni esinemissagedus ja olulisus ökosüsteemis sõltub sellest, kui soodsad on keskkonnatingimused. @bertness1994 sõnastatud **stressigradiendi hüpotees** (*Stress Gradient Hypothesis*):
+
+-   **Ebasoodsates tingimustes** (kõrbed, soolakud, mäestikud) domineerib liikidevahelistes suhetes **fasilitatsioon**, sest abiootiline stress on peamine limiteeriv faktor. Liigid vajavad üksteise abi ellujäämiseks.
+-   **Soodsates tingimustes** (parasvöötme viljakad niidud, vihmametsad) domineerib **konkurents**, sest ressursse on ellujäämiseks piisavalt ja peamiseks piiravaks faktoriks on ruum ja valgus, mille pärast tuleb võidelda.
+
+#### Ontogeneetiline nihe
+
+Eelnev pildinäide Püreneedes toimuvast fasilitatsioonist liblikõielise puhma poolt on klassikaline ka teises mõttes. Liblikõieline *erizón* pakub seemikutele nii mehaanilist kaitset Püreneede suhteliselt intensiivse karjatamissurve eest (taim on tõesti õudust tekitav!), kaitset ekstreemsete temperatuuride eest ja rikastab liblikõielisena vaest mäestikumulda veel lämmastikugagi.
+
+Aga kui vaadata pikemat suktsessioonilist pilti, siis:
+
+1.  *Erizón* koloniseerib näiteks põlenud kasvukoha
+
+2.  Männiseeme langeb kurja põõsa alla, idaneb ja kasvab õndsas rahus
+
+3.  Mänd kasvab põõsast kõrgemaks
+
+4.  Mänd varjutab põõsa ja põetajataim lõpuks sureb
+
+5.  Tekib männimets
+
+Mis juhtus? Fasilitatsioon (+ / 0) suhe transformeerus soodustatud taime ontogeneesi käigus tugevaks konkurentsiks (- / -), kusjuures tubli ja abivalmis leetpõõsas tõrjutakse konkurentsi käigus üldse välja!
+
+------------------------------------------------------------------------

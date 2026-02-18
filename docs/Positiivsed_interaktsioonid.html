@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -144,9 +163,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#fasilitatsioon-ehk-soodustamine" id="toc-fasilitatsioon-ehk-soodustamine" class="nav-link active" data-scroll-target="#fasilitatsioon-ehk-soodustamine">Fasilitatsioon ehk soodustamine</a>
   <ul class="collapse">
   <li><a href="#toimemehhanismid" id="toc-toimemehhanismid" class="nav-link" data-scroll-target="#toimemehhanismid">Toimemehhanismid</a></li>
-  <li><a href="#hoidjataimed-nurse-plants" id="toc-hoidjataimed-nurse-plants" class="nav-link" data-scroll-target="#hoidjataimed-nurse-plants">Hoidjataimed (<em>Nurse plants</em>)</a></li>
-  <li><a href="#stressi-gradiendi-hüpotees-sgh" id="toc-stressi-gradiendi-hüpotees-sgh" class="nav-link" data-scroll-target="#stressi-gradiendi-hüpotees-sgh">Stressi Gradiendi Hüpotees (SGH)</a></li>
-  <li><a href="#mõju-nišiteooriale" id="toc-mõju-nišiteooriale" class="nav-link" data-scroll-target="#mõju-nišiteooriale">Mõju nišiteooriale</a></li>
+  <li><a href="#põetajataimed-nurse-plants" id="toc-põetajataimed-nurse-plants" class="nav-link" data-scroll-target="#põetajataimed-nurse-plants">Põetajataimed (<em>nurse plants</em>)</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -171,52 +188,95 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Positiivsed interaktsioonid jagunevad vastavalt nende kujunemise ajaloole kaheks:</p>
+<p>Nimetagem positiivseteks liikidevahelisteks interaktsioonideks selliseid, kus üks liik saab teise liigi olemasolust kasu ning teisel liigil on, kui mitte ka hea, siis vähemalt ükskõik. Nagu ökoloogias tavaks, kätkevad needsamad positiivsed interaktsioonid palju erinevaid (ülemineku)vorme.</p>
+<p>Sellegipoolest võime proovida positiivseid interaktsioone lahterdada kas:</p>
+<ul>
+<li><p><strong>Kohasuse netokasu</strong> poolest ehk kuidas mõjutab interaktsioon liigi A ja B fitnessi:</p>
 <ol type="1">
-<li><p><strong>Fasilitatsioon ehk soodustamine</strong> - ühe liigi (<strong>elupuhune</strong>) positiivne mõju teisele liigile.</p></li>
-<li><p><strong>Mutualism</strong> - evolutsioonilise taustaga liikidevaheline suhe, kus netokasu saab kumbki osapool</p></li>
-</ol>
+<li><p><strong>Mutualism</strong> (+ / +) - mõlemad liigivad saavad netokasu ning nende mõlema kohasus kasvab.</p></li>
+<li><p><strong>Kommensalism</strong> (+ / 0) - kasu saab üks liik, kuid teisele liigile (nii positiivne kui negatiivne) mõju puudub</p></li>
+</ol></li>
+<li><p>või hoopis (evolutsioonilise) <strong>mehhanismi poolest:</strong></p>
+<ol type="1">
+<li><p><strong>Fasilitatsioon ehk soodustamine</strong> <em>sensu</em> <span class="citation" data-cites="callaway2010">Callaway (<a href="#ref-callaway2010" role="doc-biblioref">2010</a>)</span> - ühe liigi (elupuhune) positiivne mõju teisele liigile. Fasilitatsiooni puhul peetakse positiivse mõju all silmas peamiselt elukeskkonna muutmist (meenutagem ka ökosüsteemi insenere). <em>Aga mitte ainult..</em></p></li>
+<li><p><strong>Mutualism</strong> - kahesuunalise tugeva evolutsioonilise (retsiprookne koevolutsioon) taustaga liikidevaheline suhe, kus netokasu saab kumbki osapool ning mõlemale rakendub valikusurve interaktsiooni hoida.</p></li>
+</ol></li>
+</ul>
 <section id="fasilitatsioon-ehk-soodustamine" class="level2">
 <h2 class="anchored" data-anchor-id="fasilitatsioon-ehk-soodustamine">Fasilitatsioon ehk soodustamine</h2>
-<p><span class="smallcaps"><strong><em>NB!</em></strong>Ingliskeelses tähendusväljas mõistetakse sõna <em>facilitation</em> tihtipeale positiivse interaktsioonina <em>sensu lato</em>.</span></p>
-<p>Praeguse kursuse kontekstis käsitleme <strong>fasilitatsiooni</strong> protsessina, kus üks liik muudab keskkonnatingimusi viisil, mis on teisele liigile soodne, võimaldades tal kasvada seal, kus see muidu oleks võimatu või raskendatud.</p>
-<p>Erinevalt obligaatsest mutualismist on fasilitatsioon sageli <strong>ühesuunaline</strong> (<span class="math inline">\(+/0\)</span>) või asümmeetriline suhe, kus fasiliteeriv liik ise ei pruugi kasusaajast otsest kasu saada (nt suur puu pakub varju, aga ei “vaja” varjus kasvavat rohttaime).</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="media/fasilitatsioon.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Fasilitatsioon Püreneedes: põõsakujuline ja väga kurjade okastega liblikõieline <em>Echinospartum horridum</em> (<em>erizón</em>) pakub varju (ja lämmastikku) näiteks männiseemikutele</figcaption>
-</figure>
-</div>
+<p><span class="smallcaps"><strong><em>NB!</em></strong> Ingliskeelses tähendusväljas (eriti taimkatteteaduseväliselt) mõistetakse terminit <em>facilitation</em> tihtipeale liikidevahelise positiivse interaktsioonina <em>sensu lato</em>.</span></p>
+<p>Praeguse kursuse kontekstis käsitleme <strong>fasilitatsiooni</strong> <em>sensu</em> <span class="citation" data-cites="callaway2010">Callaway (<a href="#ref-callaway2010" role="doc-biblioref">2010</a>)</span>. <strong>Fasilitatsioon</strong> on mittetroofiline (elupuhune) positiivne interaktsioon, kus üks liik soodustab läheduses elava liigi elumust, kasvu või paljunemist ise kahju kannatamata.</p>
+<blockquote class="blockquote">
+<p><em>Wherever lack of precipitation prevents a continuous cover of vegetation in Southern California, the dependence of certain annuals upon the presence of specific shrubs becomes evident.</em></p>
+<p><em>(Went, 1942)</em></p>
+</blockquote>
+<p>Teisisõnu - erinevalt mutualismist on fasilitatsioon sageli <strong>ühesuunaline</strong> (<span class="math inline">\(+/0\)</span>) või asümmeetriline suhe, kus soodustav (fasiliteeriv) liik ise ei pruugi kasusaajast otsest kasu saada (nt suur puu pakub varju, aga ei “vaja” varjus kasvavat rohttaime). Sealjuures ei tähenda fasilitatsiooni elupuhusus seda, et ei toimiks evolutsioonilised protsessid (st valik) - kasusaajal on kindlasti mõistlik evolutsioneeruda kasu paremini saama!</p>
 <section id="toimemehhanismid" class="level3">
 <h3 class="anchored" data-anchor-id="toimemehhanismid">Toimemehhanismid</h3>
 <p>Fasilitatsioon toimib peamiselt kahel viisil:</p>
 <ol type="1">
-<li><strong>Stressi leevendamine (Stress amelioration):</strong> Fasiliitor pehmendab abiootilisi äärmusi (temperatuur, niiskus, tuul, soolsus).</li>
-<li><strong>Ressursside kättesaadavuse parandamine:</strong> Fasiliitor koondab või muudab kättesaadavaks ressursse (nt toitained, vesi mullas).</li>
-<li><strong>Kaitse:</strong> Fasiliitor pakub füüsilist või keemilist kaitset herbivooride eest (assotsiatiivne kaitse).</li>
+<li><strong>Otsene fasilitatsioon</strong> toimub siis, kui fasiliteeriv (ehk soodustav) liik moduleerib omaenda füüsikalis-keemilist keskkonda nii, et sellest saavad kasu teised liigid. Üks liik leevendab teiste liikide <strong>abiootilist stressi</strong>.</li>
+<li><strong>Kaudne fasilitatsioon</strong> leiab aset, kui ühe liigi olemasolu koosluses vähendab teistele liikidele avalduvat <strong>biootilist</strong> survet, olgu see surve siis näiteks röövlus või konkurents (<em>näiteks kas või sihitu konkurentsiahel ehk kivi-paber-käärid-süsteem</em>).</li>
 </ol>
 </section>
-<section id="hoidjataimed-nurse-plants" class="level3">
-<h3 class="anchored" data-anchor-id="hoidjataimed-nurse-plants">Hoidjataimed (<em>Nurse plants</em>)</h3>
-<p>Klassikaline näide fasilitatsioonist on <strong>hoidjataimed</strong>. Need on tavaliselt vastupidavad liigid, mis on võimelised koloniseerima karmi keskkonda ja looma oma võra all või vahetus läheduses soodsama mikrokliima.</p>
+<section id="põetajataimed-nurse-plants" class="level3">
+<h3 class="anchored" data-anchor-id="põetajataimed-nurse-plants">Põetajataimed (<em>nurse plants</em>)</h3>
+<p>Klassikaline näide fasilitatsioonist on <strong>põetajataimed</strong>. Põetajataim on koosluses “kanda kinnitanud” taim (tavaliselt puitunud taim), kes loob enda võras ja selle all soodsa mikrokliima, võimaldades kasvukoha abiootiliste (või biootiliste!) tingimustega muidu hätta jäävatel teistel (taime-)liikidel püsima jääda.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/fasilitatsioon.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption"><strong>Fasilitatsioon Püreneedes</strong>: põõsakujuline ja väga kurjade okastega liblikõieline <em>Echinospartum horridum</em> (hisp <em>Erizón,</em> torkav leetpõõsas) pakub varju (ja lämmastikku) näiteks männiseemikule.</figcaption>
+</figure>
+</div>
+<p>Põetajataimede võivad pakkuda tervet hulka erinevaid hüvesid <span class="citation" data-cites="filazzola2014">Filazzola and Lortie (<a href="#ref-filazzola2014" role="doc-biblioref">2014</a>)</span> järgi:</p>
 <ul>
-<li><strong>Toime:</strong> Hoidjataim vähendab oma võra all maapinna temperatuuri, vähendab vee aurustumist ja suurendab mulla orgaanilise aine sisaldust.</li>
-<li><strong>Näide:</strong> Kõrbetes kasvavad kaktused (nt <em>Carnegiea gigantea</em>) vajavad idanemiseks ja esimesteks eluaastateks sageli põõsaste (nt <em>Ambrosia</em> või <em>Parkinsonia</em> liigid) varju, mis kaitseb neid surmava päikesekiirguse eest.</li>
+<li><p>Püüab tuule või veega levivaid seemneid</p></li>
+<li><p>Varjupaik ja/või toiduallikas seemneid levitavatele loomadele</p></li>
+<li><p>Tugistruktuur</p></li>
+<li><p>Aitab kaasa huumusetekkele</p></li>
+<li><p>Soodustab mulla mikroorganisme</p></li>
+<li><p>Suurendab mullaniiskust, toitainete- ja hapnikusisaldust</p></li>
+<li><p>Reguleerib mullareaktsiooni</p></li>
+<li><p>Reguleerib UV kiirgust ja temperatuuri</p></li>
+<li><p>Vari tuule, vihma ja lume eest</p></li>
+<li><p>Kaitse herbivooride vastu</p></li>
+<li><p>Soodustab tolmeldamist</p></li>
+<li><p>Muudab assotsieerunud taimede ruumilist jaotust</p></li>
+<li><p>Soodustab fülogeneetiliselt kaugete liikide kooseksisteerimist</p></li>
+<li><p>…</p></li>
 </ul>
-</section>
-<section id="stressi-gradiendi-hüpotees-sgh" class="level3">
-<h3 class="anchored" data-anchor-id="stressi-gradiendi-hüpotees-sgh">Stressi Gradiendi Hüpotees (SGH)</h3>
-<p>Fasilitatsiooni esinemissagedus ja olulisus ökosüsteemis sõltub keskkonna karmusest. Bertness ja Callaway (1994) sõnastasid <strong>Stressi Gradiendi Hüpoteesi</strong>:</p>
+<p>Fasilitatsiooni esinemissagedus ja olulisus ökosüsteemis sõltub sellest, kui soodsad on keskkonnatingimused. <span class="citation" data-cites="bertness1994">Bertness and Callaway (<a href="#ref-bertness1994" role="doc-biblioref">1994</a>)</span> sõnastatud <strong>stressigradiendi hüpotees</strong> (<em>Stress Gradient Hypothesis</em>):</p>
 <ul>
-<li><strong>Karmides tingimustes</strong> (kõrbed, soolakud, alpiinsed alad) domineerib liikidevahelistes suhetes <strong>fasilitatsioon</strong>, sest abiootiline stress on peamine piirav faktor. Liigid vajavad üksteise abi ellujäämiseks.</li>
-<li><strong>Soodsates tingimustes</strong> (parasvöötme viljakad niidud, vihmametsad) domineerib <strong>konkurents</strong>, sest ressursse on piisavalt ja peamiseks piiravaks faktoriks on ruum ja valgus, mille pärast tuleb võidelda.</li>
+<li><strong>Ebasoodsates tingimustes</strong> (kõrbed, soolakud, mäestikud) domineerib liikidevahelistes suhetes <strong>fasilitatsioon</strong>, sest abiootiline stress on peamine limiteeriv faktor. Liigid vajavad üksteise abi ellujäämiseks.</li>
+<li><strong>Soodsates tingimustes</strong> (parasvöötme viljakad niidud, vihmametsad) domineerib <strong>konkurents</strong>, sest ressursse on ellujäämiseks piisavalt ja peamiseks piiravaks faktoriks on ruum ja valgus, mille pärast tuleb võidelda.</li>
 </ul>
-</section>
-<section id="mõju-nišiteooriale" class="level3">
-<h3 class="anchored" data-anchor-id="mõju-nišiteooriale">Mõju nišiteooriale</h3>
-<p>Fasilitatsioon laiendab liigi <strong>realiseerunud nišši</strong>. * Klassikaline konkurentsiteooria ütleb, et realiseerunud nišš on alati <em>väiksem</em> kui fundamentaalne nišš (konkurendid tõrjuvad liigi välja). * Fasilitatsiooni korral võib realiseerunud nišš olla <strong>suurem</strong> kui fundamentaalne nišš (kui vaadelda fundamentaalset nišši isolatsioonis). See tähendab, et tänu naabritele suudab liik elada tingimustes, kus ta üksi hukkuks.</p>
+<section id="ontogeneetiline-nihe" class="level4">
+<h4 class="anchored" data-anchor-id="ontogeneetiline-nihe">Ontogeneetiline nihe</h4>
+<p>Eelnev pildinäide Püreneedes toimuvast fasilitatsioonist liblikõielise puhma poolt on klassikaline ka teises mõttes. Liblikõieline <em>erizón</em> pakub seemikutele nii mehaanilist kaitset Püreneede suhteliselt intensiivse karjatamissurve eest (taim on tõesti õudust tekitav!), kaitset ekstreemsete temperatuuride eest ja rikastab liblikõielisena vaest mäestikumulda veel lämmastikugagi.</p>
+<p>Aga kui vaadata pikemat suktsessioonilist pilti, siis:</p>
+<ol type="1">
+<li><p><em>Erizón</em> koloniseerib näiteks põlenud kasvukoha</p></li>
+<li><p>Männiseeme langeb kurja põõsa alla, idaneb ja kasvab õndsas rahus</p></li>
+<li><p>Mänd kasvab põõsast kõrgemaks</p></li>
+<li><p>Mänd varjutab põõsa ja põetajataim lõpuks sureb</p></li>
+<li><p>Tekib männimets</p></li>
+</ol>
+<p>Mis juhtus? Fasilitatsioon (+ / 0) suhe transformeerus soodustatud taime ontogeneesi käigus tugevaks konkurentsiks (- / -), kusjuures tubli ja abivalmis leetpõõsas tõrjutakse konkurentsi käigus üldse välja!</p>
+<hr>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-bertness1994" class="csl-entry" role="listitem">
+Bertness, Mark D., and Ragan Callaway. 1994. <span>“Positive Interactions in Communities.”</span> <em>Trends in Ecology &amp; Evolution</em> 9 (5): 191–93. <a href="https://doi.org/10.1016/0169-5347(94)90088-4">https://doi.org/10.1016/0169-5347(94)90088-4</a>.
+</div>
+<div id="ref-callaway2010" class="csl-entry" role="listitem">
+Callaway, R. M. 2010. <span>“Do Positive Interactions Among Plants Matter?”</span> In <em>Positive Plant Interactions and Community Dynamics</em>, edited by F. I. Pugnaire, 1–16. CRC Press.
+</div>
+<div id="ref-filazzola2014" class="csl-entry" role="listitem">
+Filazzola, Alessandro, and Christopher J. Lortie. 2014. <span>“A Systematic Review and Conceptual Framework for the Mechanistic Pathways of Nurse Plants.”</span> <em>Global Ecology and Biogeography</em> 23 (12): 1335–45. <a href="https://doi.org/10.1111/geb.12202">https://doi.org/10.1111/geb.12202</a>.
+</div>
+</div>
+</section>
 </section>
 </section>
 
