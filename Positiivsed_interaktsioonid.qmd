@@ -133,21 +133,21 @@ Nimelt on ka mutualismi puhul võimalik interaktsiooni paigutada mitmele eri gra
 
         Olgu siinkohal mainitud, et mida aeg edasi, seda rohkem peetakse ökoloogiateaduses spetsialiseerumist mitte binaarseks (on või ei ole) tunnuseks, vaid spetsialiseerumine on asukoht liikidevaheliste interaktsioonide toimumise **tõenäosuslikul gradiendil**.
 
-**Vahetatava ressursi järgi:**
+-   **Vahetatava ressursi järgi:**
 
--   *Toit* *- troofiline mutualism*- suhe, kus partnerid osalevad (komplementaarselt) toitainete ja süsivesikute hankimises ja/või tootmises
+    -   *Toit* *- troofiline mutualism*- suhe, kus partnerid osalevad (komplementaarselt) toitainete ja süsivesikute hankimises ja/või tootmises
 
--   *Kaitse - kaitsemutualism* - suhe, kus üks liik vastutasuks toidu ja/või varjupaiga eest kaitseb teist liiki tolle vaenlaste vastu
+    -   *Kaitse - kaitsemutualism* - suhe, kus üks liik vastutasuks toidu ja/või varjupaiga eest kaitseb teist liiki tolle vaenlaste vastu
 
--   *Transport - levimismutualism* - suhe, kus üks liik aitab teisel liigil levida, saades ise vastutasuks toitu
+    -   *Transport - levimismutualism* - suhe, kus üks liik aitab teisel liigil levida, saades ise vastutasuks toitu
 
-    Pange tähele, et üldiselt on ühe osapoole saadav tulu pea alati seotud toiduga, erinevus seisneb selles, mida saab vastu teine interaktsiooni osapool.
+        Pange tähele, et üldiselt on ühe osapoole saadav tulu pea alati seotud toiduga, erinevus seisneb selles, mida saab vastu teine interaktsiooni osapool.
 
 ### Ekspluatatiivne suhe
 
-Lihtne on kõikide nende näidete peale mõeldes arvata, et mutualism on loomult heatahtlik suhe - tee head ja head tehakse sulle. Tegelikult on võiks mutualismi siiski vaadelda kui retsiprookset ekspluatatsiooni ehk vastastikust ärakasutamist, kus kumbki partner saab netokasumi.
+Lihtne on kõikide nende näidete peale mõeldes arvata, et mutualism on loomult heatahtlik suhe - tee head ja head tehakse sulle. Tegelikult võiks mutualismi siiski vaadelda kui retsiprookset ekspluatatsiooni ehk vastastikust ärakasutamist, kus kumbki partner saab netokasumi.
 
-> Mesilane ei tolmelda, ta käib söömas.
+> *Mesilane ei tolmelda, ta käib söömas.*
 
 ![](media/symbioosi_gradient.png)
 
