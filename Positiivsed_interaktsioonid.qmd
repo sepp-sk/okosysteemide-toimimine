@@ -49,7 +49,7 @@ Fasilitatsioon toimib peamiselt kahel viisil:
 
 Klassikaline näide fasilitatsioonist on **põetajataimed**. Põetajataim on koosluses "kanda kinnitanud" taim (tavaliselt puitunud taim), kes loob enda võras ja selle all soodsa mikrokliima, võimaldades kasvukoha abiootiliste (või biootiliste!) tingimustega muidu hätta jäävatel teistel (taime-)liikidel püsima jääda.
 
-![**Fasilitatsioon Püreneedes**: põõsakujuline ja väga kurjade okastega liblikõieline *Echinospartum horridum* (hisp *Erizón,* torkav leetpõõsas) pakub varju (ja lämmastikku) näiteks männiseemikule.](media/fasilitatsioon.png)
+![**Fasilitatsioon Püreneedes**: põõsakujuline ja väga kurjade okastega liblikõieline *Echinospartum horridum* (hisp *Erizón,* torkav leetpõõsas) pakub varju (ja lämmastikku) näiteks männiseemikule.](media/fasilitatsioon.png){width="100%"}
 
 Põetajataimede võivad pakkuda tervet hulka erinevaid hüvesid @filazzola2014 järgi:
 
@@ -149,7 +149,7 @@ Lihtne on kõikide nende näidete peale mõeldes arvata, et mutualism on loomult
 
 > *Mesilane ei tolmelda, ta käib söömas.*
 
-![](media/symbioosi_gradient.png)
+![](media/symbioosi_gradient.png){width="100%"}
 
 Netokasum sõltub sellest, mis hinnaga on kummalegi osapoolele tema poolt äraantav ressurss (näiteks fotosünteetiliselt fikseeritud süsinik), ning sellest, kui piirav on partneri poolt saadud ressurss (näiteks mullast hangitud fosfaat). Sestap ujuvad säärased interaktsioonid pidevalt gradiendil, mille teises otsas on parasitism.\
 
