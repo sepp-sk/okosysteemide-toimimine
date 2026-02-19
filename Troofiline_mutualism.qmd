@@ -1,0 +1,79 @@
+---
+title: "Troofiline mutualism"
+format: html
+toc: true
+toc-depth: 3
+number-sections: false
+editor: source
+editor_options: 
+  chunk_output_type: console
+bibliography: references.bib
+---
+
+# Troofiline mutualism
+
+![Sir David Read, tänapäevaste mükoriisauuringute *grand old man*, võrdleb oma ettekannetes tihtipeale teadlasi, kes eeldasid, et taimedes leiduvad seenestrukrtuurid on parasitistlikud (ülemine slaid), nendega, kes tõestasid sümbiontide mutualistiku rolli (alumine slaid). Tuleb välja, et mutualism on igas mõttes kasulikum, kui antagonism - ka uurija elueale (p \< 0.001).](media/sir_david_read_mutualism_vs_antagonism.png){width="1600"}
+
+-   Asümmeetriline obligaatne mutualism leiab aset näiteks arbuskulaarmükoriissete seente ja taimede vahel. Arbuskulaarmükorissed seened ei ole võimelised taimejuurt koloniseerimata oma elutsüklit läbima (neil puudub geneetiline võimekus saprotroofseks toitumiseks ning nad sõltuvad taime poolt fikseeritavast süsinikust sajaprotsendiliselt), samas kui peremeestaimed (aga sugugi mitte kõik taimeliigid ühetaoliselt), kuigi mükoriisa aitab tublisti kaasa fosfori hankimisel, saavad elatud ka mükoriisse interaktsioonita.
+
+Looduses ringi vaadates näeme sageli konkurentsi – võitlust piiratud ressursside, valguse ja elupaiga nimel. Kuid sama oluline, kui mitte olulisemgi, on liikidevaheline koostöö. Üks põnevamaid ja ökosüsteemide toimimise seisukohalt kriitilisemaid interaktsioonitüüpe on **troofiline mutualism**.
+
+Erinevalt lihtsast kommensalismist, kus üks osapool saab kasu ja teist suhe ei mõjuta, on mutualism evolutsiooniliselt välja kujunenud suhe, kus mõlemad partnerid saavad netokasu. Troofilise mutualismi puhul on see kasu rangelt majanduslik: tegemist on ressursside, peamiselt toitainete ja energia komplementaarse ehk üksteist täiendava vahetusega. Üks osapool on sageli spetsialiseerunud energia hankimisele (näiteks fotosünteesi teel) ning teine spetsiifiliste mineraalainete või muude ressursside kättesaadavaks tegemisele.
+
+Selles peatükis vaatleme, kuidas troofiline mutualism kujundab elusloodust, alustades taimede ja seente vahelisest iidsest liidust ning lõpetades ookeanisügavuste ja loomade seedekulglatega.
+
+## Taimede ja mikroorganismide vaheline "bioloogiline turg"
+
+Maismaaökosüsteemide fundamentaalseim troofiline mutualism toimub mulla all. Kuigi meile tundub, et taimed on iseseisvad autotroofid, on nad tegelikkuses peaaegu alati tihedalt seotud mitmesuguste mikroorganismidega.
+
+### Mükoriisa: globaalne toitainete võrgustik
+
+Ligikaudu 90% kõikidest maismaataimedest moodustab seentega sümbiootilise kooselu, mida nimetatakse **mükoriisaks** ehk seenjuureks. See partnerlus on evolutsiooniliselt niivõrd vana, et suure tõenäosusega oli just seente abi see, mis võimaldas esimestel algelistel taimedel sadu miljoneid aastaid tagasi veest maismaale asuda – keskkonda, kus toitained ei uhtunud enam vabalt üle nende kudede.
+
+Mükoriisa toimimispõhimõte on klassikaline troofiline mutualism. Taim seob fotosünteesi käigus atmosfäärist süsinikku ja toodab energiarikkaid suhkruid. Kuna seened on heterotroofid ja fotosünteesida ei suuda, saavad nad oma elutegevuseks vajaliku süsiniku taimelt – sageli loovutab taim seenele kuni 30% oma toodetud fotossimilaatidest. Vastutasuks toimib seene niidistik (mütseel) taime juurestiku pikendusena. Seenehüüfid on oluliselt peenemad kui taime juurekarvad, suutes tungida mullapooridesse, kuhu taim ise ei ulatu, ning eritada ensüüme, mis muudavad anorgaanilised mineraalained, eelkõige fosfori ja lämmastiku, taimele kättesaadavaks. Lisaks toitainetele varustab seen taime veega ning pakub kaitset teatud patogeenide ja raskemetallide eest.
+
+Selle suhte loomine nõuab keerulist keemilist dialoogi. Näiteks arbuskulaarse mükoriisa (AM) puhul, mis on levinuim mükoriisatüüp, hakkab fosforipuuduses taim eritama mulda stressihormoone – strigolaktoone. Läheduses asuvad seene eosed tajuvad seda signaali ja vastavad nn Myc-faktorite eritamisega. Alles pärast seda, kui taime juurerakud on Myc-faktoreid spetsiifiliste retseptoritega tajunud, algab juurekudede ümberkorraldamine, mis lubab seenel kudedesse tungida ja moodustada seal puukujulisi ainevahetusstruktuure – arbuskuleid.
+
+![Arbuskulaarse mükoriisa struktuur ja ainevahetus taime juurerakkudes.](/images/placeholder_arbuscular_mycorrhiza.png)
+
+### Lämmastiku fikseerimine: energia intensiivne tehas
+
+Kuigi õhk meie ümber koosneb ligi 78% ulatuses lämmastikust ($N_2$), on see taimedele ja loomadele kättesaamatus vormis. Kahe lämmastikuaatomi vahelise kolmiksideme lõhkumine nõuab tohutult energiat.
+
+Teatud taimed, eelkõige liblikõielised (herned, oad, ristik), on astunud troofilisse mutualismi spetsiifiliste bakteritega (nt *Rhizobia* perekond). Taimed kasvatavad oma juurtele spetsiaalsed mügarad, luues bakteritele ideaalse, hapnikuvaese keskkonna. Taim toidab baktereid pideva süsivesikute vooluga. Bakterid kasutavad seda energiat ensüüm nitrogenaasi käitamiseks, mis muudab õhulämmastiku taimele omastatavaks ammooniumiks ($NH_4^+$). Protsess on energeetiliselt erakordselt kulukas, nõudes ligikaudu 16 ATP molekuli iga fikseeritud lämmastikumolekuli kohta, mistõttu taim reguleerib seda suhet rangelt, vältides asjatut energiakulu, kui mullas on niigi piisavalt lämmastikku.
+
+## Troofiline mutualism väljaspool taimeriiki
+
+Kuigi botaanilised näited on tuntuimad, esineb troofilist mutualismi laialdaselt kogu eluslooduses, olles paljude mastaapsete ökosüsteemide vundamendiks.
+
+### Ookeanide vihmametsad: korallid ja zooksantellid
+
+Troopilised mered on toitainete poolest sageli väga vaesed, ometi kihavad seal elustikust tihedad korallrifid. Riffe ehitavad kivikorallid on loomad (heterotroofid), kuid nad on sõlminud elutähtsa liidu oma kudedes elavate ainuraksete dinoflagellaatidega, keda tuntakse zooksantellide nime all.
+
+Kuna korallipolüüp elab madalas ja valgusküllases vees, saavad tema kudedes elavad vetikad intensiivselt fotosünteesida. Zooksantellid toodavad rohkelt orgaanilisi ühendeid (suhkruid, glütserooli ja aminohappeid) ning loovutavad koguni kuni 90% neist oma korallist peremehele. Tänu sellele energiasüstile suudab korall kasvatada oma massiivset lubitoestikku. Korall omalt poolt pakub vetikatele füüsilist kaitset ja pidevat ligipääsu ainevahetuse jääkproduktidele (lämmastik ja fosfor), mis on vetikale elutähtsad mineraalained.
+
+![Koralli ja zooksantellide vaheline ressursside vahetus.](/images/placeholder_coral_symbiosis.png)
+
+### Elu ilma päikeseta: hüdrotermaalsete allikate ökosüsteemid
+
+Ookeani sügavikes, kilomeetrite sügavusel, kus puudub igasugune päikesevalgus, asuvad hüdrotermaalsed allikad. Seal purskab merepõhjast välja kuuma, mineraaliderikast ja mürgist vesiniksulfiidi ($H_2S$) sisaldavat vett. Isegi sellises äärmuslikus keskkonnas õitseb elu, toetudes täielikult kemosünteetilisele troofilisele mutualismile.
+
+Silmapaistvaim näide on hiid-toruuss *Riftia pachyptila*. Nendel kuni kahe meetri pikkusteks kasvavatel loomadel puudub täielikult suu ja seedekulgla. Selle asemel on nende kehas spetsiaalne organ nimega trofosoom, mis on massiliselt asustatud väävlit oksüdeerivate bakteritega. Toruussi veri sisaldab unikaalset hemoglobiini, mis seob nii vees leiduvat hapnikku kui ka mürgist vesiniksulfiidi ning transpordib need trofosoomi. Bakterid oksüdeerivad vesiniksulfiidi, saades sellest energiat, mida nad kasutavad süsihappegaasi sidumiseks ja orgaaniliste ühendite tootmiseks. Need ühendid toidavad toruussi. Siin näeme, kuidas loom on delegeerinud kogu oma toiduhankimise ja seedimise autotroofsetele sümbiontidele.
+
+### Taimetoiduliste imetajate seedekulgla
+
+Maismaal tagab troofiline mutualism rohusööjate, näiteks mäletsejate, ellujäämise. Taimede rakukestad koosnevad suures osas tselluloosist, kuid ühelgi imetajal ei ole evolutsiooni käigus tekkinud ensüüme selle lagundamiseks.
+
+Kuidas suudavad siis lehmad või põdrad heinast ja lehtedest ära elada? Vastus peitub nende eesmaos ehk vatsas. Vats on tohutu suur, anaeroobne ja stabiilse temperatuuriga fermentatsioonikamber, mis on koduks miljarditele bakteritele, arhedele ja protistidele. Loom mäletseb toidu peeneks, pakkudes mikrobioomile tohutut pinda tegutsemiseks. Mikrobioom toodab tsellulaase, kääritab taime kiudained lühikese ahelaga rasvhapeteks (nagu äädikhape ja propioonhape), mis imenduvad läbi vatsa seina looma vereringesse, kattes enamiku looma energiavajadusest. Loom pakub mikroobidele elupaika ja toormaterjali; mikroobid annavad vastu seeditud energiat (ja muutuvad ise hiljem peensooles looma valguallikaks).
+
+## Difuusne troofiline mutualism
+
+Troofiline mutualism ei pea alati olema otsene ja füüsiliselt integreeritud sümbioos kahe liigi vahel. Ökosüsteemides esineb sageli ka **difuusset ehk hajusat troofilist mutualismi**, kus ressursivahetus toimub kaudsemate võrgustike kaudu.
+
+Klassikaline näide on metsa ökosüsteemi aineringe. Taimed langetavad maapinnale lehevarist, mis on rikas süsiniku, kuid vaene kättesaadavate mineraalide poolest. See varis on elutähtis toiduallikas mulla selgrootutele (näiteks vihmaussidele ja hooghännalistele) ning lagundajate mikroobide kogukonnale. Nemad saavad varisest eluks vajaliku energia, lagundades selle käigus keerulised orgaanilised ühendid tagasi lihtsateks mineraalideks. Need vabanevad mineraalid on omakorda hädavajalikud taimedele uueks kasvuks. Selles süsteemis ei ole otsest füüsilist kontakti iga taime ja vihmaussi vahel, kuid nende elutegevus on ressursside tasandil täielikult ja vastastikku sõltuv.
+
+Veelgi laiemalt vaadates võib difuusne mutualism siduda täiesti erinevaid ökosüsteeme. Hea näide on lõhede ränne ookeanist tagasi mageveejõgedesse (Helfield & Naiman, 2001). Lõhed koguvad oma kehamassi ookeanis toitudes. Kui nad kudemisajal jõgedesse rändavad, püüavad neid karud ja teised kiskjad, kes veavad kalade jäänused kaldaäärsetesse metsadesse. Lõhede lagunemisel vabaneb rannikumetsa mulda tohutus koguses ookeanist pärit lämmastikku ja fosforit, mis soodustab puude kasvu. Suuremad puud pakuvad omakorda jõgedele varju, hoides vee jahedana ning luues vettekukkunud tüvede abil ideaalseid elupaiku noortele lõhemaimudele.
+
+### Kokkuvõte
+
+Troofiline mutualism demonstreerib ilmekalt, et bioloogilised süsteemid ei püsiks elus isolatsioonis. Olgu tegemist taimede juurtel elavate seentega, pimedas ookeanis asuvate toruussidega või loomade seedekulglat asustavate bakteritega – eluslooduse arhitektuur toetub võimele kombineerida erinevate liikide füsioloogilisi tugevusi. Mõistes neid seoseid, mõistame paremini ka seda, miks ühe liigi kadumine või keskkonnatingimuste muutumine võib kogu ökosüsteemi toimimisele doominoefektina mõjuda.

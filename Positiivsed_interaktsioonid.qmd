@@ -104,4 +104,53 @@ Aga kui vaadata pikemat suktsessioonilist pilti, siis:
 
 Mis juhtus? Fasilitatsioon (+ / 0) suhe transformeerus soodustatud taime ontogeneesi käigus tugevaks konkurentsiks (- / -), kusjuures tubli ja abivalmis leetpõõsas tõrjutakse konkurentsi käigus üldse välja!
 
+## Mutualism
+
+Erinevalt niisama fakultatiivsetest suhetest on mutualism kooselu, mis on mõlemale osapoolele kasulik. Nagu juba enne mainitud, on toimub mutualismi puhul valikusurve mõlema osaleva liigi suhtes. Seda nimetatakse reitsiprookseks koevolutsiooniks ehk olukorraks, kus mõlemale liigile rakenduv valikusurve soosib mutualistliku suhte hoidmist.
+
+Või siiski?
+
+Nimelt on ka mutualismi puhul võimalik interaktsiooni paigutada mitmele eri gradiendile. Mutualismi saab jagada:
+
+-   **Obligaatne või fakultatiivne:**
+
+    -   *Obligaatse mutualismi* puhul sõltub osalevate liikide ellujäämine täielikult teineteisest, sealjuures võib obligaatsus olla sümmeetriline (mõlema liigi ellujäämine on tihedalt seotud mutualistliku partneri olemasoluga) või asümmeetriline (eluliselt sõltub mutualistlikust partnerist ainult üks osapooltest).\
+        \
+        Sümmeetrilise obligaatse mutualismi ehk tuntuim näide on viigipuud ja neid tolmeldavad herilased- viigipuu õisik on täiesti kinnine ja tema vilju ei tolmelda ükski muu ussi- ega püssirohi peale ülispetsialiseerunud herilase, kes ronib õisiku sisse munema ja kelle vastsed saavad vastutasuks kaitse ja toidu.\
+        \
+        Asümmeetrilise obligaatse mutualismi näiteks võiks tuua meriroosi ja meriroosahvena (*clownfish*). Meriroosahven siseneb ilma meriroosi kaitsvate kombitsate (millega kala ennast aegapidi harjutab) varju otsimata kiiresti toiduahela ülemistesse lülidesse, samas kui meriroos, keda kala küll natukene parasiitide ja meriroosi söövate teiste kalade eest kaitseb, saab elatud ka ilma meriroosahvenata.\
+        \
+        ![Meriroos ja meriroosahven. Foto: Triniti14045, CC BY-SA 4.0 \<https://creativecommons.org/licenses/by-sa/4.0\>, via Wikimedia Commons](media/meriroos_ja_meriroosahven.png)
+
+    -   *Fakultatiivse mutualismi* puhul jäävad interaktsiooni potentsiaalsed osapooled ellu ka iseseisvalt - iseasi, mis elu see ka on. Selle näitena võiks tuua näiteks lehetäid ja sipelgad, kelle suhe on selgelt mutualistlik - sipelgad saavad kvaliteetset süsinikku ja lehetäid kaitset, aga kumbki osapool saab elatud ka ilma teiseta.
+
+-   **Spetsialiseerunud või mittespetsialiseerunud:**
+
+    -   *Spetsialiseerunud mutualismi* puhul on kas üks või mõlemad osalevad liigid partnerile kitsalt spetsialiseerunud. Klassikaline näide on pikakannuseline komeetkäpp *Angraecum sesquipedale* ja temaga ülispetsiifiliselit koevolutsioneerunud, 30 cm pika londiga suru *Xanthopan morganii.\
+        *![Suru Xanthopan morganii, kes on eriline oma ülipika londi poolest, millega ta on ainus liik, kes suudab tolmeldada pikakaknnuselist komeetkäppa. Nesnad, CC BY 4.0 \<https://creativecommons.org/licenses/by/4.0\>, via Wikimedia Commons](media/Xanthopan_morganii.png)
+
+    -   *Mittespetsialiseerunud* *mutualismi* puhul säärast spetsialiseerumist ei toimu. Selle näiteks on taimede ja arbuskulaarmükoriissete (AM) seente vaheline interaktsioon. Üks taimeliik (või isegi isend) võib mutualistliku suhte moodustada mitme erineva AM seeneliigiga ning üks AM seene liik (või isend) võib olla samaaegselt seotud mitme eri taimeliigiga.
+
+        Olgu siinkohal mainitud, et mida aeg edasi, seda rohkem peetakse ökoloogiateaduses spetsialiseerumist mitte binaarseks (on või ei ole) tunnuseks, vaid spetsialiseerumine on asukoht liikidevaheliste interaktsioonide toimumise **tõenäosuslikul gradiendil**.
+
+**Vahetatava ressursi järgi:**
+
+-   *Toit* *- troofiline mutualism*- suhe, kus partnerid osalevad (komplementaarselt) toitainete ja süsivesikute hankimises ja/või tootmises
+
+-   *Kaitse - kaitsemutualism* - suhe, kus üks liik vastutasuks toidu ja/või varjupaiga eest kaitseb teist liiki tolle vaenlaste vastu
+
+-   *Transport - levimismutualism* - suhe, kus üks liik aitab teisel liigil levida, saades ise vastutasuks toitu
+
+    Pange tähele, et üldiselt on ühe osapoole saadav tulu pea alati seotud toiduga, erinevus seisneb selles, mida saab vastu teine interaktsiooni osapool.
+
+### Ekspluatatiivne suhe
+
+Lihtne on kõikide nende näidete peale mõeldes arvata, et mutualism on loomult heatahtlik suhe - tee head ja head tehakse sulle. Tegelikult on võiks mutualismi siiski vaadelda kui retsiprookset ekspluatatsiooni ehk vastastikust ärakasutamist, kus kumbki partner saab netokasumi.
+
+> Mesilane ei tolmelda, ta käib söömas.
+
+![](media/symbioosi_gradient.png)
+
+Netokasum sõltub sellest, mis hinnaga on kummalegi osapoolele tema poolt äraantav ressurss (näiteks fotosünteetiliselt fikseeritud süsinik), ning sellest, kui piirav on partneri poolt saadud ressurss (näiteks mullast hangitud fosfaat). Sestap ujuvad säärased interaktsioonid pidevalt gradiendil, mille teises otsas on parasitism.\
+
 ------------------------------------------------------------------------
