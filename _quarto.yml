@@ -8,7 +8,7 @@ book:
   author: "Siim-Kaarel Sepp"
   date: today
   date-format: "MM YYYY"
-  output-file: okosysteemide_toiminine
+  output-file: okosysteemide_toimimine
   chapters:
     - index.qmd
     

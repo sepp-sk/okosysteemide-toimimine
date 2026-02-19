@@ -7,4 +7,4 @@ editor_options:
   chunk_output_type: console
 ---
 
-Materjalid [**PDF formaadina**](okosysteemide_toiminine.pdf)
+Materjalid [**PDF formaadina**](okosysteemide_toimimine.pdf)
