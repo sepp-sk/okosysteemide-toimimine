@@ -120,14 +120,14 @@ Nimelt on ka mutualismi puhul võimalik interaktsiooni paigutada mitmele eri gra
         \
         Asümmeetrilise obligaatse mutualismi näiteks võiks tuua meriroosi ja meriroosahvena (*clownfish*). Meriroosahven siseneb ilma meriroosi kaitsvate kombitsate (millega kala ennast aegapidi harjutab) varju otsimata kiiresti toiduahela ülemistesse lülidesse, samas kui meriroos, keda kala küll natukene parasiitide ja meriroosi söövate teiste kalade eest kaitseb, saab elatud ka ilma meriroosahvenata.\
         \
-        ![Meriroos ja meriroosahven. Foto: Triniti14045, CC BY-SA 4.0 \<https://creativecommons.org/licenses/by-sa/4.0\>, via Wikimedia Commons](media/meriroos_ja_meriroosahven.png)
+        ![Meriroos ja meriroosahven. Foto: Triniti14045, CC BY-SA 4.0 \<https://creativecommons.org/licenses/by-sa/4.0\>, via Wikimedia Commons](media/meriroos_ja_meriroosahven.png){width="75%"}
 
     -   *Fakultatiivse mutualismi* puhul jäävad interaktsiooni potentsiaalsed osapooled ellu ka iseseisvalt - iseasi, mis elu see ka on. Selle näitena võiks tuua näiteks lehetäid ja sipelgad, kelle suhe on selgelt mutualistlik - sipelgad saavad kvaliteetset süsinikku ja lehetäid kaitset, aga kumbki osapool saab elatud ka ilma teiseta.
 
 -   **Spetsialiseerunud või mittespetsialiseerunud:**
 
     -   *Spetsialiseerunud mutualismi* puhul on kas üks või mõlemad osalevad liigid partnerile kitsalt spetsialiseerunud. Klassikaline näide on pikakannuseline komeetkäpp *Angraecum sesquipedale* ja temaga ülispetsiifiliselit koevolutsioneerunud, 30 cm pika londiga suru *Xanthopan morganii.\
-        *![Suru Xanthopan morganii, kes on eriline oma ülipika londi poolest, millega ta on ainus liik, kes suudab tolmeldada pikakaknnuselist komeetkäppa. Nesnad, CC BY 4.0 \<https://creativecommons.org/licenses/by/4.0\>, via Wikimedia Commons](media/Xanthopan_morganii.png)
+        *![Suru Xanthopan morganii, kes on eriline oma ülipika londi poolest, millega ta on ainus liik, kes suudab tolmeldada pikakaknnuselist komeetkäppa. Nesnad, CC BY 4.0 \<https://creativecommons.org/licenses/by/4.0\>, via Wikimedia Commons](media/Xanthopan_morganii.png){width="75%"}
 
     -   *Mittespetsialiseerunud* *mutualismi* puhul säärast spetsialiseerumist ei toimu. Selle näiteks on taimede ja arbuskulaarmükoriissete (AM) seente vaheline interaktsioon. Üks taimeliik (või isegi isend) võib mutualistliku suhte moodustada mitme erineva AM seeneliigiga ning üks AM seene liik (või isend) võib olla samaaegselt seotud mitme eri taimeliigiga.
 

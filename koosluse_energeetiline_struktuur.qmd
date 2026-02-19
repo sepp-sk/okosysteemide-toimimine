@@ -23,13 +23,13 @@ Elusorganismid moodustavad **biomassi**, mida mõõdetakse kas energia, kuivmass
 
 Need energiavood liiguvad ökosüsteemis troofiliste tasemete kaudu. Mida suurem on primaarproduktsioon, seda suurem on sekundaarproduktsioon, üldreeglina on iga järgmise troofilise taseme produktsioon $\frac{1}{10}$ eelmisest tasemest.
 
-![Reeglina on iga troofilise taseme produktsioon 1/10 eelmise taseme produktsioonist](media/1_10_reegel.PNG){fig-align="center" width="527"}
+![Reeglina on iga troofilise taseme produktsioon 1/10 eelmise taseme produktsioonist](media/1_10_reegel.PNG){fig-align="center" width="66%"}
 
 ## Troofiline püramiid
 
 1:10 reeglit järgides peaks seega koosluse energeetiline struktuur välja nägema selline:
 
-![Ideaalne troofiline püramiid](media/troofiline_pyramiid.PNG){fig-align="left" width="525"}
+![Ideaalne troofiline püramiid](media/troofiline_pyramiid.PNG){fig-align="center" width="66%"}
 
 > *„The weight of all predators must always be much lower than that of all food animals, and the total weight of the latter much lower than the plant production“*
 >
@@ -39,7 +39,7 @@ Siiski leidub ka erandeid.
 
 ### Tagurpidine troofiline püramiid
 
-[![Haide biomass koralliökosüsteemis on sama suur kui saakloomade oma.](media/tagurpidine_pyramiid_1.jpg){fig-align="left" width="695"}](https://doi.org/10.1016/j.cub.2016.05.058)
+[![Haide biomass koralliökosüsteemis on sama suur kui saakloomade oma.](media/tagurpidine_pyramiid_1.jpg){fig-align="left" width="100%"}](https://doi.org/10.1016/j.cub.2016.05.058)
 
 > Extreme Inverted Trophic Pyramid of Reef Sharks Supported by Spawning Groupers
 >
@@ -49,9 +49,9 @@ Siiski leidub ka erandeid.
 
 Koralliökosüsteemis on haide biomass tavaolukorras sama suur kui saakloomade oma. Samuti on kehasuuruse ja biomassi suhe positiivne, mis viitaks justkui tagurpidisele troofilisele püramiidile. 1/10 reeglit järgides peaks ju suuremate (mereökosüsteemis eelduslikult kõrgemal troofilisel tasemel olevate) elukate biomass olema väiksem! Kuidas see energia ei kao?
 
-[![Haide toiduvajadus (oranž joon) varieerub aasta jooksul, kuid on kohaliku saakloomakoosluse populatsiooni produktsioonist (sinine joon) madalam. Juunis ja juulis rändavad piirkonda aga kudema tulnud kalad, kelle biomass (roheline) joon ületab kõvasti haide toiduvajadust.](media/tagurpidine_pyramiid_3.jpg){width="500"}](https://doi.org/10.1016/j.cub.2016.05.058)
+[![Haide toiduvajadus (oranž joon) varieerub aasta jooksul, kuid on kohaliku saakloomakoosluse populatsiooni produktsioonist (sinine joon) madalam. Juunis ja juulis rändavad piirkonda aga kudema tulnud kalad, kelle biomass (roheline) joon ületab kõvasti haide toiduvajadust.](media/tagurpidine_pyramiid_3.jpg){fig-align="center" width="75%"}](https://doi.org/10.1016/j.cub.2016.05.058)
 
-[![Kudema tulnud kalad (rohelised) vähendavad kiskja-saaklooma suhet rohkem kui poole võrra, lähenedes normaalsele toidupüramiidile.](media/tagurpidine_pyramiid_2.jpg){width="656"}](https://doi.org/10.1016/j.cub.2016.05.058)
+[![Kudema tulnud kalad (rohelised) vähendavad kiskja-saaklooma suhet rohkem kui poole võrra, lähenedes normaalsele toidupüramiidile.](media/tagurpidine_pyramiid_2.jpg){fig-align="center" width="75%"}](https://doi.org/10.1016/j.cub.2016.05.058)
 
 Energia kaob muidugi, kuid haid söövad kord aastas kudemiseks kohale rännanud kalasid. Saagi biomass selleks perioodiks mitmekordistub ja toimub **eksogeenne** energia sissevool süsteemi.
 
@@ -85,7 +85,7 @@ Toiduahela "kontrollivaks" lüliks võiksime pidada seda troofilist taset, kelle
 
 Alt-üles kontroll toimib süsteemides või (alam-)toiduahelates, kus tarbijad ei mõjuta (eriti) oma tarbitavaid organisme, näiteks detritivooria (surnud orgaanilisest ainest toitumine) või nektari- ja granivooria (seemnete söömine).
 
-[![Meta-analüüsis näidati, et väetamine mõjuhtab küll primaarprodutsente (effect on plants) - ehk ühe taseme piires toimub bottom-up kontroll. See mõju ei kipu aga ei herbivooridele ega kiskjatele edasi kanduma. Borer et al. 2006 Ecology](media/alt-ules-kontroll.png)](https://doi.org/10.1890/0012-9658(2006)87%5B2813:AICREO%5D2.0.CO;2)
+[![Meta-analüüsis näidati, et väetamine mõjuhtab küll primaarprodutsente (effect on plants) - ehk ühe taseme piires toimub bottom-up kontroll. See mõju ei kipu aga ei herbivooridele ega kiskjatele edasi kanduma. Borer et al. 2006 Ecology](media/alt-ules-kontroll.png){fig-align="center" width="89%"}](https://doi.org/10.1890/0012-9658(2006)87%5B2813:AICREO%5D2.0.CO;2)
 
 ### Ülalt-alla
 
@@ -101,13 +101,13 @@ Vastupidiselt ülalmainitule kontrollivad **ülalt-alla** süsteemis tarbijad (p
 
 X-teljel on aastad 1965 - 2000.
 
-[![Tursa ja teiste sarnaste majanduslikult oluliste kalade väljapüüdmine (must joon - sadamasse jõudnud kalade biomass)](media/trof-kaskaad-1.png)](https://doi.org/10.1126/science.1113075)
+[![Tursa ja teiste sarnaste majanduslikult oluliste kalade väljapüüdmine (must joon - sadamasse jõudnud kalade biomass)](media/trof-kaskaad-1.png){width="71%"}](https://doi.org/10.1126/science.1113075)
 
-[![Väiksemate kalade ja selgrootute arvukuse tõus](media/trof-kaskaad-2.png)](https://doi.org/10.1126/science.1113075)
+[![Väiksemate kalade ja selgrootute arvukuse tõus](media/trof-kaskaad-2.png){width="71%"}](https://doi.org/10.1126/science.1113075)
 
-[![Zooplanktoni arvukuse langus](media/trof-kaskaad-3.png)](https://doi.org/10.1126/science.1113075)
+[![Zooplanktoni arvukuse langus](media/trof-kaskaad-3.png){width="71%"}](https://doi.org/10.1126/science.1113075)
 
-[![Fütoplanktoni ohtruse (roheline joon) tõus; nitraadikontsentratsiooni (punane joon) langus.](media/trof-kaskaad-4.png)](https://doi.org/10.1126/science.1113075)
+[![Fütoplanktoni ohtruse (roheline joon) tõus; nitraadikontsentratsiooni (punane joon) langus.](media/trof-kaskaad-4.png){width="71%"}](https://doi.org/10.1126/science.1113075)
 
 Suurte kiskjate (tursk jt) väljapüüdmise tõttu vähenes oluliselt mereökosüsteemide oluline limiteeriv toitaine - lämmastik. **Muutus terve ökosüsteem**.
 
@@ -141,7 +141,7 @@ $\mathrm II$ Vähe- kuni keskmiselt produktiivsetes süsteemides jagub energiat 
 
 $\mathrm III$ Produktiivsetes süsteemides suruvad kiskjad herbivooride ohtruse alla ning vähendavad survet taimekooslusele.
 
-[![I - ühetasemeline toiduahel​ (herbivoorid praktiliselt ei kontrolli taimekooslust​, sest et herbivooride pidamiseks süsteemis ei jagu energiat); II - kahetasemeline toiduahel (herbivoorid on, aga kiskjaid ei ole võimalik pidada); III - kolmetasemeline toiduahel. Oksanen & Oksanen 2000 The American Naturalist](media/ehh.png)](https://doi.org/10.1086/303354)
+[![I - ühetasemeline toiduahel​ (herbivoorid praktiliselt ei kontrolli taimekooslust​, sest et herbivooride pidamiseks süsteemis ei jagu energiat); II - kahetasemeline toiduahel (herbivoorid on, aga kiskjaid ei ole võimalik pidada); III - kolmetasemeline toiduahel. Oksanen & Oksanen 2000 The American Naturalist](media/ehh.png){width="78%"}](https://doi.org/10.1086/303354)
 
 ## Y-kujuline toiduahel
 
@@ -153,7 +153,7 @@ Seni käsitlesime toiduahelat lineaarsena - energia liigub primaarprodutsentidel
 
 Nende kahe haru energiavood ja liikidevahelised interaktsioonid on tihtipeale seotud. Näiteks võivad kiskjad tarbida nii herbivoore kui detritivoore.
 
-![Osa energiat ei liigu primaarprodutsentidelt tippkiskjateni mitte läbi herbivooride, vaid suur osa primaarproduktsiooni sureb enne tarbitud saamist (Begon & Townsend, 2021)](media/Y-ahel.png)
+![Osa energiat ei liigu primaarprodutsentidelt tippkiskjateni mitte läbi herbivooride, vaid suur osa primaarproduktsiooni sureb enne tarbitud saamist (Begon & Townsend, 2021)](media/Y-ahel.png){width="82%"}
 
 ### Näiline troofiline kaskaad
 
@@ -167,4 +167,4 @@ Nende kahe haru energiavood ja liikidevahelised interaktsioonid on tihtipeale se
 
 -   Leiab aset **positiivne tagasiside**: detritivooride suhtelise ohtruse kasv mõjub positiivselt kiskjatele, kes kontrollivad herbivoore → rohkem taimset biomassi → veel rohkem varist → veel rohkem kiskjaid
 
-![ATCH – apparent trophic cascade hypothesis; Polis & Strong 1996. Skeem modifikatsioonidega Begon & Townsend (2021) järgi](media/ATCH.PNG)
+![ATCH – apparent trophic cascade hypothesis; Polis & Strong 1996. Skeem modifikatsioonidega Begon & Townsend (2021) järgi](media/ATCH.PNG){width="81%"}

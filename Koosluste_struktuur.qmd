@@ -17,7 +17,7 @@ Kooslusi võib defineerida erinevatel ruumi- ja organisatsioonilistel skaaladel,
 
 ## Koosluste koosseisu mõjutavad protsessid
 
-![Koosluse kokkupanekut mõjutavad filtrid: levimis- ja keskkonnapiirangud ning biootilised interaktsioonid.](media/koosluse_filtrid.png)
+![Koosluse kokkupanekut mõjutavad filtrid: levimis- ja keskkonnapiirangud ning biootilised interaktsioonid.](media/koosluse_filtrid.png){width="100%"}
 
 Koosluse kooseisu kujundavad mitmed protsessid:
 

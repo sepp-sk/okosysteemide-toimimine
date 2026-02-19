@@ -25,7 +25,7 @@ Koosluse koosseise võib kirjeldada ja võrrelda erineva detailsusastmega:
 
 **Liigirikkus (S)** on kõige lihtsamini mõistetav koosluse kirjeldamise parameeter - koosluses esinevate liikide arv. Aga eks tal ole ka puudujääke, kas või liigi defineerimine - mis on liik? Samuti ei kirjelda liigirikkus kuidagimoodi seda, kuidas isendite arvukus koosluses jaotunud on.
 
-![Liigirikkus (S) ei arvesta koosluse liikide ohtrussuhteid. Nii vasakulolev kahe liigiga (must ja valge) kooslus kui paremal olev kooslus on sama liigirikkusega, aga funktsionaalselt ilmselt küllaltki erinevad.](media/liigirikkus.PNG)
+![Liigirikkus (S) ei arvesta koosluse liikide ohtrussuhteid. Nii vasakulolev kahe liigiga (must ja valge) kooslus kui paremal olev kooslus on sama liigirikkusega, aga funktsionaalselt ilmselt küllaltki erinevad.](media/liigirikkus.PNG){width="100%"}
 
 **Mitmekesisuse** mõõdikud arvestavad lisaks liikide arvule ka liikide (suhtelisi) **ohtrusi** ja mõnel juhul ka liikide tunnuseid või fülogeneetilisi suhteid (funktsionaalne või fülogeneetiline mitmekesisus). Mitmekesisuse indeksid võimaldavad lisaks liikide arvule hinnata, kui ühtlaselt on eri liikide isendid koosluses jaotunud.
 
@@ -70,19 +70,19 @@ Praktilises mõttes on liigirikkuse (ja sellest johtuvalt tegelikult ka mitmekes
 
 *(Proovivõtupingutus - sampling effort - tähistab seda, kui palju (ressurssi) me koosluse kirjeldamiseks kulutame. Näiteks: loendame tolmeldajate külastusi igal õiel 10 minutit; võtame igast punktist 5 grammi mulda.)*
 
-![Kui proovivõtupingutuse N1 puhul jääb mulje, et kooslus 1 on kaks korda liigirikkam kui kooslus 2, siis proovivõtupingutuse N2 korral on liigirikkused küllalt sarnased. Kui liigirikkuse-loendatud indiviidide korrelatsioonikõverat mõtteliselt mööda x-telge edasi joonistada, võiks ennustada hoopis kolmandat olukorda](media/proovivotu_taielikkus.PNG)
+![Kui proovivõtupingutuse N1 puhul jääb mulje, et kooslus 1 on kaks korda liigirikkam kui kooslus 2, siis proovivõtupingutuse N2 korral on liigirikkused küllalt sarnased. Kui liigirikkuse-loendatud indiviidide korrelatsioonikõverat mõtteliselt mööda x-telge edasi joonistada, võiks ennustada hoopis kolmandat olukorda](media/proovivotu_taielikkus.PNG){width="100%"}
 
 ## Mõõdikute intuitiivsus
 
 Shannoni ja Gini-Simpsoni (ja paljude teiste) indeksitega on veel üks iseloomulik häda. Oletagem, et (Shannoni näitel) meil on kahe võrdse ohtrusega liigiga kooslus A ning meil on kooslusest A kaks korda mitmekesisem kooslus B, mis on tekitatud sedamoodi, et, "korrutada" kooslus A kahega. Seega on meil kooslus A kahe võrdse ohtrusega liigiga ning kooslus B nelja võrdse ohtrusega liigiga. Kui arvutada mõlema koosluse kohta Shannoni indeks H', ilmneb, et $H'_B = 2H'_A$.
 
-![](media/shannon_vordne.PNG)
+![](media/shannon_vordne.PNG){width="100%"}
 
 Kõik väga ilus.
 
 Kui aga ohtrused pole võrdsed
 
-![](media/shannon_ebavordne.PNG)
+![](media/shannon_ebavordne.PNG){width="100%"}
 
 ilmneb, et $H'_B \neq 2H'_A$.
 
@@ -304,7 +304,7 @@ Pange tähele, et dominantse liigiga koosluste Hilli arvud kasvavad väga vähe 
 
 Hilli arvude matemaatilisest stabiilsusest tulenevalt on neil veel üks imeline omadus. Neid on võimalik teatavaid jaotusi kasutades **ekstrapoleerida**.
 
-[![Hilli arve kasutades on võimalik matemaatiliselt ennustada, mis oleks mitmekesisus "täieliku" proovivõtupingutuse puhul - ehk siis kui me koosluse kõik liigid üles leiaksime](media/iNEXT.PNG)](https://doi.org/10.1890/13-0133.1)
+[![Hilli arve kasutades on võimalik matemaatiliselt ennustada, mis oleks mitmekesisus "täieliku" proovivõtupingutuse puhul - ehk siis kui me koosluse kõik liigid üles leiaksime](media/iNEXT.PNG){width="100%"}](https://doi.org/10.1890/13-0133.1)
 
 Võttes arvesse koosluses olevaid *singleton*'e ja *doubleton*'e ehk siis liike, keda on koosluses kas üks või kaks, on võimalik ennustada (teatavates usaldusintervallides), kui mitu liiki koosluses tõenäoliselt tegelikult on, st proovida eemaldada proovivõtu ebatäielikkusest tekkinud müra.
 
