@@ -10,70 +10,169 @@ editor_options:
 bibliography: references.bib
 ---
 
-# Troofiline mutualism
+Nagu eelpool mainitud, on enamiku mutualistlike suhete puhul ühe osalise poolt saadav kasu toit. *Troofilise mutualismi* puhul saavad (peamiselt) toidu või energiaga seotud kasu mõlemad interaktsiooni osapooled.
 
-![Sir David Read, tänapäevaste mükoriisauuringute *grand old man*, võrdleb oma ettekannetes tihtipeale teadlasi, kes eeldasid, et taimedes leiduvad seenestrukrtuurid on parasitistlikud (ülemine slaid), nendega, kes tõestasid sümbiontide mutualistiku rolli (alumine slaid). Tuleb välja, et mutualism on igas mõttes kasulikum, kui antagonism - ka uurija elueale (p \< 0.001).](media/sir_david_read_mutualism_vs_antagonism.png){width="1600"}
+![Sir David Read, tänapäevaste mükoriisauuringute *grand old man*, armastab oma ettekannetes võrrelda teadlasi, kes eeldasid, et taimedes leiduvad seenestruktuurid on parasiitsed (ülemine slaid), nendega, kes tõestasid sümbiontide mutualistiku rolli (alumine slaid). Tuleb välja, et mutualism on igas mõttes kasulikum kui antagonism - ka uurija elueale (p \< 0.001)!](media/sir_david_read_mutualism_vs_antagonism.png){width="1600"}
 
--   Asümmeetriline obligaatne mutualism leiab aset näiteks arbuskulaarmükoriissete seente ja taimede vahel. Arbuskulaarmükorissed seened ei ole võimelised taimejuurt koloniseerimata oma elutsüklit läbima (neil puudub geneetiline võimekus saprotroofseks toitumiseks ning nad sõltuvad taime poolt fikseeritavast süsinikust sajaprotsendiliselt), samas kui peremeestaimed (aga sugugi mitte kõik taimeliigid ühetaoliselt), kuigi mükoriisa aitab tublisti kaasa fosfori hankimisel, saavad elatud ka mükoriisse interaktsioonita.
+Üks osapool on sageli spetsialiseerunud energia hankimisele (näiteks fotosünteesi teel) ning teine spetsiifiliste mineraalainete või muude ressursside kättesaadavaks tegemisele.
 
-Looduses ringi vaadates näeme sageli konkurentsi – võitlust piiratud ressursside, valguse ja elupaiga nimel. Kuid sama oluline, kui mitte olulisemgi, on liikidevaheline koostöö. Üks põnevamaid ja ökosüsteemide toimimise seisukohalt kriitilisemaid interaktsioonitüüpe on **troofiline mutualism**.
+## Sümbioos
 
-Erinevalt lihtsast kommensalismist, kus üks osapool saab kasu ja teist suhe ei mõjuta, on mutualism evolutsiooniliselt välja kujunenud suhe, kus mõlemad partnerid saavad netokasu. Troofilise mutualismi puhul on see kasu rangelt majanduslik: tegemist on ressursside, peamiselt toitainete ja energia komplementaarse ehk üksteist täiendava vahetusega. Üks osapool on sageli spetsialiseerunud energia hankimisele (näiteks fotosünteesi teel) ning teine spetsiifiliste mineraalainete või muude ressursside kättesaadavaks tegemisele.
+Et just troofilise mutualismi puhul on kõige sagedamini juttu ka sümbioosist, olgu siinkohal lahti seletatud sümbioosi mõiste.
 
-Selles peatükis vaatleme, kuidas troofiline mutualism kujundab elusloodust, alustades taimede ja seente vahelisest iidsest liidust ning lõpetades ookeanisügavuste ja loomade seedekulglatega.
+-   @begon2021: *Symbiosis (‘living together’) is the term for such close physical associations between species, in which a ‘symbiont’ occupies a habitat provided by the body of a ‘host’. Mutualists are sometimes symbionts, but mutualists need not be symbionts. For example, plants often gain dispersal of their seeds by offering a reward to birds or mammals in the form of edible fleshy fruits, and many plants assure effective pollination by offering a resource of nectar to animals that visit their flowers. These are mutualistic interactions but they are no symbioses. Likewise, commensalisms may or may not be symbiotic; sucker fish in the family Echeneidae are adapted to hitch a ride on sharks and are symbiotic commensals, in contrast to the many commensal species inhabiting reefs that have no intimate physical connection to the coral species that build them.*
 
-## Taimede ja mikroorganismide vaheline "bioloogiline turg"
+-   Kunagi ilmavalgust nägevas ökoloogiaõpikus (Semchenko, *isiklik korrepondents*, 2025):\
+    Termin **sümbioos** (*symbiosis*) tuleneb kreekakeelsest sõnast „συμβίωσις“ (*sümbioosis*), mis tähendab kooselu. Vanemas bioloogilises kirjanduses tähistati sellega igasugust kahe organismi pidevat intiimset koos elamist, sõltumata kasust või kahjust, mida üks või teine pool sellest sai. Ajapikku hakkas termin tähistama kahepoolselt kasulikku ehk mutualistlikku kooselu laias mõistes. Näiteks tähistas sümbioos vanemas ökoloogilises kirjanduses sisuliselt kogu mutualismi tänapäevases mõistes. Tänapäeval mõistetakse sümbioosi all siiski peamiselt vältimatut süvakooselu – olukorda, kus üldjuhul mutualistlikud organismid elavad pikaajaliselt koos, tehes seda sageli ühes ja samas kehas. Kusjuures vähemalt üks neist organismidest on üldjuhul selline, et ilma teisega sümbioosis olemata polegi ta võimeline eksisteerima. Üldmõisteks igasuguste positiivsete interaktsioonide jaoks on praeguseks kujunenud mutualism, ning sümbioos on üks selle alamtüüpe.\
+    Kuivõrd pideva intiimse kooselu puhul on reeglina üks liik oluliselt väiksemate mõõtmetega kui teine, tehakse osapooltel vahet, nimetades suuremat **peremeheks** (*host*) ja väiksemat **sümbiondiks** (*symbiont*). Sümbiondiks on reeglina ainurakne organism (bakter, protist, ainurakne rohevetikas), või seen, kes võib olla nii ainu- kui hulkrakne. Sümbiondi mõju peremeesorganismile ei pruugi olla siiski alati positiivne, vaid võib olla ka neutraalne või negatiivne, sõltuvalt interaktsiooni kontekstist ja ka tõlgendusest. Mutualistlikke interaktsioone, seejuures eriti sümbiootilisi saab tõlgendada kui paratamatut vastastikku parasitismi. Kuna igal elusorganismil on väga palju interaktsioone, ning neist suure osa moodustavad interaktsioonid nugilistega, siis sümbioos võibki olla arenenud sedalaadi vastastikustest suhetest, mis algselt olid negatiivsed, ent mille käigus on osapooled arenenud üksteist oma kasuks ära kasutama, pöörates seeläbi interaktsiooni märgi miinusest plussi.
 
-Maismaaökosüsteemide fundamentaalseim troofiline mutualism toimub mulla all. Kuigi meile tundub, et taimed on iseseisvad autotroofid, on nad tegelikkuses peaaegu alati tihedalt seotud mitmesuguste mikroorganismidega.
+Antud kursuse kontekstis sooviksin jääda pisut konkreetsemale arvamusele: **sümbioos** on füüsiliselt integreeritud kooselu erinevat liiki organismide vahel \[***punkt***\]\
+Sümbioos ei ole mutualismi alatüüp, kuna samamoodi võib sümbiont (ehk peremehega intiimselt, füüsiliselt integreeritult koos elav liik) olla nii parasiit, kommensalist kui ka mutualist. Ärgem ajagem segamini kooselu "väljanägemist" interaktsiooni olemuse ning sellele rakenduva valikusurvega!
 
-### Mükoriisa: globaalne toitainete võrgustik
+------------------------------------------------------------------------
 
-Ligikaudu 90% kõikidest maismaataimedest moodustab seentega sümbiootilise kooselu, mida nimetatakse **mükoriisaks** ehk seenjuureks. See partnerlus on evolutsiooniliselt niivõrd vana, et suure tõenäosusega oli just seente abi see, mis võimaldas esimestel algelistel taimedel sadu miljoneid aastaid tagasi veest maismaale asuda – keskkonda, kus toitained ei uhtunud enam vabalt üle nende kudede.
+Maismaaökosüsteemide peamisi troofilisi mutualisme toimub mullas. Kui koolilaps õpib, et taimel on juur ja ta toitub autotroofselt, siis meie juba teame, et pea alati on taimed tihedalt seotud mitmesuguste oma elutegevuseks vajalike mikroorganismidega.
 
-Mükoriisa toimimispõhimõte on klassikaline troofiline mutualism. Taim seob fotosünteesi käigus atmosfäärist süsinikku ja toodab energiarikkaid suhkruid. Kuna seened on heterotroofid ja fotosünteesida ei suuda, saavad nad oma elutegevuseks vajaliku süsiniku taimelt – sageli loovutab taim seenele kuni 30% oma toodetud fotossimilaatidest. Vastutasuks toimib seene niidistik (mütseel) taime juurestiku pikendusena. Seenehüüfid on oluliselt peenemad kui taime juurekarvad, suutes tungida mullapooridesse, kuhu taim ise ei ulatu, ning eritada ensüüme, mis muudavad anorgaanilised mineraalained, eelkõige fosfori ja lämmastiku, taimele kättesaadavaks. Lisaks toitainetele varustab seen taime veega ning pakub kaitset teatud patogeenide ja raskemetallide eest.
+## Mükoriisa
 
-Selle suhte loomine nõuab keerulist keemilist dialoogi. Näiteks arbuskulaarse mükoriisa (AM) puhul, mis on levinuim mükoriisatüüp, hakkab fosforipuuduses taim eritama mulda stressihormoone – strigolaktoone. Läheduses asuvad seene eosed tajuvad seda signaali ja vastavad nn Myc-faktorite eritamisega. Alles pärast seda, kui taime juurerakud on Myc-faktoreid spetsiifiliste retseptoritega tajunud, algab juurekudede ümberkorraldamine, mis lubab seenel kudedesse tungida ja moodustada seal puukujulisi ainevahetusstruktuure – arbuskuleid.
+![[@martin2024]Typical structures of various types of mycorrhizal symbioses. (a) Arbuscular mycorrhizal fungi (AMF) spores of Rhizophagus irregularis containing hundreds of stained nuclei; photo courtesy of Vasilis Kokkoris (Vrije Universeit, Amsterdam). Nuclei are visible due to staining with SYTO 13 Green Fluorescent nucleic acid dye. Each image is the result of c. 300 z stacks (0.35-μm intervals) visualized using confocal laser scanning microscopy. Bar, 20 μm. (b) AMF arbuscules in lettuce root cells colonized by an unknown species of native AMF. Hyphal threads were stained with WGA-Alexa Fluor 488, a chitin stain, and visualized using confocal laser scanning microscopy; photo courtesy of Jen McGaley and Uta Paszkowski (University of Cambridge). (c) Fruiting body of the ectomycorrhizal fly agaric Amanita muscaria; photo courtesy of Marcel van der Heijden. (d) Ectomycorrhizal roots formed between the ectomycorrhizal mate bolet Xerocomellus pruinatus and pine (×40 magnification); photo courtesy of Marc Buée (INRAE). (e) Protocorms of the germinating orchid Serapias vomeracea colonized by hyphae of the mycorrhizal fungus Tulasnella calospora. Only the plant cells in the basal part of the orchid protocorm (left) contain mycorrhizal fungal coils, whereas the apical part of the protocorm (right) with the plant apical meristem is not colonized. The dark blue structures in some of the colonized protocorm cells correspond to partially collapsed (and consumed) fungal coils that deliver carbon and nutrients to the orchid protocorm (Perotto & Balestrini, 2023). Bar, 250 μm. Photo courtesy of Silvia Perotto (Università di Torino). (f) Cross-section of a root of Pinus sylvestris colonized by the ectomycorrhizal fungus Cenococcum geophilum. All typical features of the ectomycorrhizal symbiosis are shown, including a loose external mantle, aggregated internal mantle, and Hartig net encasing epidermal and cortical root cells. Fungal hyphae are stained in green with WGA-Alexafluor 488, while root cells are stained in red by propidium iodide (Bar, 50 μm; photo courtesy of Maira de Freitas Pereira (INRAE)). (g) Ascocarp of the truffle Tuber macrosporum; photo courtesy of Janis Rogenmoser (University of Zurich). (h) Overview of root cells of Erica carnea colonized by hyphae of an ericoid mycorrhizal fungus stained in blue (top panel), and an electron micrograph showing Pyrola minor cells containing a large number of fungal hyphae forming pelotons; photo courtesy of Rosmarie Honegger (University of Zurich).](media/mykoriisa.png)
 
-![Arbuskulaarse mükoriisa struktuur ja ainevahetus taime juurerakkudes.](/images/placeholder_arbuscular_mycorrhiza.png)
+Mükoriisa on seene ja taimejuure *diferentseerunud* kooseluline vorm, kus taim ja seen on vastastikku kasulikus, mutualistlikus ning sümbiootilises suhtes. Mükoriisat moodustab umbes 250 000 maismaataimeliiki (90% taimedest) ning umbes 50 000 seeneliiki (0,5 - 10% seentest).
 
-### Lämmastiku fikseerimine: energia intensiivne tehas
+| Mükoriisatüüp                | Taimerühmad                                                                             | Taimeliike      | Seenerühmad                     | Seeneliike (eeldatavasti) |
+|---------------|---------------|---------------|---------------|---------------|
+| Arbuskulaarne mükoriisa (AM) | Rohundid, kõrrelised, paljud puittaimed, kõder- ja maksasamblad                         | 200 000         | *Glomeromycotina*               | 300 – 1 600               |
+| Ektomükoriisa (EcM)          | *Pinaceae* ja katteseemnetaimed (peamiselt parasvöötme puud-põõsad), mõned maksasamblad | 6 000           | *Basidiomycota*, *Ascomycota*   | 20 000                    |
+| Orhidoidne mükoriisa (OrM)   | *Orchidaceae*                                                                           | 20 000 – 35 000 | *Basidiomycota*                 | 25 000                    |
+| Erikoidne mükoriisa (ErM)    | *Ericaceae*, mõned maksasamblad                                                         | 3 900           | *Ascomycota*, (*Basidiomycota*) | \> 150                    |
+| Mittemükoriissed taimed (NM) | *Brassicaceae*, *Crassulaceae*, *Orobanchaceae*, *Proteaceae*                           | 51 500          |                                 |                           |
 
-Kuigi õhk meie ümber koosneb ligi 78% ulatuses lämmastikust ($N_2$), on see taimedele ja loomadele kättesaamatus vormis. Kahe lämmastikuaatomi vahelise kolmiksideme lõhkumine nõuab tohutult energiat.
+: @vanderheijden2015 põhjal
 
-Teatud taimed, eelkõige liblikõielised (herned, oad, ristik), on astunud troofilisse mutualismi spetsiifiliste bakteritega (nt *Rhizobia* perekond). Taimed kasvatavad oma juurtele spetsiaalsed mügarad, luues bakteritele ideaalse, hapnikuvaese keskkonna. Taim toidab baktereid pideva süsivesikute vooluga. Bakterid kasutavad seda energiat ensüüm nitrogenaasi käitamiseks, mis muudab õhulämmastiku taimele omastatavaks ammooniumiks ($NH_4^+$). Protsess on energeetiliselt erakordselt kulukas, nõudes ligikaudu 16 ATP molekuli iga fikseeritud lämmastikumolekuli kohta, mistõttu taim reguleerib seda suhet rangelt, vältides asjatut energiakulu, kui mullas on niigi piisavalt lämmastikku.
+Interaktsiooni käigus tekivad seene- ja taimejuurerakkude ühisstruktuurid, mille kaudu toimub orgaanilise süsiniku transport taimest seende ning vee ja mineraalainete transport seenest taime. **NB!** See on nii-öelda standarddefinitsioon - tegelikult osaleb mükoriisa ka näiteks patogeenidevastases kaitses jne. Mükoriisaseened elavad mükoriisatüübist sõltuvalt taimejuure koorkihis, juurte pinnal või juureepidermi rakkude ümber - teine ots mullas.
 
-## Troofiline mutualism väljaspool taimeriiki
+Mükoriisa on klassikaline troofiline mutualism. Taim seob fotosünteesi käigus atmosfäärist süsinikku ja toodab energiarikkaid suhkruid. Kuna seened on heterotroofid ja fotosünteesida ei suuda, saavad nad oma elutegevuseks vajaliku süsiniku taimelt – sageli loovutab taim seenele kuni 30% oma fikseeritud süsinikust (ja pakub suhteliselt stabiilset elukeskkonda juures/juure peal). Vastutasuks toimib seeneniidistik taime juurestiku pikendusena. Seenehüüfid on oluliselt peenemad kui taime juurekarvad, suutes tungida mullapooridesse, kuhu taim ise ei ulatu, ning teha makrotoitained, näiteks fosfori ja lämmastiku, taimele paremini kättesaadavaks. Lisaks toitainetele võib seen varustada taime veega ning pakkuda kaitset teatud patogeenide ja raskmetallide eest.
 
-Kuigi botaanilised näited on tuntuimad, esineb troofilist mutualismi laialdaselt kogu eluslooduses, olles paljude mastaapsete ökosüsteemide vundamendiks.
+Mükoriisse interaktsiooni moodustumine nõuab päris pikka biokeemilist signaliseerimisrada, mis on evolutsioonis tõenäoliselt tekkinud taime- ja seenepoolse vastastikkuse keele "äraõppimisena".
 
-### Ookeanide vihmametsad: korallid ja zooksantellid
+![@nadal2013 järgi](media/mykoriisa_signaliseerimine.png){width="1600"}
 
-Troopilised mered on toitainete poolest sageli väga vaesed, ometi kihavad seal elustikust tihedad korallrifid. Riffe ehitavad kivikorallid on loomad (heterotroofid), kuid nad on sõlminud elutähtsa liidu oma kudedes elavate ainuraksete dinoflagellaatidega, keda tuntakse zooksantellide nime all.
+Nimelt on näiteks arbuskulaarmükoriisa puhul näidatud, et seened on ära õppinud taimede stressivastusega (näiteks toitainetevaegusega) seotud hormoone tõlgendama signaalina mükoriisa moodustamiseks.
 
-Kuna korallipolüüp elab madalas ja valgusküllases vees, saavad tema kudedes elavad vetikad intensiivselt fotosünteesida. Zooksantellid toodavad rohkelt orgaanilisi ühendeid (suhkruid, glütserooli ja aminohappeid) ning loovutavad koguni kuni 90% neist oma korallist peremehele. Tänu sellele energiasüstile suudab korall kasvatada oma massiivset lubitoestikku. Korall omalt poolt pakub vetikatele füüsilist kaitset ja pidevat ligipääsu ainevahetuse jääkproduktidele (lämmastik ja fosfor), mis on vetikale elutähtsad mineraalained.
+![Arbuskulaarmükoriisse sümbioosi osapooled on koevolutsiooni käigus õppinud partneri signaalradasid ise kasutama. Taime stressireaktsioon toitainetevaegusele kutsub esile nii mükoriisaseene iduhüüfi kasvamise taimejuure poole kui ka mükoriisaseenele vajalike toitainete akumulatsiooni juures (ehk seenele kättesaadavas osas). Seen omakorda võimendab taime stressivastust - kas ta teeb seda taime aitamiseks, see jäägu igaühe enda rikutuse tasemel arvamiseks.](media/mykoriisa_stressivastus.png){width="1600"}
 
-![Koralli ja zooksantellide vaheline ressursside vahetus.](/images/placeholder_coral_symbiosis.png)
+### Roll ökosüsteemides
 
-### Elu ilma päikeseta: hüdrotermaalsete allikate ökosüsteemid
+Mükoriisa moodustamine mõjuitab taimede produktiivsust/kohasust ja seekaudu ka taimekoosluste elurikkust. Samamoodi on mükoriisne sümbioos (ja mükoriisaseened oma struktuuridega) väga olulisel kohal lämmastiku- (N), fosfori- (P) ja süsiniku- (C) ringes (ja talletamises).
 
-Ookeani sügavikes, kilomeetrite sügavusel, kus puudub igasugune päikesevalgus, asuvad hüdrotermaalsed allikad. Seal purskab merepõhjast välja kuuma, mineraaliderikast ja mürgist vesiniksulfiidi ($H_2S$) sisaldavat vett. Isegi sellises äärmuslikus keskkonnas õitseb elu, toetudes täielikult kemosünteetilisele troofilisele mutualismile.
+![Mükoriissed taimed domineerivad pea kõikides ökosüsteemides, välja arvatud varasuktsessioonilised kooslused, intensiivselt majandatud põllumaad ja väga suure P-limitatsiooniga mullad (kus domineerivad klasterjuurtega taimed, nt sugukonnast *Proteaceae*).](media/mittemykoriissed_okosysteemid.png){width="1600"}
 
-Silmapaistvaim näide on hiid-toruuss *Riftia pachyptila*. Nendel kuni kahe meetri pikkusteks kasvavatel loomadel puudub täielikult suu ja seedekulgla. Selle asemel on nende kehas spetsiaalne organ nimega trofosoom, mis on massiliselt asustatud väävlit oksüdeerivate bakteritega. Toruussi veri sisaldab unikaalset hemoglobiini, mis seob nii vees leiduvat hapnikku kui ka mürgist vesiniksulfiidi ning transpordib need trofosoomi. Bakterid oksüdeerivad vesiniksulfiidi, saades sellest energiat, mida nad kasutavad süsihappegaasi sidumiseks ja orgaaniliste ühendite tootmiseks. Need ühendid toidavad toruussi. Siin näeme, kuidas loom on delegeerinud kogu oma toiduhankimise ja seedimise autotroofsetele sümbiontidele.
+Mükoriisa osatähtsus on suurim metsades. Boreaalsetes metsades võivad EcM seened transportida enamiku taimele vajalikust lämmastikust (N), eriti toitevaestes muldades. Rohumaadel seisneb mükoriisa (AM) tähtsus taimekoosluse koosseisu ja liigirikkuse moduleerimises, mitte nii väga biomassi produktsioonis.
 
-### Taimetoiduliste imetajate seedekulgla
+![EM - ektomükoriisa AM - arbuskulaarmükoriisa; NM - mittemükoriissus. @martin2024 järgi.](media/mykoriisa_okosysteemides.png)
 
-Maismaal tagab troofiline mutualism rohusööjate, näiteks mäletsejate, ellujäämise. Taimede rakukestad koosnevad suures osas tselluloosist, kuid ühelgi imetajal ei ole evolutsiooni käigus tekkinud ensüüme selle lagundamiseks.
+-   Süsinik (C)\
+    5 - 50% taime poolt fotoassimileeritud süsinikust liigub mükoriisaseentele. Seente osised on jällegi raskemini lagundatavad kui taimed, mis tingib selle, et C jääb maa alla kauemaks "kinni". Osaliselt sellest johtuvalt ongi mullas on rohkem (orgaanilist) süsinikku kui atmosfääris ja maapealses taimestikus kokku.\
+    Sealjuures on näidatud [@averill2014], et EcM poolt domineeritud kasvukohtades on süsiniku talletumine mullas suurem ku AM puhul. Seda seetõttu, et EcM (ja ErM) seened suudavad toota saprotroofseid (ehk orgaanilistest allikatest toitaineid, iseäranis lämmastikku, vabastavaid) ensüüme, konkureerides seekaudu lagundajabakteritega. Seetõttu väheneb nii C vabanemine keskkonda (sest et lagundajabakterite aktiivsus väheneb) ning taimed saavad seenele antud C ühiku kohta rohkem N vastu (mis omakorda tõstab C fotoassimileerimise taset).
 
-Kuidas suudavad siis lehmad või põdrad heinast ja lehtedest ära elada? Vastus peitub nende eesmaos ehk vatsas. Vats on tohutu suur, anaeroobne ja stabiilse temperatuuriga fermentatsioonikamber, mis on koduks miljarditele bakteritele, arhedele ja protistidele. Loom mäletseb toidu peeneks, pakkudes mikrobioomile tohutut pinda tegutsemiseks. Mikrobioom toodab tsellulaase, kääritab taime kiudained lühikese ahelaga rasvhapeteks (nagu äädikhape ja propioonhape), mis imenduvad läbi vatsa seina looma vereringesse, kattes enamiku looma energiavajadusest. Loom pakub mikroobidele elupaika ja toormaterjali; mikroobid annavad vastu seeditud energiat (ja muutuvad ise hiljem peensooles looma valguallikaks).
+-   Lämmastik ja fosfor (N ja P)\
+    AM seened võivad transportida kuni 90% taime omastatavast fosforist, EcM ja ErM seened võivad omakorda taimele viia kuni 80% viimase poolt vajatavast fosforist ja lämmastikust. Seekaudu vähendavad mükoriisaseened oluliselt ka toitainete leostumist ja denitrifikatsiooni ning stabiliseerivad toitainetevaru ja -voo stabiliseerimise kaudu ja ökosüsteemi (produktsiooni).\
+    Globaalsel skaalal on näidatud, et AM seente kohalolu koosluses vähendas mulla N~2~O emissiooni ca 40% [@bender2014]. Põhjus võib olla muidugi hoopis kaudne, nimelt mõjutavad AM seened denitrifitseerijate bakterite koosseisu suurenenud N fikseerimise kaugu taimses või seene biomassis, mulla N kättesaadavuse vähendamise (vähem substraati denitrifitseerijatele) ning mullavee efektiivsema (ära-) kasutamise kaudu seenkte ja taimede poolt [@veresoglou2012].
+
+![Karukella liigid kasvavad kõige paremini oma looduslikust kasvukohast päris mükoriisaseentega, ilma mükoriisata ei taha üldse kasvada. Pilt Mari Moora.](media/mykoriisa_pulsatillad.png)
+
+### Mõju taimede mitmekesisusele
+
+Üks esimesi selgeid näiteid, et AM seened on taimekoosluste struktuuri ja mitmekesususe tugevad mõjutajaid [@grime1987] näitas, et mükoriisat sisaldav muld (*vs* steriilne, või õigemini mükoriisata, muld) surus alal dominantse liigi. Seda seekaudu, et dominante liik, *Festuca ovina*, oli küll mükoriisne, aga ta ei reageeri kolonisatsioonile eriti. Seevastu subdominantsed liigid olid väga mükoriissed ja reageerisid mükoriisale tugevalt positiivselt (*mycorrhizal response*).
+
+![](media/mykoriisa_grime.png){width="1600"}
+
+Mükoriisa mõju taimekoosluse mitmekesisusele sõltub ka mükoriisatüübist. @carteron2022 pakkus välja hüpoteesi, et kuna EcM pakub paremnat patogeenivastast kaitsed (ekromükoriisa moodustab juuretipu ümber tiheda seenmantli), soodustab EcM mõne taimeliigi domineerimist ning AM soodustab liigirikkust.
+
+![](media/mykoriisa_carteron.png)
+
+**Miks peaks parem patogeenivastane kaitse soodustama mõne liigi domineerimist?**
+
+::: {.callout-tip collapse="true"}
+Sest et patogeenid on tihtipeale liigirikkust soosiv kas võrdsustav või isegi stabiliseeriv kooseksisteerimise mehhanism, mis surub alla muidu domineerima kippuvate liikide kohasuse. Seda siis kas puhtalt seekaudu, et ohtrat (ehk domineerivat liiki) kiputakse rohkem sööma (võrdsustav mehhanism), või siis seetõttu, et liigile spetsialiseerunud patogeenid tõmbavad selle liigi paljunemisedukuse alla sellevõrra, mida lähemal täiskasvanud sama liigi isendile asutakse (Janzen-Connell'i hüpotees, stabiliseeriv mehhanism)
+:::
+
+### Võrgustikud ja *tit-for-tat*
+
+![Mükoriissed võrgustikud taimekoosluses @vanderheijden2015 järgi.](media/mykoriisa_networks.png){width="1599"}
+
+Mükoriisse võrgustiku kaudu liiguvad süsinik ja toitained seenehüüfide kaudu ühest taimest teise. Boreaalsetes metsades allokeerivad täiskasvanud puud suure osa süsinikust mükoriisavõrgustikku ning osa sellest süsinikust (isotoopmärgistamise katsed) on leitud istikutest/noortest puudest. Seega toimub tõenäoliselt taimedevaheline C ülekanne. *Aga sellega on seotud* *hunnik vaidlemist, kel huvi, alustab näiteks kas või [siit](https://www.theguardian.com/commentisfree/article/2024/jul/09/wood-wide-web-theory-charmed-us-bitter-fight-scientists).*
+
+Mitmeaastase taimestiku puhul on mükoriissed võrgustikud olulised idandite kasvu juures. Idandid koloniseeritakse mükoriisses koosluses juba ca 3 – 6 päeva jooksul ning nood saavad seega kohese ligipääsu suhteliselt odavalt toitainete hankimise masinavärgile, mida pakub ja peab üleval ülejäänud vegetatsioon. Häiritud kooslustes, kus võrgustik puudub või lõhutakse regulaarselt, on nii kolonisatsioon kui idandite elumus väiksem.
+
+Üldjuhul saab taim, kes panustab mükoriisavõrgustikku enim süsinikku, vastu ka rohkem toitaineid. Võimalik, et toimub nii taime- kui seenepoolne “tajumine” ning transportereid ehitatakse rohkem nendesse ühenduskohtadesse, kus toimub ülekanne kasulikuma partneriga. Aga alati on pettureid, ka mükoriisne sümbioos käib mööda parasitismi – mutualismi gradienti. @walder2012 näitas, et *Linum ussitatissimum* investeeris väga vähe C-d ühtsesse mükoriisavõrgustikku sorgoga, kuid sai seenelt 90% oma vajaminevast N ja P. Petmise ekstreemne näide on mükoheterotroofsed taimed (paljud käpalised, emajuurelised, kanarbikulised, maksasamblad), kes elavad mükoriisavõrgustiku epiparasiitidena.
+
+## Õhulämmastiku fikseerimine
+
+$$
+N_2 + 8H^+ + 8e^- \xrightarrow{16ATP + \sim12 ATP } 2NH_3 + H_2
+$$
+
+Kahe lämmastikuaatomi vahelise kolmiksideme lõhkumine nõuab tohutult energiat. Õnneks on selle töö enda kanda võtnud erinevad mikroorganismid. 1838. aastal kirjeldati esmakordselt nähtust, kus *Fabaceae* sugukonna taimed suurendavad mulla lämmastikusisaldust (J. Bossingault) ning juba 1886 täheldati, et taimejuurtel paiknevates mügarates elavad bakterid, kes seovad lämmastikkus (G. Hellrieger).
+
+![Nodule morphologies across the Leguminosae (tribes indicated in parentheses). (a) Spherical determinate desmodioid-type nodules with lenticels (arrows) on the South African legume Dipogon lignosus (Phaseoleae) (photograph courtesy of Wendy Liu). (b) Determinate nodule on the Australian native Hardenbergia comptoniana (Phaseoleae). (c) Dalbergioid nodules on the upper root/lower stem of the neotropical species Aeschynomene americana (Dalbergiae); these nodules are always associated with lateral roots (arrows) (photograph courtesy of H. S. Gehlot). (d) Photosynthetic stem nodules on the West African semi-aquatic species Sesbania rostrata (Sesbaniae). (e) Indeterminate nodules on the roots of the Australian native Chorizema cordatum (Mirbelieae). (f) Indeterminate nodule of the Australian native Chorizema rhombeum (Mirbelieae). Note the pink colouration (\*), which is caused by leghaemoglobin. (g) Indeterminate nodules on the roots of the Australian native Templetonia retusa (Brongniarteae); the rhizobial symbionts in these are contained within cell wall-bound fixation threads (see Fig. 2i and j for examples). (h) Branched indeterminate nodule on the Brazilian native tree Dimorphandra wilsonii (Caesalpiniae); these also contain fixation threads. Bars: (a, c) 4 mm; (b, f) 1 mm; (d, g) 10 mm; (e, h) 5 mm. [@sprent2017]](media/N2_mygarad.png){width="1400"}
+
+N~2~ siduvad mikroorganismid paiknevad fülogeneesipuul laiali (parafüleetiline funktsionaalne rühm):
+
+-   *Rhizobia* (mügarbakterid) – moodustavad liblikõieliste taimede juurtel mügaraid
+
+-   *Azotobacteriaceae* – aeroobsed lehe ja juure pinnal elavad
+
+-   *Enterobacteriaceae* – termiitide seedekulglas (harva lehepinnal ja juuremügarates)
+
+-   *Actinomycetes* (aktinomütseedid) – Frankia perekonna taimede juuremügarates
+
+-   *Cyanobacteria* – õis- ja sammaltaimed, samblikud
+
+::: {.callout-note collapse="true"}
+## N-fikseeriva sümbioosi hind taimele
+
+Taimed on teatavasti võimelised omastama lämmastikku ka juurte kaudu mullast. Taimed eelistavad mullast omastada ammooniumioone (NH~4~^+^). Kahjuks enamik ammooniumi, mis mullas leida on, nitrifitseeritakse mikroobide poolt nitraadiks (NO~3~^-^).
+
+Et nitraat tagasi ammooniumiooniks redutseerida, kulub (kaudselt) 12 ATP.
+
+Ülalolevast valemist nähtub, et õhulämmastiku N2 fikseerimine maksab (ühe N-aatomi kohta) kokku umbes 14 ATP.
+
+Sümbiootiline protsess on energeetiliselt kulukam!
+
+**Kuidas N-fikseeriv sümbioos üldse evolutsioneerunud on ja kuidas ta püsib?**
+
+Sest et fotosünteetiline energia on "odav energia", aga N on tihtipeale keskkonnas limiteeriv!
+:::
+
+Sümbiootiliselt fikseeritud lämmastik moodustab suurema osa maismaal aset leidvast N fikseerimisest (\~45 megatonni aastas). Seetõttu on taimed võimelised kasvama lämmastiku poolest tunduvalt vaesematel muldadel kui muidu.
+
+Sellega seotult on huvitav, et kuivõrd näiteks primaarsuktsessiooni puhul (ehk olukorras, kus taimkate kujuneb puhtale maale, laavaväli, merest kerkinud maa vms), kus on enamasti limiteerivaks just mulla (või veel substraadi) lämmastikusisaldus, võiksid olla N-fikseerivad liblikõielised suurepärased pioneerliigid. Aga ei ole. Miks? Sest et neil on nii suured seemned (uba, hernes, jne..), et nad ei levi! N-fikseerimisega tegelevad suktsessiooni alguses hoopis vabaltelavad bakterid ja samblikud (õigemini nende tsüaanobakteriaalne fotobiont). Samuti ei ole N-fikseerivaid kõrgemaid taimi palju hilissuktsessioonilistes kooslustes. Seda seetõttu, et N-fikseerimine on väga energiakulukas, aga väljakujunenud koosluses on limiteerivaks ressursiks tihtipeale just nimelt valgus (= energia).
 
 ## Difuusne troofiline mutualism
 
-Troofiline mutualism ei pea alati olema otsene ja füüsiliselt integreeritud sümbioos kahe liigi vahel. Ökosüsteemides esineb sageli ka **difuusset ehk hajusat troofilist mutualismi**, kus ressursivahetus toimub kaudsemate võrgustike kaudu.
+Troofiline mutualism ei pea alati olema otsene ja füüsiliselt integreeritud sümbioos kahe liigi vahel. Ökosüsteemides esineb ka **difuusset ehk hajusat troofilist mutualismi**, kus ressursivahetus toimub keerukamate võrgustike kaudu.
 
-Klassikaline näide on metsa ökosüsteemi aineringe. Taimed langetavad maapinnale lehevarist, mis on rikas süsiniku, kuid vaene kättesaadavate mineraalide poolest. See varis on elutähtis toiduallikas mulla selgrootutele (näiteks vihmaussidele ja hooghännalistele) ning lagundajate mikroobide kogukonnale. Nemad saavad varisest eluks vajaliku energia, lagundades selle käigus keerulised orgaanilised ühendid tagasi lihtsateks mineraalideks. Need vabanevad mineraalid on omakorda hädavajalikud taimedele uueks kasvuks. Selles süsteemis ei ole otsest füüsilist kontakti iga taime ja vihmaussi vahel, kuid nende elutegevus on ressursside tasandil täielikult ja vastastikku sõltuv.
+Klassikaline näide on metsaökosüsteemi aineringe. Puude varis, mis on küll rikas süsiniku poolest, aga suhteliselt kehv mineraaltoitainete allikas, langeb maapinnale. See varis on tähtsaks toiduallikas mullas elatavele selgrootutele (näiteks vihmaussidele ja hooghännalistele) ning lagundajamikroobidele. Nemad saavad varisest eluks vajaliku energia, lagundades selle käigus keerulised orgaanilised ühendid lihtsamateks mineraalideks. Need vabanevad ja kergesti kättesaadavad toitained on omakorda hädavajalikud puude kastuks. Otsest füüsilist kontakti iga taime ja vihmaussi vahel küll ei ole, kuid nende elutegevus on ressursside tasandil vastastikku sõltuv.
 
-Veelgi laiemalt vaadates võib difuusne mutualism siduda täiesti erinevaid ökosüsteeme. Hea näide on lõhede ränne ookeanist tagasi mageveejõgedesse (Helfield & Naiman, 2001). Lõhed koguvad oma kehamassi ookeanis toitudes. Kui nad kudemisajal jõgedesse rändavad, püüavad neid karud ja teised kiskjad, kes veavad kalade jäänused kaldaäärsetesse metsadesse. Lõhede lagunemisel vabaneb rannikumetsa mulda tohutus koguses ookeanist pärit lämmastikku ja fosforit, mis soodustab puude kasvu. Suuremad puud pakuvad omakorda jõgedele varju, hoides vee jahedana ning luues vettekukkunud tüvede abil ideaalseid elupaiku noortele lõhemaimudele.
+Veelgi laiemalt vaadates võib difuusne mutualism siduda täiesti erinevaid ökosüsteeme. Hea näide on anadroomsete lõhede ränne ookeani ja mageveekogude vahel [@helfield2003], millega nad seovad maismaa- ja veeökoüsteemide ressursivood:
 
-### Kokkuvõte
+1.  Jõeäärsete puude lehevaris on toiduks erinevatele vees elavatele selgrootutele
 
-Troofiline mutualism demonstreerib ilmekalt, et bioloogilised süsteemid ei püsiks elus isolatsioonis. Olgu tegemist taimede juurtel elavate seentega, pimedas ookeanis asuvate toruussidega või loomade seedekulglat asustavate bakteritega – eluslooduse arhitektuur toetub võimele kombineerida erinevate liikide füsioloogilisi tugevusi. Mõistes neid seoseid, mõistame paremini ka seda, miks ühe liigi kadumine või keskkonnatingimuste muutumine võib kogu ökosüsteemi toimimisele doominoefektina mõjuda.
+2.  Neidsamu selgrootuid söövad hea isuga lõhe noorjärgud, kes veel jões elavad
+
+3.  Ühel heal hetkel migreeruvad need noorjärgud merre, kus on toitu palju rohkem
+
+4.  Kudemiseks migreeruvad täiskasvanud isendid tagasi samasse jõkkke, kudevad ja surevad
+
+5.  Kudenud lõhede lagunemisest vabaneb hulk lämmastikku
+
+6.  Puude lämmastikuga varustatus paraneb (kuni 26% puudeni jõuvast lämmastikust võib pärineda lagunevatest lõhedest).
+
+7.  Lämmastikuga rikastatud lehevaris langeb jõkke ja pakub külluslikumat toidulauda selgrootutele
+
+8.  .. keda söövad lõhe noorjärgud
+
+![Lõhede ja kaldataimestiku vaheline difuusne troofiline mutualism.](media/difuusne_mutualism_skeem.png){fig-align="center" width="1600"}
+
+------------------------------------------------------------------------
