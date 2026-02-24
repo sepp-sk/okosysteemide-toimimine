@@ -52,12 +52,6 @@ Miks see oluline on? Sellepärast, et teoreetiliselt "elab" nišš nüüd euklei
 Tegelikult see ruum päris kohe eukleidiline ei ole. Miks? Esiteks sellepärast, et keskkonnaparameetritel ei ole samad ühikud - mis on eukleidiline kaugus 15°C ja 400mm aastase sademete hulga vahel? Teiseks sellepärast, et igasugused gradiendid - ehk teljed ehk n-ruumi mõõtmed - ei ole üksteisest sõltumatud (ehk ortogonaalsed, mis on eukleidilise ruumi eeldus), näiteks on mullasügavus korrelatsioonis mulaniiskusega. Kui me matemaatilisi vigureid siiski rakendada tahame, tuleb telgi transformeerida. Selleks kasutame näiteks ordinatsiooni (komponentanalüüs PCA, NMDS, ...), et n-mõõtmeline ruum meile sobivasse vormi suruda.
 :::
 
-\[cite_start\]Ökoloogilise niši mõiste ei ole ajaloos olnud ühtne, vaid see on välja arenenud kahe erineva rõhuasetusega koolkonna kaudu, mis tänapäeval moodustavad "niši kaks külge"\[cite: 52\].
-
-\[cite_start\]**Joseph Grinnell (1917, 1927)** käsitles nišši eelkõige läbi linnuliikide toitumis- ja pesapaigavajaduste ning muude kohastumuste, mis määravad tema koha koosluses\[cite: 42\]. \[cite_start\]Grinnelli definitsioon, mida nimetatakse ka elupaiganišiks (habitat niche), vaatleb nišši eelkõige kui osa abiootilisest keskkonnast\[cite: 43, 54\]. \[cite_start\]See tähendab liigi elutegevuseks vajalike abiootiliste ja biootiliste keskkonnafaktorite kogumit\[cite: 53\].
-
-\[cite_start\]**Charles Elton (1927)** seevastu lähenes nišile funktsionaalsemalt, defineerides seda kui loomaliigi "kohta biootilises keskkonnas" ehk liigi asukohta ja suhteid teiste koosluse liikidega\[cite: 44\]. \[cite_start\]Eltoni käsitluses on nišš organismi kohastumiste kompleks abiootilisele ja biootilisele keskkonnale, esindades organismi rolli koosluses\[cite: 55\].
-
 Nende kahe lähenemise süntees näitab, et nišš hõlmab nii seda, *milliseid tingimusi liik vajab* (Grinnell), kui ka seda, *mida liik koosluses teeb* (Elton).
 
 ## Fundamentaalne ja realiseerunud nišš
@@ -77,7 +71,7 @@ Aga meie teame seda, et samamoodi kujundavad realiseerunud nišši positiivsed l
 ![A conceptual illustration of possible interaction types, and how positive species' interactions may influence a species' niche. We choose to define a species' potential niche as the range of environments it could occupy if biotic interactions were not limiting. Following Jackson and Overpeck (2000), we define a species' realized niche as the projection of the actual geographical distribution back into niche space – i.e. accounting for both biotic interactions and dispersal limitation. Panels (A)-(E) classify all possible interaction types between two species a and β based on the effect that the interaction has on each species. Panels (A) and (B) characterize mutualistic and commensalistic interactions, respectively, which are the main focus of this review study. We consider these interactions to be facilitative, as they do not have a priori direct negative consequences for either interacting partner. Panels (C), (D) and (E) characterize predation and parasitism, amensalism and competition, which we exclude from our literature review. Panels (F) and (G) present the effect that facultative and obligate positive interactions would theoretically have on a and β's realized niches. In this illustration, species β is the focal species; in (F), species a allows species β to expand its realized niche, while in (G), species a constrains species β's realized niche. Joonis @stephan2021.](media/positive_interactions_niches.jpg){width="100%"}
 
 ::: callout-caution
-Pange tähele, et pildiallkirjas on autorid kasutanud terminit *facilitative* positiivse mõjuga liikidevaheliste interaktsioonide katusterminina. Meie kursuse mõistes on fasilitatsioon spetsiifilisem termin - [kel meelest läinud, vaatab siit](Positiivsed_interaktsioonid.html#fasilitatsioon-ehk-soodustamine).
+Pange tähele, et pildiallkirjas on autorid kasutanud terminit *facilitative* positiivse mõjuga liikidevaheliste interaktsioonide katusterminina. Meie kursuse mõistes on fasilitatsioon spetsiifilisem termin - [kel meelest läinud, vaatab siit](Positiivsed_interaktsioonid.html#fasilitatsioon-ehk-soodustamine){target="_blank"}.
 :::
 
 ## 
