@@ -1,0 +1,15 @@
+---
+title: "Kooseksisteerimise teooriad"
+format: html
+toc: true
+toc-depth: 3
+number-sections: false
+editor: source
+editor_options: 
+  chunk_output_type: console
+bibliography: references.bib
+---
+
+Kooseksisteerimise teooriad otsivad vastust küsimusele
+
+> miks on liigirikkad kooslused hoolimata konkurentsest väljatõrjumisest (*Gause printsiip) siiski võimalikud?*

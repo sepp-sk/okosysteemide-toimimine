@@ -10,9 +10,9 @@ editor_options:
 bibliography: references.bib
 ---
 
-## Mis on ökoloogiline nišš?
-
 *nidus* (lad.) - pesitsema
+
+## Mis on ökoloogiline nišš?
 
 Kui me räägime elurikkusest, ehk tegelikult sellest, miks ja kuidas erinevad liigid samas kasvukohas koos kasvada saavad, ei saa üle eba ümber *ökoloogilise niši* mõistest. Nimelt on nišš enamike kooseksisteerimise teooriate alusraamistik. Lühidalt öeldes on **ökoloogiline nišš** liigi erinevate ökoloogiliste amplituudide summa üle kõigi talle oluliste keskkonnagradientide.
 
@@ -26,7 +26,7 @@ Kui me räägime elurikkusest, ehk tegelikult sellest, miks ja kuidas erinevad l
 
 Esimesena hakkas niši mõistet süstemaatiliselt kasutama Joseph Grinnell, kes uuris peamiselt linde ning defineeris niši linnuliigi toitumis- ja pesapaigavajaduste ning muude kohastumustena, mis määrasid selle liigi koha koosluses.
 
-![Joseph Grinnell uuris peamiselt kalifornia pilalindu. Kevin Cole, CC BY 2.0](media/kalifornia_pilalind.jpg){width="30%"}
+![Joseph Grinnell uuris peamiselt kalifornia pilalindu. Kevin Cole, CC BY 2.0](media/kalifornia_pilalind.jpg){fig-align="left" width="30%"}
 
 Sellist lähenemist nimetataksegi kirjanduses Grinnelli nišks (*Grinnelian niche*): nišš on abiootiline ehk elupaiganišš (*habitat niche*) - osa keskkonnast. Nišš oli liigi elutegevuseks vajalike abiootiliste ja biootiliste faktorite kogum.
 
