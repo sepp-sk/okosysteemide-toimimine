@@ -10,3 +10,74 @@ editor_options:
 bibliography: references.bib
 ---
 
+## Mis on ökoloogiline nišš?
+
+*nidus* (lad.) - pesitsema
+
+Kui me räägime elurikkusest, ehk tegelikult sellest, miks ja kuidas erinevad liigid samas kasvukohas koos kasvada saavad, ei saa üle eba ümber *ökoloogilise niši* mõistest. Nimelt on nišš enamike kooseksisteerimise teooriate alusraamistik. Lühidalt öeldes on **ökoloogiline nišš** liigi erinevate ökoloogiliste amplituudide summa üle kõigi talle oluliste keskkonnagradientide.
+
+![Liigi ökoloogiline amplituud ühe keskkonnaparaneetri suhtes on liigi kohasuse ja keskkonnaparameetri väärtuste vahelise suhte kõvera alune pindala (viirutatud ala).](media/1-dim-niche.png){width="60%"}
+
+Ökoloogilise niši n-ö ülesanne on püüda kooslus struktureerida funktsionaalseteks alaosadeks ja seekaudu üldistada arusaama koosluse ülesehitusest. Nišiteooria aitab vastata näiliselt lihtsale küsimusele: miks elavad liigid just seal, kus nad elavad, ja kuidas on võimalik, et piiratud ressurssidega kasvukohas saab koos eksisteerida suur hulk erinevaid liike?
+
+## Niši mõiste areng
+
+*Joseph Grinnell ja elupaiganišš (1917, 1927)*
+
+Esimesena hakkas niši mõistet süstemaatiliselt kasutama Joseph Grinnell, kes uuris peamiselt linde ning defineeris niši linnuliigi toitumis- ja pesapaigavajaduste ning muude kohastumustena, mis määrasid selle liigi koha koosluses.
+
+![Joseph Grinnell uuris peamiselt kalifornia pilalindu. Kevin Cole, CC BY 2.0](media/kalifornia_pilalind.jpg){width="50%"}
+
+Sellist lähenemist nimetataksegi kirjanduses Grinnelli nišks (*Grinnelian niche*): nišš on abiootiline ehk elupaiganišš (*habitat niche*) - osa keskkonnast. Nišš oli liigi elutegevuseks vajalike abiootiliste ja biootiliste faktorite kogum.
+
+*Charles Elton ja funktsionaalne nišš (1927)*
+
+Umbes samaaegselt arendas Charles Elton välja veidi funktsionaalsema lähenemise. Tema jaoks oli nišš (looma)liigi "koht biootilises keskkonnas", st liigi suhe teiste koosluse liikide suhtes. Seda nimetataksegi nt ka Eltoni nišiks (*Eltonian niche*) ning see on olemuselt pigem biootiline nišš.
+
+Kui Grinnell keskendus sellele, millise elupaika liik vajab, siis Elton nägi nišši biootiliste ja abiootiliste kohastumuste kompleksina nii kui organismi rolli koosluses (näiteks kohta toiduahelas).
+
+### *G. Evelyn Hutchinson ja n-mõõtmeline hüperruumn (1944, 1957)*
+
+Tänapäevase nišikäsitluse kvantitatiivse raamistiku lõi G. E. Hutchinson:
+
+-   1944 *nišš* on kõikide organismi mõjutavate keskkonnafaktorite summa
+
+-   1957 ***nišš*** **on hüperkeha, mis asetseb n-mõõtmelises hüperruumis**. Selle hüperruumi telgedeks on kõik erinevad keskkonnaparameetrid (nt temperatuur, niiskus, ressursid), mis on liigi elutegevuse jaoks limiteerivad.
+
+![Nišš on hüperkeha, mis asetseb n-mõõtmelises ruumis.](media/n-dim-hyperbody.png){width="50%"}
+
+Miks see oluline on? Sellepärast, et teoreetiliselt "elab" nišš nüüd eukleidilises ruumis ja selle kallal saab rakendada igasuguseid matemaatilisi vigureid. Nišš ei ole enam abstrakne mõiste, vaid mõõdetav, kvantitatiivne nähtus.
+
+::: {.callout-warning collapse="true"}
+Tegelikult see ruum päris kohe eukleidiline ei ole. Miks? Esiteks sellepärast, et keskkonnaparameetritel ei ole samad ühikud - mis on eukleidiline kaugus 15°C ja 400mm aastase sademete hulga vahel? Teiseks sellepärast, et igasugused gradiendid - ehk teljed ehk n-ruumi mõõtmed - ei ole üksteisest sõltumatud (ehk ortogonaalsed, mis on eukleidilise ruumi eeldus), näiteks on mullasügavus korrelatsioonis mulaniiskusega. Kui me matemaatilisi vigureid siiski rakendada tahame, tuleb telgi transformeerida. Selleks kasutame näiteks ordinatsiooni (komponentanalüüs PCA, NMDS, ...), et n-mõõtmeline ruum meile sobivasse vormi suruda.
+:::
+
+\[cite_start\]Ökoloogilise niši mõiste ei ole ajaloos olnud ühtne, vaid see on välja arenenud kahe erineva rõhuasetusega koolkonna kaudu, mis tänapäeval moodustavad "niši kaks külge"\[cite: 52\].
+
+\[cite_start\]**Joseph Grinnell (1917, 1927)** käsitles nišši eelkõige läbi linnuliikide toitumis- ja pesapaigavajaduste ning muude kohastumuste, mis määravad tema koha koosluses\[cite: 42\]. \[cite_start\]Grinnelli definitsioon, mida nimetatakse ka elupaiganišiks (habitat niche), vaatleb nišši eelkõige kui osa abiootilisest keskkonnast\[cite: 43, 54\]. \[cite_start\]See tähendab liigi elutegevuseks vajalike abiootiliste ja biootiliste keskkonnafaktorite kogumit\[cite: 53\].
+
+\[cite_start\]**Charles Elton (1927)** seevastu lähenes nišile funktsionaalsemalt, defineerides seda kui loomaliigi "kohta biootilises keskkonnas" ehk liigi asukohta ja suhteid teiste koosluse liikidega\[cite: 44\]. \[cite_start\]Eltoni käsitluses on nišš organismi kohastumiste kompleks abiootilisele ja biootilisele keskkonnale, esindades organismi rolli koosluses\[cite: 55\].
+
+Nende kahe lähenemise süntees näitab, et nišš hõlmab nii seda, *milliseid tingimusi liik vajab* (Grinnell), kui ka seda, *mida liik koosluses teeb* (Elton).
+
+## Fundamentaalne ja realiseerunud nišš
+
+Hutchinson tõi nišiteooriasse veel ühe olulise arenduse. Nimelt jagas ta niši kaheks eri tasemeks:
+
+-   **Fundamentaalne nišš** - liigi autökoloogiliste keskkonnapiiride kogum. Fundamentaalne nišš on maksimaalne potentsiaalne keskkonnatingimuste vahemik, kus liik suudaks elada, kui puuduksid biooitilised interaktsioonid.
+
+-   **Realiseerunud nišš** - liigi sünökoloogiliste piiride kogum, ehk see osa fundamentaalsest nišist, mille liik tegelikkuses, päris elus, hõivab. Fundamentaalse ja realiseerunud niši erinevus võimaldab hinnata biootiliste interaktsioonide rolli koosluse kujundamisek.
+
+    Klassikaliselt peetakse peamiseks fundamentaalse ja realiseerunud niši vaheliste erinevuste põhjustajaks konkurentsi teiste liikidega.
+
+![](media/fundamentaalne_realiseerunud_nish.png){width="75%"}
+
+Aga meie teame seda, et samamoodi kujundavad realiseerunud nišši positiivsed liikidevahelised interaktsioonid. Üldiselt paistab nii, et obligaatsed (eriti mutualistlikud) interaktsioonid kipuvad realiseerunud nišši kahandama ning fakultatiivsed positiivsed interaktsioonid võivad realiseerunud nišši võrreldes fundamentaalsega hoopistükkis laiendada [@stephan2021].
+
+![A conceptual illustration of possible interaction types, and how positive species' interactions may influence a species' niche. We choose to define a species' potential niche as the range of environments it could occupy if biotic interactions were not limiting. Following Jackson and Overpeck (2000), we define a species' realized niche as the projection of the actual geographical distribution back into niche space – i.e. accounting for both biotic interactions and dispersal limitation. Panels (A)-(E) classify all possible interaction types between two species a and β based on the effect that the interaction has on each species. Panels (A) and (B) characterize mutualistic and commensalistic interactions, respectively, which are the main focus of this review study. We consider these interactions to be facilitative, as they do not have a priori direct negative consequences for either interacting partner. Panels (C), (D) and (E) characterize predation and parasitism, amensalism and competition, which we exclude from our literature review. Panels (F) and (G) present the effect that facultative and obligate positive interactions would theoretically have on a and β's realized niches. In this illustration, species β is the focal species; in (F), species a allows species β to expand its realized niche, while in (G), species a constrains species β's realized niche. Joonis @stephan2021.](media/positive_interactions_niches.jpg){width="100%"}
+
+::: callout-caution
+Pange tähele, et pildiallkirjas on autorid kasutanud terminit *facilitative* positiivse mõjuga liikidevaheliste interaktsioonide katusterminina. Meie kursuse mõistes on fasilitatsioon spetsiifilisem termin - [kel meelest läinud, vaatab siit](Positiivsed_interaktsioonid.html#fasilitatsioon-ehk-soodustamine).
+:::
+
+## 

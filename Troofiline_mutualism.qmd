@@ -40,7 +40,7 @@ Maismaaökosüsteemide peamisi troofilisi mutualisme toimub mullas. Kui koolilap
 Mükoriisa on seene ja taimejuure *diferentseerunud* kooseluline vorm, kus taim ja seen on vastastikku kasulikus, mutualistlikus ning sümbiootilises suhtes. Mükoriisat moodustab umbes 250 000 maismaataimeliiki (90% taimedest) ning umbes 50 000 seeneliiki (0,5 - 10% seentest).
 
 | Mükoriisatüüp                | Taimerühmad                                                                             | Taimeliike      | Seenerühmad                     | Seeneliike (eeldatavasti) |
-|---------------|---------------|---------------|---------------|---------------|
+|------------------------------|-----------------------------------------------------------------------------------------|-----------------|---------------------------------|---------------------------|
 | Arbuskulaarne mükoriisa (AM) | Rohundid, kõrrelised, paljud puittaimed, kõder- ja maksasamblad                         | 200 000         | *Glomeromycotina*               | 300 – 1 600               |
 | Ektomükoriisa (EcM)          | *Pinaceae* ja katteseemnetaimed (peamiselt parasvöötme puud-põõsad), mõned maksasamblad | 6 000           | *Basidiomycota*, *Ascomycota*   | 20 000                    |
 | Orhidoidne mükoriisa (OrM)   | *Orchidaceae*                                                                           | 20 000 – 35 000 | *Basidiomycota*                 | 25 000                    |
