@@ -26,7 +26,7 @@ Kui me räägime elurikkusest, ehk tegelikult sellest, miks ja kuidas erinevad l
 
 Esimesena hakkas niši mõistet süstemaatiliselt kasutama Joseph Grinnell, kes uuris peamiselt linde ning defineeris niši linnuliigi toitumis- ja pesapaigavajaduste ning muude kohastumustena, mis määrasid selle liigi koha koosluses.
 
-![Joseph Grinnell uuris peamiselt kalifornia pilalindu. Kevin Cole, CC BY 2.0](media/kalifornia_pilalind.jpg){width="50%"}
+![Joseph Grinnell uuris peamiselt kalifornia pilalindu. Kevin Cole, CC BY 2.0](media/kalifornia_pilalind.jpg){width="30%"}
 
 Sellist lähenemist nimetataksegi kirjanduses Grinnelli nišks (*Grinnelian niche*): nišš on abiootiline ehk elupaiganišš (*habitat niche*) - osa keskkonnast. Nišš oli liigi elutegevuseks vajalike abiootiliste ja biootiliste faktorite kogum.
 
@@ -92,7 +92,7 @@ Sellise nähtuse nimi on **tunnuste lahknemine**(*character displacement*) - sar
 
 Põhimõtteliselt on **fundamentaalsed nišid stabiilsed** seni kuni liik geneetiliselt ei muutu.
 
-Küll aga võivad nišid muutuda näiteks ontogeneesi käigus - seda nimetatakse *regeneratsiooninišiks* [@grubb1977]. *Regeneratsiooninišš* on tingimuste okmplekt, mis on vajalik täiskasvanud indiviidi asendumiseks järgmise põlvkonna täiskasvanud invidiidiga. Ühesõnaga tingimused, mis võimaldavad noorjärgu ellujäämise.
+Küll aga võivad nišid muutuda näiteks ontogeneesi käigus - seda nimetatakse *regeneratsiooninišiks* [@grubb1977]. **Regeneratsiooninišš** on tingimuste komplekt, mis on vajalik täiskasvanud indiviidi asendumiseks järgmise põlvkonna täiskasvanud invidiidiga. Ühesõnaga tingimused, mis võimaldavad noorjärgu ellujäämise.
 
 ![Regeneratsiooninišš võib olla oluline näiteks kliimamuutuste kontekstis. Pikaealiste liikide n-ö täiskasvanuea realiseerunud nišš võib olla palju laiem ning katta ka uued klimaatiliset tingimused, samas kui nende liikide regeneratsiooninišš muutunud kliimatingimustega ei klapi. See on üks mehhanismidest, kuidas võib tekkida väljasuremisvõlg.](media/regeneration_niche.png){width="75%"}
 
