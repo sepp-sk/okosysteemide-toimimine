@@ -52,8 +52,6 @@ Miks see oluline on? Sellepärast, et teoreetiliselt "elab" nišš nüüd euklei
 Tegelikult see ruum päris kohe eukleidiline ei ole. Miks? Esiteks sellepärast, et keskkonnaparameetritel ei ole samad ühikud - mis on eukleidiline kaugus 15°C ja 400mm aastase sademete hulga vahel? Teiseks sellepärast, et igasugused gradiendid - ehk teljed ehk n-ruumi mõõtmed - ei ole üksteisest sõltumatud (ehk ortogonaalsed, mis on eukleidilise ruumi eeldus), näiteks on mullasügavus korrelatsioonis mulaniiskusega. Kui me matemaatilisi vigureid siiski rakendada tahame, tuleb telgi transformeerida. Selleks kasutame näiteks ordinatsiooni (komponentanalüüs PCA, NMDS, ...), et n-mõõtmeline ruum meile sobivasse vormi suruda.
 :::
 
-Nende kahe lähenemise süntees näitab, et nišš hõlmab nii seda, *milliseid tingimusi liik vajab* (Grinnell), kui ka seda, *mida liik koosluses teeb* (Elton).
-
 ## Fundamentaalne ja realiseerunud nišš
 
 Hutchinson tõi nišiteooriasse veel ühe olulise arenduse. Nimelt jagas ta niši kaheks eri tasemeks:
