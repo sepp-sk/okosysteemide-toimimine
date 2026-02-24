@@ -72,4 +72,28 @@ Aga meie teame seda, et samamoodi kujundavad realiseerunud nišši positiivsed l
 Pange tähele, et pildiallkirjas on autorid kasutanud terminit *facilitative* positiivse mõjuga liikidevaheliste interaktsioonide katusterminina. Meie kursuse mõistes on fasilitatsioon spetsiifilisem termin - [kel meelest läinud, vaatab siit](Positiivsed_interaktsioonid.html#fasilitatsioon-ehk-soodustamine){target="_blank"}.
 :::
 
-## 
+## Niši püsivus
+
+Klassikalise nišiteooria üks põhipostulaate on **Gause printsiip ehk konkurentse väljatõrjumise printsiip**, mis väidab, et kaks liiki saavad stabiilselt kooseksisteerida ainult juhul, kui nende nišid on piisavalt erinevad.
+
+![Eraldi kasvades on kahe hundinuia liigi veesügavuse amplituudid sarnased – **funktsionaalsed nišid kattuvad**. Koosluses toimib asümmeetriline konkurents: *T. latifolia* tõrjub teise hundinuia välja - **realiseerunud nišid erinevad**. Joonis @grace1981.](media/competitive_Displacement_cattails.png){width="75%"}
+
+Et niššidevahelist erinevust tekitada, on võimalik näiteks ka evolutsioneeruda.
+
+![Teoorias on nii, et kooseksisteerivad liigid evolutsioneeruvad liikide ökoloogiliste optimumide vahelise kauguse D, ja ökoloogiliste amplituudide (hajuvuse), W~A~ ja W~B,~ võrdsustumise suunas.](media/niche_evolution.jpg){width="75%"}
+
+Sellise evolutsiooni klassikaliseks näiteks on Darwini sirgud Galapagose saarestikus [@lack1947]. Nimelt sõltub kolme sirguliigi (*Geospiza spp.*) noka pikkus sõltuvalt sellest, kas liikide areaalid on allo- või sümpatrilised.
+
+![](media/darwin_finche_niches.png){width="75%"}
+
+Sellise nähtuse nimi on **tunnuste lahknemine**(*character displacement*) - sarnaste nõudlustega liikide teatavate tunnuste ecolutsiooniline lahknemine konkurentsi toimel areaalide sümpatrilises piirkonnas. Funktsionaalsete tunnuste lahknemisel muutuvad ka nišid ning teooria järgi väheneb ka konkurents.
+
+![](media/character_displacement.png){width="50%"}
+
+Põhimõtteliselt on **fundamentaalsed nišid stabiilsed** seni kuni liik geneetiliselt ei muutu.
+
+Küll aga võivad nišid muutuda näiteks ontogeneesi käigus - seda nimetatakse *regeneratsiooninišiks* [@grubb1977]. *Regeneratsiooninišš* on tingimuste okmplekt, mis on vajalik täiskasvanud indiviidi asendumiseks järgmise põlvkonna täiskasvanud invidiidiga. Ühesõnaga tingimused, mis võimaldavad noorjärgu ellujäämise.
+
+![Regeneratsiooninišš võib olla oluline näiteks kliimamuutuste kontekstis. Pikaealiste liikide n-ö täiskasvanuea realiseerunud nišš võib olla palju laiem ning katta ka uued klimaatiliset tingimused, samas kui nende liikide regeneratsiooninišš muutunud kliimatingimustega ei klapi. See on üks mehhanismidest, kuidas võib tekkida väljasuremisvõlg.](media/regeneration_niche.png){width="75%"}
+
+------------------------------------------------------------------------
