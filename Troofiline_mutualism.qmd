@@ -12,7 +12,7 @@ bibliography: references.bib
 
 Nagu eelpool mainitud, on enamiku mutualistlike suhete puhul ühe osalise poolt saadav kasu toit. *Troofilise mutualismi* puhul saavad (peamiselt) toidu või energiaga seotud kasu mõlemad interaktsiooni osapooled.
 
-![Sir David Read, tänapäevaste mükoriisauuringute *grand old man*, armastab oma ettekannetes võrrelda teadlasi, kes eeldasid, et taimedes leiduvad seenestruktuurid on parasiitsed (ülemine slaid), nendega, kes tõestasid sümbiontide mutualistiku rolli (alumine slaid). Tuleb välja, et mutualism on igas mõttes kasulikum kui antagonism - ka uurija elueale (p \< 0.001)!](media/sir_david_read_mutualism_vs_antagonism.png){width="100%"}
+![Sir David Read, tänapäevaste mükoriisauuringute *grand old man*, armastab oma ettekannetes võrrelda teadlasi, kes eeldasid, et taimedes leiduvad seenestruktuurid on parasiitsed (ülemine slaid), nendega, kes tõestasid sümbiontide mutualistiku rolli (alumine slaid). Tuleb välja, et mutualism on igas mõttes kasulikum kui antagonism - ka uurija elueale (p \< 0.001)!](media/sir_david_read_mutualism_vs_antagonism.png "Tähelepanu, tegemist on naljaga."){width="100%"}
 
 Üks osapool on sageli spetsialiseerunud energia hankimisele (näiteks fotosünteesi teel) ning teine spetsiifiliste mineraalainete või muude ressursside kättesaadavaks tegemisele.
 
