@@ -1,0 +1,12 @@
+name: coexistence
+title: coexistence
+username: sepp-sk
+account: sepp-sk
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 16771341
+bundleId: 11634491
+url: https://sepp-sk.shinyapps.io/coexistence/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

@@ -13,3 +13,35 @@ bibliography: references.bib
 Kooseksisteerimise teooriad otsivad vastust küsimusele
 
 > miks on liigirikkad kooslused hoolimata konkurentsest väljatõrjumisest (*Gause printsiip) siiski võimalikud?*
+
+Meenutagem siinkohal, et Gause printsiip (1934) väidab, et kaks liiki, kes konkureerivad *täpselt sama* limiteeriva ressursi pärast, ei saa püsivalt kooseksisteerida. Sellest johtuvalt järelduks, et liigid saavad kooseksisteerida sedamoodi, et nad erinevad funktsionaalselt - nende nišid on erinevad [@hutchinson1959].
+
+Sellest omakorda järelduks, et kasvukohas (ökosüsteemis) kooseksisteerivate liikide arv on võrdne kasvukoha keskkonnaparameetri amplituud jagatud liikide nišiamplituudidega (niši laius, *niche breadth*) [@macarthur1967].
+
+### Ressursside suhete hüpotees
+
+Klassikalise kasvukoha nišipõhise jagamise edasiarenduseks võiks pidada Tilmani **ressursside suhete hüpoteesi** (*resource ratio hypothesis*). Kui Gause räägib konkurentsist ühele limiteerivale ressursile, siis Tilmani hüpotees väidab, et mitu liiki saab kooseksisteerida, kui nende nõudlused **erinevatele** ressurssidele on erinevad (ehk neile optimaalsete ressursitasemete omavahelised suhted erinevad) ja kui keskkond neid ressursse vastavas suhtes ka pakub!
+
+![Oletame, et keskkonnas on kaks populatsiooni kasvu limiteerivat ressurssi, R1 ja R2 (mis on omavahel sõltumatud). Oletame, et meil on ka kaks liiki, *A* ja *B*, kes konkureerivad nende kahe limiteeriva ressursi üle. Jooned joonisel näitavad kummagi liigi populatsiooni kasvu nulltaset ehk ressursitaset, mille juures liigi populatsioon on stabiilse ohtrusega $\frac{\Delta N}{\Delta t} = 0$ Kuna liik *A* suudab mõlema ressursi puhul säilitada positiivset populatsiooni kasvu ressursi madalamal tasemel, tõrjub ta lõppkokkuvõtteks liigi *B* kooslusest välja sellepärast, et ressursside äratarbimisel "kannatab" liik *A* välja madalamad ressursitasemed, samas kui liigi *B* populatsiooni kasvukiirus on nendel tasemetel juba negatiivne (st populatsiooni ohtrus väheneb).](media/tilman_1.png){fig-align="left" width="100%"}
+
+![Kui liikide populatsiooni nullkasvujooned on erinevate ressursside puhul vastupidised, on teatud tingimustel võimalik stabiilne kooseksisteerimine.](media/tilman_2.png){width="100%"}
+
+Kui liik A on natukene parem konkurent näiteks mullalämmastiku kasutamisel ja liik B natukene parem konkurent näiteks päikesevalguse püüdmisel, võivad need kaks liiki püsivalt kooseksisteerida nende kahe ressursi keskmistel tasemetel. Kui valgust on suhteliselt palju, aga lämmastikku väga vähe, võidab (tõrjub teise liigi lokaalselt välja) liik A, sest et lämmastik on palju limiteerivam ressurss, aga A suudab lämmastikku palju paremini hankida. Kui lämmastikku on väga palju, tõrjub liik B liigi A välja, sest liik B suudab piisava lämmastiku puhul palju paremini konkureerida valguse suhtes (näiteks efektiivselt varjutades, omades suuremat lehe eripinda, vms).
+
+See on muide üks algupärane seletus sellele, miks (*vist, vaieldakse*) liigirikkus kipub olema kõrgeim keskmiselt produktiivsetes kasvukohtades.
+
+## *Modern Coexistence Theory* (*MCT*)
+
+Nišiteoreetikute töö tulemusena pakkus @chesson2000 välja kaasaegse kooseksisteerimise teooria (*MCT*). See sedastab, et stabiilse kooseksisteerimise eelduseks on, et liikide ohtrused süsteemis (koosluses, ökosüsteemis) ei ilmuta **pikaajalisi** trende. See tähendab, et **stabiilseks kooseksisteerimiseks peab iga liik suurma madalast ohtrusest taastuda**, samal ajal ülejäänud kooslusega interakteerudes. Formaalselt on see krjeldatud sääraselt: iga koosluse liigi populatsiooni kasvukiirus on madala arvukuse juures positiivne, st **iga liik suudab madala arvukuse juures konkurentide ekviliibriumkooslust *invadeerida*** - *mutual invasion criterion*.
+
+(Konkurentide koosluse) invadeerimise võime sõltub liikidevaheliste nišierinevuste ja kohasuste (ökoloogilises mõttes - konkuretsivõime) erinevuse koosmõjust.
+
+![Kui kahe konkurendi vaheline nišierinevus (*niche difference*)on suurem kui nende kohasuse (konkurentsivõime) erinevus (*fitness difference*), võivad nad koosluses (stabiilselt!) kooseksisteerida (sinine ala). Kui kohasuse erinevused on aga suuremad kui nendevaheline nišierinevus, tõrjub üks, suurema konkurentsivõimega, liik teise välja (punane ala). Kohasuse erinevus mõjutab ka seda, kumb liik stabiilse kooseksisteerimise puhul dominantne on. Joonis @valladares2015.](media/chesson_MCT.png){fig-align="left" width="80%"}
+
+Liikidevahelist kooseksisteerimist kujundavad MCT järgi **stabiliseerivad** ja **võrdsustavad** **mehhanismid**.
+
+**Stabiliseeriv mõju** tuleneb otseselt liikidevahelistest funktsionaalsetest (e niši-) erinevustest, mistõttu **liigisisene limiteeriv mõju (= konkurents) on suurem kui liikidevaheline**.
+
+![Konkurentsi määr (viirutatud ala) sõltub liikide (või isendite) ökoloogiliste niššide vahelisest kattuvusest. Mida suurem on kattuvus, seda suurem on konkurentsi määr.](media/stabiliseeriv_nishierinevus.png){fig-align="left" width="75%"}
+
+**Võrdsustavad mehhanismid** vähendavad liikidevahelist kohasuste erinevust - teisisõnu on need mingid mõjud, mis kas suruvad alla muidu parema konkurendi konkurentsivõimet või tõstavad muidu kehvema konkurendi konkurentsivõimet.
