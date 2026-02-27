@@ -34,7 +34,7 @@ $$\frac{dN_2}{dt} = r_2 N_2 \left( \frac{K_2 - N_2 - \alpha_{21} N_1}{K_2} \righ
 
 Stabiilselt kooseksisteerimiseks on vajalik täita kriteerium: $K_1 < \frac{K_2}{\alpha_{21}}$ ja $K_2 < \frac{K_1}{\alpha_{12}}$ , mis lihtsustatult tähendab, et *liigisisene konkurents peab olema tugevam kui liikidevaheline konkurents*. Ehk iga liik peab omaenda populatsiooni kasvu piirama (ressursside äratarbimisega, territoriaalsusega, vms) rohkem kui konkureeriva liigi populatsiooni kasvu.
 
-Huvitaval kombel olid Lotka ja Volterra vastavalt matemaatik-füüsikaline keemik ja matemaatik-füüsik, mitte bioloogid.
+> *Huvitaval kombel olid Lotka ja Volterra vastavalt matemaatik-füüsikaline keemik ja matemaatik-füüsik, mitte bioloogid.*
 
 Sellest raamistikust inspireerituna tegi vene bioloog G. F. Gause (1934) hulga katseid kingloomadega (*Paramecium*), mille käigus ta demonstreeris Lotka-Volterra võrrandite paikapidavust mittestabiilse kooseksisteerimise korral.
 
@@ -44,7 +44,7 @@ Järgmiseks pani Gause kahte liiki kingloomad sama algse populatsiooni suursega 
 
 Ja vähe sellest, Gause tegi ka teise katse, kus ta pani koos samasse katseklaasi kasvama juba eelmisest loost tuttava kinglooma, *P. caudatum*, kes toitub, nagu enne mainitud, vees hõljuvatest bakteritest, ning uue kinglooma, *P. bursaria*, kes toitub veekolonni põhja settivatest pärmidest. Juhtus see, et mõlemad liigid püsisid katseklaasis pikaajaliselt koos. Miks? Sest et liikide nišid (toitumiseks kasutatav veekolonni osa) olid erinevad.
 
-Sellest johtuvalt sõnastas ta **Gause printsiibi** (1934), mis väidab, püsivaks kooseksisteerimiseks peavad liigid erinema oma bioloogiliste vajaduste või ökoloogiliste niššide poolest.
+Sellest johtuvalt sõnastas ta **Gause printsiibi** (1934), mis väidab, et **püsivaks kooseksisteerimiseks peavad liigid erinema oma bioloogiliste vajaduste või ökoloogiliste niššide poolest**.
 
 Sellest omakorda järeldus näiteks, et kasvukohas (ökosüsteemis) kooseksisteerivate liikide arv on võrdne kasvukoha keskkonnaparameetri amplituud jagatud liikide nišiamplituudidega (niši laius, *niche breadth*) [@macarthur1967].
 
