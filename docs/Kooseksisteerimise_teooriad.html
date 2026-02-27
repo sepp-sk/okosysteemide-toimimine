@@ -176,7 +176,12 @@ div.csl-indent {
    
   <ul>
   <li><a href="#ressursside-suhete-hüpotees" id="toc-ressursside-suhete-hüpotees" class="nav-link active" data-scroll-target="#ressursside-suhete-hüpotees">Ressursside suhete hüpotees</a></li>
-  <li><a href="#modern-coexistence-theory-mct" id="toc-modern-coexistence-theory-mct" class="nav-link" data-scroll-target="#modern-coexistence-theory-mct"><em>Modern Coexistence Theory</em> (<em>MCT</em>)</a></li>
+  <li><a href="#modern-coexistence-theory-mct" id="toc-modern-coexistence-theory-mct" class="nav-link" data-scroll-target="#modern-coexistence-theory-mct"><em>Modern Coexistence Theory</em> (<em>MCT</em>)</a>
+  <ul class="collapse">
+  <li><a href="#stabiliseerivad-mehhanismid" id="toc-stabiliseerivad-mehhanismid" class="nav-link" data-scroll-target="#stabiliseerivad-mehhanismid">Stabiliseerivad mehhanismid</a></li>
+  <li><a href="#võrdsustavad-mehhanismid" id="toc-võrdsustavad-mehhanismid" class="nav-link" data-scroll-target="#võrdsustavad-mehhanismid">Võrdsustavad mehhanismid</a></li>
+  </ul></li>
+  <li><a href="#liigifondi-teooria" id="toc-liigifondi-teooria" class="nav-link" data-scroll-target="#liigifondi-teooria">Liigifondi teooria</a></li>
   </ul>
 </nav>
     </div>
@@ -200,18 +205,33 @@ div.csl-indent {
 
 </header>
 
-<p>Kooseksisteerimise teooriad otsivad vastust küsimusele</p>
-<blockquote class="blockquote">
-<p>miks on liigirikkad kooslused hoolimata konkurentsest väljatõrjumisest (<em>Gause printsiip) siiski võimalikud?</em></p>
-</blockquote>
-<p>Meenutagem siinkohal, et Gause printsiip (1934) väidab, et kaks liiki, kes konkureerivad <em>täpselt sama</em> limiteeriva ressursi pärast, ei saa püsivalt kooseksisteerida. Sellest johtuvalt järelduks, et liigid saavad kooseksisteerida sedamoodi, et nad erinevad funktsionaalselt - nende nišid on erinevad <span class="citation" data-cites="hutchinson1959">(<a href="#ref-hutchinson1959" role="doc-biblioref">Hutchinson 1959</a>)</span>.</p>
-<p>Sellest omakorda järelduks, et kasvukohas (ökosüsteemis) kooseksisteerivate liikide arv on võrdne kasvukoha keskkonnaparameetri amplituud jagatud liikide nišiamplituudidega (niši laius, <em>niche breadth</em>) <span class="citation" data-cites="macarthur1967">(<a href="#ref-macarthur1967" role="doc-biblioref">MacArthur and Levins 1967</a>)</span>.</p>
+<p>Ökoloogia üks peamisi probleeme/eesmärke on olnud saada aru sellest, mis tingimustel mingid liigid koosluses koos elada saavad.</p>
+<p>Peaasjalikult algas teoreetiline töö selle küsimusega 20. sajandi I veerandil ehk umbes täpselt 100 aastat tagasi. Ameeriklane Alfred James Lotka (1925) ja itaallane Vito Volterra (1926) pakkusid enam-vähem samaaegselt välja matemaatilise raamistiku kirjeldamaks seda, kuidas kaks liiki interakteeruvad ning konkureerivad samadele limiteerivatele ressurssidele.</p>
+<p>Lotka-Volterra võrrandid:</p>
+<p><span class="math display">\[\frac{dN_1}{dt} = r_1 N_1 \left( \frac{K_1 - N_1 - \alpha_{12} N_2}{K_1} \right)\]</span></p>
+<p><span class="math display">\[\frac{dN_2}{dt} = r_2 N_2 \left( \frac{K_2 - N_2 - \alpha_{21} N_1}{K_2} \right)\]</span></p>
+<p>, kus:</p>
+<ul>
+<li><p><span class="math inline">\(N_1\)</span> ja <span class="math inline">\(N_2\)</span> on liikide 1 ja 2 populatsiooni arvukus</p></li>
+<li><p><span class="math inline">\(r_1\)</span> ja <span class="math inline">\(r_2\)</span> on kummagi liigi “loomuomane” populatsiooni kasvukiirus</p></li>
+<li><p><span class="math inline">\(K_1\)</span> ja <span class="math inline">\(K_2\)</span> on keskkonna kandevõime kummagi liigi suhtes (maksimaalne liigi populatsiooni arvukus, mis keskkonda [ehk kasvukohta, ökosüsteemi, vms] ressursside poolest mahub, eeldusel, et teist liiki üldse pole)</p></li>
+<li><p><span class="math inline">\(\alpha_{12}\)</span> on liigi 2 konkurentne mõju liigile 1. Näituseks, kui <span class="math inline">\(\alpha_{12} = 2\)</span>, siis tarbib üks liigi 2 indiviid kahe liigi 1 indiviidi ressursi</p></li>
+<li><p><span class="math inline">\(\alpha_{21}\)</span> on liigi 1 konkurentne mõju liigile 2</p></li>
+</ul>
+<p>Stabiilselt kooseksisteerimiseks on vajalik täita kriteerium: <span class="math inline">\(K_1 &lt; \frac{K_2}{\alpha_{21}}\)</span> ja <span class="math inline">\(K_2 &lt; \frac{K_1}{\alpha_{12}}\)</span> , mis lihtsustatult tähendab, et <em>liigisisene konkurents peab olema tugevam kui liikidevaheline konkurents</em>. Ehk iga liik peab omaenda populatsiooni kasvu piirama (ressursside äratarbimisega, territoriaalsusega, vms) rohkem kui konkureeriva liigi populatsiooni kasvu.</p>
+<p>Huvitaval kombel olid Lotka ja Volterra vastavalt matemaatik-füüsikaline keemik ja matemaatik-füüsik, mitte bioloogid.</p>
+<p>Sellest raamistikust inspireerituna tegi vene bioloog G. F. Gause (1934) hulga katseid kingloomadega (<em>Paramecium</em>), mille käigus ta demonstreeris Lotka-Volterra võrrandite paikapidavust mittestabiilse kooseksisteerimise korral.</p>
+<p>Nimelt kasvatas ta kahte esiteks kahte liiki, <em>P. aurelia</em> ja <em>P. caudatum,</em> eraldi katseklaasides, söötes neile kindla mingit bakterisegu. Kummagi liigi populatsioon kasvas eraldi eksponentsiaalselt seni, kuni jõudis keskkonna kandevõimeni <span class="math inline">\(K\)</span>, ehk siis populatsiooni suuruseni, mil ressurssi rohkemate isendite ülalpidamiseks enam ei jahunud.</p>
+<p>Järgmiseks pani Gause kahte liiki kingloomad sama algse populatsiooni suursega kokku ühte katseklaasi ja andis neile sama bakterisegu samas ratsioonis. Juhtus see, et pärast algset mõlema populatsiooni kasvu rauges <em>P. caudatum</em> populatsiooni kasv ning populatsioon langes lõpuks 0 isendini. Miks? Sest et <em>P. aurelia</em> oli kergelt parem konkurent - leidis bakterid paremini üles ja sõi nad kiiremini ära. Kuna kumbki liik kasutas sama ökoloogilist nišši (vees hõljuvate bakterite söömine), tõrjus üks liik teise välja.</p>
+<p>Ja vähe sellest, Gause tegi ka teise katse, kus ta pani koos samasse katseklaasi kasvama juba eelmisest loost tuttava kinglooma, <em>P. caudatum</em>, kes toitub, nagu enne mainitud, vees hõljuvatest bakteritest, ning uue kinglooma, <em>P. bursaria</em>, kes toitub veekolonni põhja settivatest pärmidest. Juhtus see, et mõlemad liigid püsisid katseklaasis pikaajaliselt koos. Miks? Sest et liikide nišid (toitumiseks kasutatav veekolonni osa) olid erinevad.</p>
+<p>Sellest johtuvalt sõnastas ta <strong>Gause printsiibi</strong> (1934), mis väidab, püsivaks kooseksisteerimiseks peavad liigid erinema oma bioloogiliste vajaduste või ökoloogiliste niššide poolest.</p>
+<p>Sellest omakorda järeldus näiteks, et kasvukohas (ökosüsteemis) kooseksisteerivate liikide arv on võrdne kasvukoha keskkonnaparameetri amplituud jagatud liikide nišiamplituudidega (niši laius, <em>niche breadth</em>) <span class="citation" data-cites="macarthur1967">(<a href="#ref-macarthur1967" role="doc-biblioref">MacArthur and Levins 1967</a>)</span>.</p>
 <section id="ressursside-suhete-hüpotees" class="level3">
 <h3 class="anchored" data-anchor-id="ressursside-suhete-hüpotees">Ressursside suhete hüpotees</h3>
 <p>Klassikalise kasvukoha nišipõhise jagamise edasiarenduseks võiks pidada Tilmani <strong>ressursside suhete hüpoteesi</strong> (<em>resource ratio hypothesis</em>). Kui Gause räägib konkurentsist ühele limiteerivale ressursile, siis Tilmani hüpotees väidab, et mitu liiki saab kooseksisteerida, kui nende nõudlused <strong>erinevatele</strong> ressurssidele on erinevad (ehk neile optimaalsete ressursitasemete omavahelised suhted erinevad) ja kui keskkond neid ressursse vastavas suhtes ka pakub!</p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="media/tilman_1.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p><img src="media/tilman_1.png" class="img-fluid figure-img" style="width:50.0%"></p>
 <figcaption class="figure-caption">Oletame, et keskkonnas on kaks populatsiooni kasvu limiteerivat ressurssi, R1 ja R2 (mis on omavahel sõltumatud). Oletame, et meil on ka kaks liiki, <em>A</em> ja <em>B</em>, kes konkureerivad nende kahe limiteeriva ressursi üle. Jooned joonisel näitavad kummagi liigi populatsiooni kasvu nulltaset ehk ressursitaset, mille juures liigi populatsioon on stabiilse ohtrusega <span class="math inline">\(\frac{\Delta N}{\Delta t} = 0\)</span> Kuna liik <em>A</em> suudab mõlema ressursi puhul säilitada positiivset populatsiooni kasvu ressursi madalamal tasemel, tõrjub ta lõppkokkuvõtteks liigi <em>B</em> kooslusest välja sellepärast, et ressursside äratarbimisel “kannatab” liik <em>A</em> välja madalamad ressursitasemed, samas kui liigi <em>B</em> populatsiooni kasvukiirus on nendel tasemetel juba negatiivne (st populatsiooni ohtrus väheneb).</figcaption>
 </figure>
 </div>
@@ -223,10 +243,14 @@ div.csl-indent {
 </div>
 <p>Kui liik A on natukene parem konkurent näiteks mullalämmastiku kasutamisel ja liik B natukene parem konkurent näiteks päikesevalguse püüdmisel, võivad need kaks liiki püsivalt kooseksisteerida nende kahe ressursi keskmistel tasemetel. Kui valgust on suhteliselt palju, aga lämmastikku väga vähe, võidab (tõrjub teise liigi lokaalselt välja) liik A, sest et lämmastik on palju limiteerivam ressurss, aga A suudab lämmastikku palju paremini hankida. Kui lämmastikku on väga palju, tõrjub liik B liigi A välja, sest liik B suudab piisava lämmastiku puhul palju paremini konkureerida valguse suhtes (näiteks efektiivselt varjutades, omades suuremat lehe eripinda, vms).</p>
 <p>See on muide üks algupärane seletus sellele, miks (<em>vist, vaieldakse</em>) liigirikkus kipub olema kõrgeim keskmiselt produktiivsetes kasvukohtades.</p>
+<p>Kahjuks ei seleta need teooriad näiteks ülimalt liigirikaste koosluste esinemist (toopiline mets, erinevad mikrobioomid, jne) - ei ole võimalik leida nii palju erinevaid piirvaid faktoreid või jagada niširuumi nii paljude erinevate liikide vahel, kui koosluses tegelikult on. Tänapäevased kooseksisteerimise teooriad otsivad tegelikult lihtsustatult vastust küsimusele</p>
+<blockquote class="blockquote">
+<p>miks on liigirikkad kooslused hoolimata konkurentsest väljatõrjumisest (<em>Gause printsiip) siiski võimalikud?</em></p>
+</blockquote>
 </section>
 <section id="modern-coexistence-theory-mct" class="level2">
 <h2 class="anchored" data-anchor-id="modern-coexistence-theory-mct"><em>Modern Coexistence Theory</em> (<em>MCT</em>)</h2>
-<p>Nišiteoreetikute töö tulemusena pakkus <span class="citation" data-cites="chesson2000">Chesson (<a href="#ref-chesson2000" role="doc-biblioref">2000</a>)</span> välja kaasaegse kooseksisteerimise teooria (<em>MCT</em>). See sedastab, et stabiilse kooseksisteerimise eelduseks on, et liikide ohtrused süsteemis (koosluses, ökosüsteemis) ei ilmuta <strong>pikaajalisi</strong> trende. See tähendab, et <strong>stabiilseks kooseksisteerimiseks peab iga liik suurma madalast ohtrusest taastuda</strong>, samal ajal ülejäänud kooslusega interakteerudes. Formaalselt on see krjeldatud sääraselt: iga koosluse liigi populatsiooni kasvukiirus on madala arvukuse juures positiivne, st <strong>iga liik suudab madala arvukuse juures konkurentide ekviliibriumkooslust <em>invadeerida</em></strong> - <em>mutual invasion criterion</em>.</p>
+<p>Nišiteoreetikute töö tulemusena, õigemini niši kontseptsiooni suure taaselustamisena, pakkus Peter Chesson sajandi alguses välja kaasaegse kooseksisteerimise teooria (<em>MCT</em>) <span class="citation" data-cites="chesson2003 chesson2000">(<a href="#ref-chesson2003" role="doc-biblioref">Chesson 2003</a>, <a href="#ref-chesson2000" role="doc-biblioref">2000</a>)</span>. See sedastab, et stabiilse kooseksisteerimise eelduseks on, et liikide ohtrused süsteemis (koosluses, ökosüsteemis) ei ilmuta <strong>pikaajalisi</strong> trende. See tähendab, et <strong>stabiilseks kooseksisteerimiseks peab iga liik suurma madalast ohtrusest taastuda</strong>, samal ajal ülejäänud kooslusega interakteerudes. Formaalselt on stabiilne (st stabiilselt, pikaajaliselt püsiva elurikkusega) kooslus krjeldatud sääraselt: iga koosluse liigi populatsiooni kasvukiirus on madala arvukuse juures positiivne, st <strong>iga liik suudab madala arvukuse juures konkurentide ekviliibriumkooslust <em>invadeerida</em></strong> - <em>mutual invasion criterion</em>.</p>
 <p>(Konkurentide koosluse) invadeerimise võime sõltub liikidevaheliste nišierinevuste ja kohasuste (ökoloogilises mõttes - konkuretsivõime) erinevuse koosmõjust.</p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
@@ -235,6 +259,8 @@ div.csl-indent {
 </figure>
 </div>
 <p>Liikidevahelist kooseksisteerimist kujundavad MCT järgi <strong>stabiliseerivad</strong> ja <strong>võrdsustavad</strong> <strong>mehhanismid</strong>.</p>
+<section id="stabiliseerivad-mehhanismid" class="level3">
+<h3 class="anchored" data-anchor-id="stabiliseerivad-mehhanismid">Stabiliseerivad mehhanismid</h3>
 <p><strong>Stabiliseeriv mõju</strong> tuleneb otseselt liikidevahelistest funktsionaalsetest (e niši-) erinevustest, mistõttu <strong>liigisisene limiteeriv mõju (= konkurents) on suurem kui liikidevaheline</strong>.</p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
@@ -242,21 +268,130 @@ div.csl-indent {
 <figcaption class="figure-caption">Konkurentsi määr (viirutatud ala) sõltub liikide (või isendite) ökoloogiliste niššide vahelisest kattuvusest. Mida suurem on kattuvus, seda suurem on konkurentsi määr.</figcaption>
 </figure>
 </div>
+<p>Chessoni teoorias on stabiliseerivate mehhanismide seas äärmiselt oluline nähtus nimega <strong>stabiilne varu</strong> (<em>storage effect</em>). See seletab, kuidas konkureerivad liigid saavad kooseksisteerida tänu keskkonnafluktuatsioonidele, mitte niivõrd ressursiniši jagamisele. Teisisõnu eristuvad liigid mitte nende ressursside poolest, mida nad kasutavad, vaid selle poolest, <strong>millal või kus nad samu ressursse kõige aktiivsemalt kasutavad</strong>.</p>
+<p>Selleks on vajalik täita kolm tingimust:</p>
+<ol type="1">
+<li><p>Erinevatel liikidel peab oleme diferentseerunud vastus keskkonnale. Näiteks liik A kasvab paremini kuivematel, liik B paremini märjematel suvedel.</p></li>
+<li><p>Keskkonnaparameetrite ja konkurentsi tugevuse vahel on korrelatsioon. Korrelatsioon stabiliseeriva niši limitatsiooni mõttes - kui liigil A on hea (kuivem) aasta, kasvab tema populatsioon kiiresti. Suurenenud populatsioon aga tähendab, et liik A kogeb liigisiseselt suuremat isenditevahelist konkurentset survet kui see oleks kehval aastal, kui populatsiooni tihedus on väiksem.</p></li>
+<li><p>Liikide populatsioonidel peab olema kasvu <strong>puhver</strong>. Liik peab olema võimeline “kehvad” ajad (st mil tema kohasus on suhteliselt väiksem) üle elama - näiteks seemnepangana mullas, puhkestaadiumis munadena, pikaealiste täiskasvanud isenditena.</p></li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/seemnepank.jpg" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption class="figure-caption">Majandamise lõppedes püsivad luhaniidule omaste liikide seemned mulla seemnepangas elujõulisena tükk aega. Isegi 50 aastat pärast hooldamise lõpetamist moodustasid seemnepangast 34 - 42% luhaniidu liigid <span class="citation" data-cites="metsoja2014">(<a href="#ref-metsoja2014" role="doc-biblioref">Metsoja, Neuenkamp, and Zobel 2014</a>)</span>.</figcaption>
+</figure>
+</div>
+</section>
+<section id="võrdsustavad-mehhanismid" class="level3">
+<h3 class="anchored" data-anchor-id="võrdsustavad-mehhanismid">Võrdsustavad mehhanismid</h3>
 <p><strong>Võrdsustavad mehhanismid</strong> vähendavad liikidevahelist kohasuste erinevust - teisisõnu on need mingid mõjud, mis kas suruvad alla muidu parema konkurendi konkurentsivõimet või tõstavad muidu kehvema konkurendi konkurentsivõimet.</p>
+<p>Lihtne näide võrdsustavast mehhanismist on päiskiviliik, näiteks tarbija, kes sööb muidu domineerima kippuvat liiki, vähendads viimase (ökoloogilist) kohasust.</p>
+<hr>
+<p>Siinkohal tore näde sellest kuidas mutualisti ja patogeeni olemasolu süsteemis võib olla mingile troofilisele tasemele võrdsustava mõjuga <span class="citation" data-cites="albornoz2017">(<a href="#ref-albornoz2017" role="doc-biblioref">Albornoz et al. 2017</a>)</span>.</p>
+<p>Nimelt on Austraalias hulk väga fosforivaeseid ökosüsteeme (fosforivaesed on harilikult vanad troopilised mullad), kuhu on evolutsioneerunud kasvama väga omapärase juurearhitektuuri - klasterjuurtega - taimed näiteks prootealiste sugukonnast.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/klasterjuured.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption class="figure-caption">Kahe <em>Banksia</em> perekonna liigi klasterjuurte areng <span class="citation" data-cites="cawthray2021">(<a href="#ref-cawthray2021" role="doc-biblioref">Cawthray et al. 2021</a>)</span>.</figcaption>
+</figure>
+</div>
+<p>Fosforiühendid on mullas väga väheliikuvad, mistõttu ülitihedate klasterjuurte omamine annab fosforivaestes muldades väga suure konkurentsieelise. Ometigi kooseksisteerivad needsamad prootealised looduslikes kooslustes mitmete teiste toitumistüüpidega taimedega, näiteks ektomükoriissed mürdilised.</p>
+<p>Olgugi, et ka ektomükoriisa aitab tublisti kaasa igasuguste toitainete omastamisele, ei ole see siiski fosfori omastamisel nii tõhus kui klasterjuured. Kuidas siis on nii, et prootealised kõiki teisi liike kohe välja ei tõrju?</p>
+<p>Ilmneb, et erinevat tüüpi liikide vaheline konkurents sõltus sellest, kas süsteemis on patogeen. Patogeenivabas keskkonnas olid prootealised mürdilistega samas potis kasvades selgelt konkurentsivõimelisemad. Kui aga süsteemi lisati looduslikule kasvukohale omane juurepatogeen, võrdsustus klasterjuurtega ja ektomükoriissete taimeliikide konkurentsivõime, kuna ektomükoriisne seenmantel pakub juurele head kaitset patogeeni vastu.</p>
+<p>Tegemist on klassikalise konkurentsivõime ja kaitse vahelise lõivsuhtega! Lihtsalt selle nüansiga, et kaitset pakub mutualistlik kolmas osapool.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/proteaceae_equalizing_mechanism.png" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption class="figure-caption">Prootealiste sugukonna taimeliikide tõusmete biomass oli konkurentsitöötluses (st mitut liiki koos kasvatades) tunduvalt kõrgem kui ektomükoriissetel mürdiliste sugukonna taimeliikidel. Olukord muutus, kui süsteemi lisati kolmas troofiline tase - patogeen <u><em>Phytophtora</em></u>.</figcaption>
+</figure>
+</div>
+<hr>
+<blockquote class="blockquote">
+<p>Samal ajal, kui Chesson enda teooriat arendas ja tutvustas, toimus kooseksisteerimise mõistmisel paralleelselt paradigmamuutus, mis pakkus alternatiivi senistele selgitustele. Nimelt hüpotiseeris <span class="citation" data-cites="hubbell2001">Hubbell (<a href="#ref-hubbell2001" role="doc-biblioref">2001</a>)</span> oma <strong>neutraalse teooriaga</strong>, et kooseksisteerimiseks ei ole niššidevahelisi erinevusi üldse vaja. Tema väitis, et liigid kooseksisteerivad seetõttu, et nende demograafilised parameetrid (st näiteks populatsiooni kasvukiirused) on hoopis nii sarnased, et liikidevahelised interaktsioonid on kõikidele liikidele praktiliselt sama tugeva mõjuga. Elurikkust saab seega seletada hoopiski stohhastiliste (st juhuslike) sündmuste jadana, mistõttu mõned populatsioonid satuvad domineerima ning mõned surevad välja.</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="liigifondi-teooria" class="level2">
+<h2 class="anchored" data-anchor-id="liigifondi-teooria">Liigifondi teooria</h2>
+<p>Chessoni MCT (kaasaegne kooseksisteerimise teooria) vaatleb elurikkust koosluses toimuvate, niši- ja konkurentsipõhiste aspektist ning Hubbelli neutraalne teooria postuleerib, et koosluses toimuvad protsessid ja sellest johtuv liigirikkus on puhtalt juhusliku iseloomuga.</p>
+<p>Umbes kümme aastat enne Chessoni ja Hubbelli vahelist mõõduvõttu hakkas pead kergitama elurikkuse teooria, mis samuti postuleeris, et koosluse liigilist koosseisu ei kujunda nii väga kohalikud liikidevahelised interaktsioonid, vaid <strong>liigifondisuurus</strong>. <em>Liigifond</em> on hulk kõikidest regioonis olemasolevatest liikidest, kes on võimelised antud kasvukohas elama.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/species_pool_1.1.png" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption class="figure-caption">Regionaalse ja kohaliku (kasvukoha) liigifondi vaheline seos 14 Eesti taimekoosluse näitel <span class="citation" data-cites="pärtel1996">(<a href="#ref-pärtel1996" role="doc-biblioref">Pärtel et al. 1996</a>)</span>.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/species_pool_1.2.png" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption class="figure-caption">Kohaliku (kasvukoha) liigifondi suurusest sõltub ka väikeseskaalaline elurikkus kasvukohas <span class="citation" data-cites="pärtel1996">(<a href="#ref-pärtel1996" role="doc-biblioref">Pärtel et al. 1996</a>)</span>.</figcaption>
+</figure>
+</div>
+<p>Sealjuures võib liigifondi kujunemist ja sellest johtuvat elurikkust vaadelda kahel eri tasemel:</p>
+<ul>
+<li><strong>Liigifondi hüpotees I</strong>: kooseksisteerivate liikide arvu määrab liigiteke ja ajalooline migratsioon</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/tayloy_liigifond_I.png" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption class="figure-caption"><span class="citation" data-cites="taylor1990">Taylor, Aarssen, and Loehle (<a href="#ref-taylor1990" role="doc-biblioref">1990</a>)</span> pakkus välja alternatiivse seletuse produktiivsuse-liigirikkuse kõverale. Selle hüpoteesi järgi sõltub lokaalne liigirikkus seda tüüpi kasvukoha “tavalisusest”. Näiteks võiks liigirikkus mullaviljakuse gradiendi kummagi otsa poole liikudes väheneda mitte sellepärast, et piiravaks on konkurents (viljakatel muldadel) või stress (väga väheviljakatel muldadel), vaid sellepärast, et gradienti otstesse jäävaid, ekstreemsemaid kasvukohti on (ajalooliselt, pindalaliselt) vähem ja sellevõrra vähem on liigiteke sellistes kasvukohtades toimuda saanud.</figcaption>
+</figure>
+</div>
+<ul>
+<li><strong>Liigifondi hüpotees II</strong>: kooseksisteerivate liikide arvu määrab diaspooride (leviste) kättesaadavus (levik maastikes ja kooslustesse)</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/liigifond_2.png" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption class="figure-caption">Külvamine (liigifondist kooslusesse jõudvate liikide hulga kunstlik suurendamine) suurendas alvaril väikeseskaalalist (10×10 cm) liigirikkust sõltumata algsest liikide arvust. Samas kui häiring, mida võiks vaadelda kui keskkonnafluktuatsiooni, mis suurendab stabiilselt kooseksisteerivate liikide arvu konkurentsete interaktsioonide poolt kujundatud koosluses, üldist liigirikkust ei tõstnud <span class="citation" data-cites="zobel2000">(<a href="#ref-zobel2000" role="doc-biblioref">Zobel et al. 2000</a>)</span>.</figcaption>
+</figure>
+</div>
+<p>Liigifondi teooria võlu seisneb selles, et erinevalt Chessoni ja Hubbelli teooriatest ei välista see oma postulaatide poolest tegelikult kumbagi protsessi. Kuigi liigifondi teooria tegeleb peaasjalikult liikide jõudmisega kooslusesse, ei eeldata liikide võrdset hakkamasaamist või ainult juhuslike protsesside toimumist koosluses. Liigifondist kohale jõudnuna võivad liigi püsimist koosluses endiselt kujundada ka biootilised interaktsioonid (konkurents, aga ka mutualistlikud interaktsioonid).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/species_filters.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Liigifondi teooria järgi kujundavad koosluse elurikkust erineval skaalal toimuvad protsessid (filtrid). <span class="citation" data-cites="zobel1997">Zobel (<a href="#ref-zobel1997" role="doc-biblioref">1997</a>)</span> põhjal.</figcaption>
+</figure>
+</div>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-albornoz2017" class="csl-entry" role="listitem">
+Albornoz, Felipe E., Treena I. Burgess, Hans Lambers, Hannah Etchells, and Etienne Laliberté. 2017. <span>“Native Soilborne Pathogens Equalize Differences in Competitive Ability Between Plants of Contrasting Nutrient-Acquisition Strategies.”</span> <em>Journal of Ecology</em> 105 (2): 549–57. <a href="https://doi.org/10.1111/1365-2745.12638">https://doi.org/10.1111/1365-2745.12638</a>.
+</div>
+<div id="ref-cawthray2021" class="csl-entry" role="listitem">
+Cawthray, Gregory R., Matthew D. Denton, Michael A. Grusak, Michael W. Shane, Erik J. Veneklaas, and Hans Lambers. 2021. <span>“No Evidence of Regulation in Root-Mediated Iron Reduction in Two Strategy I Cluster-Rooted Banksia Species (Proteaceae).”</span> <em>Plant and Soil</em> 461 (1): 203–18. <a href="https://doi.org/10.1007/s11104-021-04849-5">https://doi.org/10.1007/s11104-021-04849-5</a>.
+</div>
 <div id="ref-chesson2000" class="csl-entry" role="listitem">
 Chesson, Peter. 2000. <span>“Mechanisms of Maintenance of Species Diversity.”</span> <em>Annual Review of Ecology and Systematics</em> 31 (1): 343–66. <a href="https://doi.org/10.1146/annurev.ecolsys.31.1.343">https://doi.org/10.1146/annurev.ecolsys.31.1.343</a>.
 </div>
-<div id="ref-hutchinson1959" class="csl-entry" role="listitem">
-Hutchinson, G. E. 1959. <span>“Homage to Santa Rosalia or Why Are There so Many Kinds of Animals?”</span> <em>The American Naturalist</em> 93 (870): 145–59. <a href="https://www.jstor.org/stable/2458768">https://www.jstor.org/stable/2458768</a>.
+<div id="ref-chesson2003" class="csl-entry" role="listitem">
+———. 2003. <span>“Quantifying and Testing Coexistence Mechanisms Arising from Recruitment Fluctuations.”</span> <em>Theoretical Population Biology</em>, Understanding the role of environmental vatiation in population and community dynamics, 64 (3): 345–57. <a href="https://doi.org/10.1016/S0040-5809(03)00095-9">https://doi.org/10.1016/S0040-5809(03)00095-9</a>.
+</div>
+<div id="ref-hubbell2001" class="csl-entry" role="listitem">
+Hubbell, Stephen P. 2001. <em>The Unified Neutral Theory of Biodiversity and Biogeography</em>. Princeton: Princeton University Press.
 </div>
 <div id="ref-macarthur1967" class="csl-entry" role="listitem">
 MacArthur, Robert, and Richard Levins. 1967. <span>“The Limiting Similarity, Convergence, and Divergence of Coexisting Species.”</span> <em>The American Naturalist</em> 101 (921): 377–85. <a href="https://www.journals.uchicago.edu/doi/10.1086/282505">https://www.journals.uchicago.edu/doi/10.1086/282505</a>.
 </div>
+<div id="ref-metsoja2014" class="csl-entry" role="listitem">
+Metsoja, Jaak-Albert, Lena Neuenkamp, and Martin Zobel. 2014. <span>“Seed Bank and Its Restoration Potential in Estonian Flooded Meadows.”</span> <em>Applied Vegetation Science</em> 17 (2): 262–73. <a href="https://doi.org/10.1111/avsc.12057">https://doi.org/10.1111/avsc.12057</a>.
+</div>
+<div id="ref-pärtel1996" class="csl-entry" role="listitem">
+Pärtel, Meelis, M. Zobel, K. Zobel, and E. van der Maarel. 1996. <span>“The Species Pool and Its Relation to Species Richness: Evidence from Estonian Plant Communities.”</span> <em>Oikos</em> 75 (1): 111–17. <a href="https://doi.org/10.2307/3546327">https://doi.org/10.2307/3546327</a>.
+</div>
+<div id="ref-taylor1990" class="csl-entry" role="listitem">
+Taylor, Douglas R., Lonnie W. Aarssen, and Craig Loehle. 1990. <span>“On the Relationship Between r/k Selection and Environmental Carrying Capacity: A New Habitat Templet for Plant Life History Strategies.”</span> <em>Oikos</em> 58 (2): 239–50. <a href="https://doi.org/10.2307/3545432">https://doi.org/10.2307/3545432</a>.
+</div>
 <div id="ref-valladares2015" class="csl-entry" role="listitem">
 Valladares, Fernando, Cristina C. Bastias, Oscar Godoy, Elena Granda, and Adrián Escudero. 2015. <span>“Species Coexistence in a Changing World.”</span> <em>Frontiers in Plant Science</em> 6 (October). <a href="https://doi.org/10.3389/fpls.2015.00866">https://doi.org/10.3389/fpls.2015.00866</a>.
+</div>
+<div id="ref-zobel1997" class="csl-entry" role="listitem">
+Zobel, M. 1997. <span>“The Relative Role of Species Pools in Determining Plant Species Richness: An Alternative Explanation of Species Coexistence?”</span> <em>Trends in Ecology &amp; Evolution</em> 12 (7): 266–69. <a href="https://doi.org/10.1016/S0169-5347(97)01096-3">https://doi.org/10.1016/S0169-5347(97)01096-3</a>.
+</div>
+<div id="ref-zobel2000" class="csl-entry" role="listitem">
+Zobel, M., M. Otsus, J. Liira, M. Moora, and T. Möls. 2000. <span>“Is Small-Scale Species Richness Limited by Seed Availability or Microsite Availability?”</span> <em>Ecology</em> 81 (12): 3274–82. <a href="https://doi.org/10.1890/0012-9658(2000)081[3274:ISSSRL]2.0.CO;2">https://doi.org/10.1890/0012-9658(2000)081[3274:ISSSRL]2.0.CO;2</a>.
 </div>
 </div>
 </section>
