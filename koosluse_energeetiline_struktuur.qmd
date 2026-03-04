@@ -69,7 +69,7 @@ $\frac{1}{10}$ reeglist hälbimise võimalikke põhjuseid:
 
 -   kõrgema troofilise taseme organismide kehasuuruse tõus
 
--   mingisugune alloktoonne \[eksogeenne; mujalt pärinev\] energi juurdevoog
+-   mingisugune alloktoonne \[eksogeenne; mujalt pärinev\] energia juurdevoog
 
 -   herbivooride kõrge mobiilsus - liiguvad "kooslusest" välja toitu otsima
 
@@ -117,7 +117,7 @@ Suurte kiskjate (tursk jt) väljapüüdmise tõttu vähenes oluliselt mereökos�
 
 -   *koosluse tase* - kiskjate *kooslus* kontrollib herbivooride *kooslust*, kes kontrollivad tervet taime*kooslust* (või muid primaarprodutsente). Koosluse tasemel kaskaadid on tavalisemad veeökosüsteemides:
 
-    -   suhteliselt homogeenne keskkond – mosaiikses kasvukohas ja keerukate toiduahelatega süsteemis kaskaadid sumbuvad
+    -   veeökosüsteemid on suhteliselt homogeensed - kui maismaaökosüsteemide mosaiiksus ja toiduahelate keerukus tähendab tihtipeale, et häiringu mõju (kaskaad) jääb oma mikrokasvukohta või toiduahela moodulisse "kinni" ja sumbub, siis homogeenses keskkonnas levib kaskaad (= informatsioon) kiiremini ja suurema osa koosluseni
 
     -   tarbitavate organismide suhteliselt kiire populatsioonidünaamika võrreldes tarbijatega – nt puude populatsiooni muutus tippkiskja kadumisel ei avaldu (vähemalt mitte kiiresti), samas planktoni elutsükkel on küllalt lühike
 
@@ -125,7 +125,7 @@ Suurte kiskjate (tursk jt) väljapüüdmise tõttu vähenes oluliselt mereökos�
 
 ## "*Why is the world green?*"
 
-Klassikaline näide troofilisest kaskaadist on herbvivooride ohtruse vähenemine karnivooride tõttu ning sellest johtuv taimse biomassi kasv. Selle nähtused võtsid 1960. aastal kokku Hairston, Smith ja Slobodkin oma hüpoteesiga (***HSS** hypothesis*), kus nad ennustasid ülalt-alla troofiliste kaskaadide tavalisust ning mis võiks lihtsustatult kõlada nii: "Maailm on roheline sellepärast, et kiskjad hoiavad herviboore vaos ja roheline biomass saab akumuleeruda."
+Klassikaline näide troofilisest kaskaadist on herbivooride ohtruse vähenemine karnivooride tõttu ning sellest johtuv taimse biomassi kasv. Selle nähtused võtsid 1960. aastal kokku Hairston, Smith ja Slobodkin oma hüpoteesiga (***HSS** hypothesis*), kus nad ennustasid ülalt-alla troofiliste kaskaadide tavalisust ning mis võiks lihtsustatult kõlada nii: "Maailm on roheline sellepärast, et kiskjad hoiavad herviboore vaos ja roheline biomass saab akumuleeruda."
 
 Ja tõepoolest, tihtipeale HSS toimib - kiskjad kontrollivad *top-down* primaarprodutsentide ohtrust.
 
@@ -137,9 +137,9 @@ Primaarproduktsiooni vähenedes herbivoore kontrolliv troofiline kaskaad laguneb
 
 $\mathrm I$ Väga väheproduktiivsetes süsteemides saavad elada ainult taimed (vmt primaarprodutsendid)
 
-$\mathrm II$ Vähe- kuni keskmiselt produktiivsetes süsteemides jagub energiat herbivooride ülalpidamiseks, kes omakorda avaldavad taimekooslusele tugevat survet
+$\mathrm I \mathrm I$ Vähe- kuni keskmiselt produktiivsetes süsteemides jagub energiat herbivooride ülalpidamiseks, kes omakorda avaldavad taimekooslusele tugevat survet
 
-$\mathrm III$ Produktiivsetes süsteemides suruvad kiskjad herbivooride ohtruse alla ning vähendavad survet taimekooslusele.
+$\mathrm I \mathrm I \mathrm I$ Produktiivsetes süsteemides suruvad kiskjad herbivooride ohtruse alla ning vähendavad survet taimekooslusele.
 
 [![I - ühetasemeline toiduahel​ (herbivoorid praktiliselt ei kontrolli taimekooslust​, sest et herbivooride pidamiseks süsteemis ei jagu energiat); II - kahetasemeline toiduahel (herbivoorid on, aga kiskjaid ei ole võimalik pidada); III - kolmetasemeline toiduahel. Oksanen & Oksanen 2000 The American Naturalist](media/ehh.png){width="78%"}](https://doi.org/10.1086/303354)
 

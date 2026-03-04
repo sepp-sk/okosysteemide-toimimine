@@ -39,10 +39,18 @@ Kõige tavalisemad mitmekesisuse mõõdikud on
 
     Kus:
 
-    -   **H'** on Shannoni indeks,
+    -   **H'** on Shannoni indeks
     -   **S** on liigirikkus,
     -   **p~i~** on liigi **i** suhteline ohtrus koosluses,
-    -   **ln** on naturaallogaritm.
+    -   **ln** on naturaallogaritm *(miinusmärk on sellepärast, et ln suhtelisest ohtrusest, mis jääb vahemikku \[0;1\] on negatiivne)*
+
+::: callout-note
+*Shannoni indeks pärineb tegelikult informatsiooniteooriast, kus seda tuntakse Shannoni entroopia nime all - entroopia termodünaamika mõistes aga teatavasti peegeldab süsteemis valitsevat juhuslikkust, segadust kaost? Mitmekesisuse mõõdikuna on Shannoni indeks aga kõrgem just näiteks kenasti välja kujunenud, hilissuktsessioonilises ja liigirikkas koosluses (võrreldes näiteks muruga). Iva on selles, et matemaatilises mõttes on kena, mitmekesine, ja liikide arvu ruuduga (või enam) võrdelises seoses kasvavate (väljakujunenud) interaktsioonide hulgaga kooslus väga raskesti defineeritav - mustrit (näiteks selle kohta, mis liik isendeid juhuslikult valides järgmisena tuleb) on väga raske leida.*
+
+![Kommentaar Marko Mägi postitusele (22.02.2026, Facebook) Tartu linnalooduse (linnavalitsuse plaan rohealasid "korrastada") kohta](media/aaviksoo_entroopia.png){width="100%"}
+
+Miks on ülaltoodud kommentaar ühtlasi nii õige kui ka ekslik?
+:::
 
 -   **Gini-Simpsoni indeks** (**1 - λ**; Gini-Simpson index) - annab suurema kaalu tavalisematele liikidele ning peegeldab eelkõige dominantsete liikide ohtrust.
 

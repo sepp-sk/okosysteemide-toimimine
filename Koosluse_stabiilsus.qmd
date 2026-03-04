@@ -13,7 +13,7 @@ Koosluse stabiilsus kirjeldab koosluse või toiduahela toimetulekut häiringute 
 
 Häiringuid võib jagada kaheks:
 
--   *press* - pikaajaline püsiv kindlasuunaline muutus mingites (näiteks keskkonna-) faktorites. Viib tihtipeale püsivate muutusteni. Näitekls kliima soojenemine, eutrofeerumine, linnastumine, metsaraie, mereveetaseme tõus.
+-   *press* - pikaajaline püsiv kindlasuunaline muutus mingites (näiteks keskkonna-) faktorites. Viib tihtipeale püsivate muutusteni. Näitekl kliima soojenemine, eutrofeerumine, linnastumine, metsaraie, mereveetaseme tõus.
 
 -   *pulse* - lühiajaline, kindlapiiriline sündmus, mis ökosüsteemi mõjutab. Mõju võib olla ajutine või püsiv (oleneb stabiilsusest). Näiteks maastikupõlengud, tormid, üleujutused, kahjurirünnakud.
 
@@ -37,7 +37,7 @@ Koosluse stabiilsus sõltub lisaks häiringute tüübile (*press* vs *pulse*) ka
 
 **Pesastunud** võrgustiku puhul interakteeruvad spetsialistid liikidega, kellega interakteeruvad ka sama taseme generalistid. Säärane ülekate tekitab interaktsioonide puhvri - kui spetsialist või tema interaktsioonipartner peaks süsteemist kaduma, säilitavad generalistide poolt peetavad interaktsioonid süsteemi funktsiooni. Pesastumine tagab seega nii süsteemi *robustsuse* (st vastupanuvõime lokaalsetele väljasuremistele) kui ka liigirikkuse, võimaldades spetsialiseerunud liikidel generalistide poolt ülalpeetavatel interaktsioonidel "liugu lasta".
 
-[![Nestedness – spetsialistid interakteeruvad liikidega, kellega interakteeruvad ka generalistid. Bascompte & Jordano 2007 Annu. Rev. Ecol. Evol. Syst.](media/nested-ntwrk.png){width="100%"}](https://doi.org/10.1146/annurev.ecolsys.38.091206.095818)
+[![Nestedness – spetsialistid (taimed 6 - 10, loomad 6 - 10) interakteeruvad liikidega, kellega interakteeruvad ka generalistid. Bascompte & Jordano 2007 Annu. Rev. Ecol. Evol. Syst.](media/nested-ntwrk.png){width="100%"}](https://doi.org/10.1146/annurev.ecolsys.38.091206.095818)
 
 **Modulaarsus** tähendab, et võrgustik on jaotatav alaühikuteks - mooduliteks -, millesiseselt liigid üksteisega suhteliselt tugevamalt interakteeruvad, samas kui teiste moodulitega interaktsioonid puuduvad või on nõrgad. Modulaarsus esineb tihemini maismaaökosüsteemides (meenutagem liigi vs koosluse tasemel troofiliste kaskaadide esinemist). Modulaarsus takistab häiringu mõju levimist üle terve süsteemi.
 
