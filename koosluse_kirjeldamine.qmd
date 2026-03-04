@@ -100,7 +100,7 @@ Kui võtta arvesse ka eelpool mainitud tõsiasja, et meile tuttavad mitmekesisus
 
 ## Hilli arvud
 
-**Hilli arvud** (^**q**^**D**;Hill numbers, effective number of species) on mitmekesisusemõõdikute perekond, mille abil on võimalik mitmekesisust väljendada **intuitiivselt** (ja matemaatiliselt korrektsemalt - nad on additiivsed(?) (**doubling property**) ehk algset kooslust kahekordistades on ka indeksi väärtus kaks korda suurem). Hilli arvude omapäraks on **parameeter q**, mis väljendab dominantsetele liikidele antavat kaalu mitmekesisuse arvutamisel.
+**Hilli arvud** (^**q**^**D**;Hill numbers, effective number of species) on mitmekesisusemõõdikute perekond, mille abil on võimalik mitmekesisust väljendada **intuitiivselt** (ja matemaatiliselt korrektsemalt - nad on aditiivsed (**doubling property**) ehk algset kooslust kahekordistades on ka indeksi väärtus kaks korda suurem). Hilli arvude omapäraks on **parameeter q**, mis väljendab dominantsetele liikidele antavat kaalu mitmekesisuse arvutamisel.
 
 $$
 ^qD = \left( \sum_{i=1}^{S} p_i^q \right)^{\frac{1}{1 - q}}, \quad q \geq 0,\ q \neq 1
@@ -327,6 +327,10 @@ E = \frac{^qD}{^{q-1}D}
 $$
 
 Meenutage, kuidas käituvad erinevat järku Hilli arvud võrdsete ohtrustega koosluse puhul ja ebavõrdsete ohtrustega koosluste puhul. Mis puhul on Hilli arvu järkude kaudu tuletatav ühtlus suurim, mis puhul väikseim? Mis piirides E varieerub?
+
+::: {.callout-tip collapse="true"}
+E varieerub 0 .. 1, ja = 1 juhul kui kõikide liikide ohtrused on võrdsed.
+:::
 
 ## Ordinatsioon
 
