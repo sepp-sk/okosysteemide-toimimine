@@ -320,7 +320,7 @@ Võttes arvesse koosluses olevaid *singleton*'e ja *doubleton*'e ehk siis liike,
 
 Ühtlus (*evenness*) kirjeldab seda, kui ühtlaselt on liigid (biomassid, isendid, DNA-järjestused) koosuses jaotunud. Teisisõnu võimaldab ühtlus kui ühikuta parameeter võrrelda omavahel erineva liigirikkusega koosluste struktuuri.
 
-Ühtluse mõõdikuid on mitmeid erinevaid, ühe näiteks saab ühtlust tuletada Hilli arvudest
+Ühtluse mõõdikuid on mitmeid erinevaid, ühe näitena saab ühtlust tuletada Hilli arvudest
 
 $$
 E = \frac{^qD}{^{q-1}D}
