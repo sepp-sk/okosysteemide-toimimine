@@ -106,7 +106,7 @@ Mis juhtus? Fasilitatsioon (+ / 0) suhe transformeerus soodustatud taime ontogen
 
 ## Mutualism
 
-Erinevalt niisama fakultatiivsetest suhetest on mutualism kooselu, mis on mõlemale osapoolele kasulik. Nagu juba enne mainitud, on toimub mutualismi puhul valikusurve mõlema osaleva liigi suhtes. Seda nimetatakse reitsiprookseks koevolutsiooniks ehk olukorraks, kus mõlemale liigile rakenduv valikusurve soosib mutualistliku suhte hoidmist.
+Erinevalt niisama fakultatiivsetest suhetest on mutualism kooselu, mis on mõlemale osapoolele kasulik. Nagu juba enne mainitud, on toimub mutualismi puhul valikusurve mõlema osaleva liigi suhtes. Seda nimetatakse retsiprookseks koevolutsiooniks ehk olukorraks, kus mõlemale liigile rakenduv valikusurve soosib mutualistliku suhte hoidmist.
 
 Või siiski?
 
