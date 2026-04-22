@@ -40,7 +40,7 @@ Maismaaökosüsteemide peamisi troofilisi mutualisme toimub mullas. Kui koolilap
 Mükoriisa on seene ja taimejuure *diferentseerunud* kooseluline vorm, kus taim ja seen on vastastikku kasulikus, mutualistlikus ning sümbiootilises suhtes. Mükoriisat moodustab umbes 250 000 maismaataimeliiki (90% taimedest) ning umbes 50 000 seeneliiki (0,5 - 10% seentest).
 
 | Mükoriisatüüp                | Taimerühmad                                                                             | Taimeliike      | Seenerühmad                     | Seeneliike (eeldatavasti) |
-|------------------------------|-----------------------------------------------------------------------------------------|-----------------|---------------------------------|---------------------------|
+|------------|-------------------------|------------|------------|------------|
 | Arbuskulaarne mükoriisa (AM) | Rohundid, kõrrelised, paljud puittaimed, kõder- ja maksasamblad                         | 200 000         | *Glomeromycotina*               | 300 – 1 600               |
 | Ektomükoriisa (EcM)          | *Pinaceae* ja katteseemnetaimed (peamiselt parasvöötme puud-põõsad), mõned maksasamblad | 6 000           | *Basidiomycota*, *Ascomycota*   | 20 000                    |
 | Orhidoidne mükoriisa (OrM)   | *Orchidaceae*                                                                           | 20 000 – 35 000 | *Basidiomycota*                 | 25 000                    |
@@ -79,7 +79,7 @@ Mükoriisa osatähtsus on suurim metsades. Boreaalsetes metsades võivad EcM see
     AM seened võivad transportida kuni 90% taime omastatavast fosforist, EcM ja ErM seened võivad omakorda taimele viia kuni 80% viimase poolt vajatavast fosforist ja lämmastikust. Seekaudu vähendavad mükoriisaseened oluliselt ka toitainete leostumist ja denitrifikatsiooni ning stabiliseerivad toitainetevaru ja -voo stabiliseerimise kaudu ja ökosüsteemi (produktsiooni).\
     Globaalsel skaalal on näidatud, et AM seente kohalolu koosluses vähendas mulla N~2~O emissiooni ca 40% [@bender2014]. Põhjus võib olla muidugi hoopis kaudne, nimelt mõjutavad AM seened denitrifitseerijate bakterite koosseisu suurenenud N fikseerimise kaugu taimses või seene biomassis, mulla N kättesaadavuse vähendamise (vähem substraati denitrifitseerijatele) ning mullavee efektiivsema (ära-) kasutamise kaudu seenkte ja taimede poolt [@veresoglou2012].
 
-![Karukella liigid kasvavad kõige paremini oma looduslikust kasvukohast päris mükoriisaseentega, ilma mükoriisata ei taha üldse kasvada. Pilt Mari Moora.](media/mykoriisa_pulsatillad.png){width="100%"}
+![Karukella liigid kasvavad kõige paremini oma looduslikust kasvukohast pärit mükoriisaseentega, ilma mükoriisata ei taha üldse kasvada. Pilt Mari Moora.](media/mykoriisa_pulsatillad.png){width="100%"}
 
 ### Mõju taimede mitmekesisusele
 
@@ -113,7 +113,7 @@ $$
 N_2 + 8H^+ + 8e^- \xrightarrow{16ATP + \sim12 ATP } 2NH_3 + H_2
 $$
 
-Kahe lämmastikuaatomi vahelise kolmiksideme lõhkumine nõuab tohutult energiat. Õnneks on selle töö enda kanda võtnud erinevad mikroorganismid. 1838. aastal kirjeldati esmakordselt nähtust, kus *Fabaceae* sugukonna taimed suurendavad mulla lämmastikusisaldust (J. Bossingault) ning juba 1886 täheldati, et taimejuurtel paiknevates mügarates elavad bakterid, kes seovad lämmastikkus (G. Hellrieger).
+Kahe lämmastikuaatomi vahelise kolmiksideme lõhkumine nõuab tohutult energiat. Õnneks on selle töö enda kanda võtnud erinevad mikroorganismid. 1838. aastal kirjeldati esmakordselt nähtust, kus *Fabaceae* sugukonna taimed suurendavad mulla lämmastikusisaldust (J. Bossingault) ning juba 1886 täheldati, et taimejuurtel paiknevates mügarates elavad bakterid, kes seovad lämmastikku (G. Hellrieger).
 
 ![Nodule morphologies across the Leguminosae (tribes indicated in parentheses). (a) Spherical determinate desmodioid-type nodules with lenticels (arrows) on the South African legume Dipogon lignosus (Phaseoleae) (photograph courtesy of Wendy Liu). (b) Determinate nodule on the Australian native Hardenbergia comptoniana (Phaseoleae). (c) Dalbergioid nodules on the upper root/lower stem of the neotropical species Aeschynomene americana (Dalbergiae); these nodules are always associated with lateral roots (arrows) (photograph courtesy of H. S. Gehlot). (d) Photosynthetic stem nodules on the West African semi-aquatic species Sesbania rostrata (Sesbaniae). (e) Indeterminate nodules on the roots of the Australian native Chorizema cordatum (Mirbelieae). (f) Indeterminate nodule of the Australian native Chorizema rhombeum (Mirbelieae). Note the pink colouration (\*), which is caused by leghaemoglobin. (g) Indeterminate nodules on the roots of the Australian native Templetonia retusa (Brongniarteae); the rhizobial symbionts in these are contained within cell wall-bound fixation threads (see Fig. 2i and j for examples). (h) Branched indeterminate nodule on the Brazilian native tree Dimorphandra wilsonii (Caesalpiniae); these also contain fixation threads. Bars: (a, c) 4 mm; (b, f) 1 mm; (d, g) 10 mm; (e, h) 5 mm. [@sprent2017]](media/N2_mygarad.png){width="100%"}
 

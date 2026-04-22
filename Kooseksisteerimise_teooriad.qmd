@@ -38,7 +38,7 @@ Stabiilselt kooseksisteerimiseks on vajalik täita kriteerium: $K_1 < \frac{K_2}
 
 Sellest raamistikust inspireerituna tegi vene bioloog G. F. Gause (1934) hulga katseid kingloomadega (*Paramecium*), mille käigus ta demonstreeris Lotka-Volterra võrrandite paikapidavust mittestabiilse kooseksisteerimise korral.
 
-Nimelt kasvatas ta kahte esiteks kahte liiki, *P. aurelia* ja *P. caudatum,* eraldi katseklaasides, söötes neile kindla mingit bakterisegu. Kummagi liigi populatsioon kasvas eraldi eksponentsiaalselt seni, kuni jõudis keskkonna kandevõimeni $K$, ehk siis populatsiooni suuruseni, mil ressurssi rohkemate isendite ülalpidamiseks enam ei jahunud.
+Nimelt kasvatas ta kahte esiteks kahte liiki, *P. aurelia* ja *P. caudatum,* eraldi katseklaasides, söötes neile mingit kindlat bakterisegu. Kummagi liigi populatsioon kasvas eraldi eksponentsiaalselt seni, kuni jõudis keskkonna kandevõimeni $K$, ehk siis populatsiooni suuruseni, mil ressurssi rohkemate isendite ülalpidamiseks enam ei jahunud.
 
 Järgmiseks pani Gause kahte liiki kingloomad sama algse populatsiooni suursega kokku ühte katseklaasi ja andis neile sama bakterisegu samas ratsioonis. Juhtus see, et pärast algset mõlema populatsiooni kasvu rauges *P. caudatum* populatsiooni kasv ning populatsioon langes lõpuks 0 isendini. Miks? Sest et *P. aurelia* oli kergelt parem konkurent - leidis bakterid paremini üles ja sõi nad kiiremini ära. Kuna kumbki liik kasutas sama ökoloogilist nišši (vees hõljuvate bakterite söömine), tõrjus üks liik teise välja.
 
@@ -70,7 +70,7 @@ Nišiteoreetikute töö tulemusena, õigemini niši kontseptsiooni suure taaselu
 
 (Konkurentide koosluse) invadeerimise võime sõltub liikidevaheliste nišierinevuste ja kohasuste (ökoloogilises mõttes - konkuretsivõime) erinevuse koosmõjust.
 
-![Kui kahe konkurendi vaheline nišierinevus (*niche difference*)on suurem kui nende kohasuse (konkurentsivõime) erinevus (*fitness difference*), võivad nad koosluses (stabiilselt!) kooseksisteerida (sinine ala). Kui kohasuse erinevused on aga suuremad kui nendevaheline nišierinevus, tõrjub üks, suurema konkurentsivõimega, liik teise välja (punane ala). Kohasuse erinevus mõjutab ka seda, kumb liik stabiilse kooseksisteerimise puhul dominantne on. Joonis @valladares2015.](media/chesson_MCT.png){fig-align="left" width="80%"}
+![Kui kahe konkurendi vaheline nišierinevus (*niche difference*) on suurem kui nende kohasuse (konkurentsivõime) erinevus (*fitness difference*), võivad nad koosluses (stabiilselt!) kooseksisteerida (sinine ala). Kui kohasuse erinevused on aga suuremad kui nendevaheline nišierinevus, tõrjub üks, suurema konkurentsivõimega, liik teise välja (punane ala). Kohasuse erinevus mõjutab ka seda, kumb liik stabiilse kooseksisteerimise puhul dominantne on. Joonis @valladares2015.](media/chesson_MCT.png){fig-align="left" width="80%"}
 
 Liikidevahelist kooseksisteerimist kujundavad MCT järgi **stabiliseerivad** ja **võrdsustavad** **mehhanismid**.
 
